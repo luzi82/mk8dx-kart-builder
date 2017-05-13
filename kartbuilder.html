@@ -1,0 +1,483 @@
+<html>
+<head>
+</head>
+<body>
+<h2>Stat</h2>
+<button onclick='set_all("stat_box",true)'>All</button>
+<table>
+<tr>
+<th></th>
+<th>75</th>
+<th>100</th>
+<th>125</th>
+<th>150</th>
+<th>175</th>
+<th>200</th>
+<th>225</th>
+<th>250</th>
+<th>275</th>
+<th>300</th>
+<th>325</th>
+<th>350</th>
+<th>375</th>
+<th>400</th>
+<th>425</th>
+<th>450</th>
+<th>475</th>
+<th>500</th>
+<th>525</th>
+<th>550</th>
+<th>575</th>
+</tr>
+<tr>
+<tr>
+<th>Speed Ground</th>
+<td id='stat_spg_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_75_box'/></td>
+<td id='stat_spg_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_100_box'/></td>
+<td id='stat_spg_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_125_box'/></td>
+<td id='stat_spg_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_150_box'/></td>
+<td id='stat_spg_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_175_box'/></td>
+<td id='stat_spg_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_200_box'/></td>
+<td id='stat_spg_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_225_box'/></td>
+<td id='stat_spg_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_250_box'/></td>
+<td id='stat_spg_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_275_box'/></td>
+<td id='stat_spg_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_300_box'/></td>
+<td id='stat_spg_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_325_box'/></td>
+<td id='stat_spg_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_350_box'/></td>
+<td id='stat_spg_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_375_box'/></td>
+<td id='stat_spg_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_400_box'/></td>
+<td id='stat_spg_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_425_box'/></td>
+<td id='stat_spg_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_450_box'/></td>
+<td id='stat_spg_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_475_box'/></td>
+<td id='stat_spg_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_500_box'/></td>
+<td id='stat_spg_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_525_box'/></td>
+<td id='stat_spg_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_550_box'/></td>
+<td id='stat_spg_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_575_box'/></td>
+</tr>
+<tr>
+<th>Speed Water</th>
+<td id='stat_spw_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_75_box'/></td>
+<td id='stat_spw_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_100_box'/></td>
+<td id='stat_spw_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_125_box'/></td>
+<td id='stat_spw_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_150_box'/></td>
+<td id='stat_spw_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_175_box'/></td>
+<td id='stat_spw_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_200_box'/></td>
+<td id='stat_spw_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_225_box'/></td>
+<td id='stat_spw_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_250_box'/></td>
+<td id='stat_spw_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_275_box'/></td>
+<td id='stat_spw_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_300_box'/></td>
+<td id='stat_spw_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_325_box'/></td>
+<td id='stat_spw_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_350_box'/></td>
+<td id='stat_spw_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_375_box'/></td>
+<td id='stat_spw_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_400_box'/></td>
+<td id='stat_spw_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_425_box'/></td>
+<td id='stat_spw_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_450_box'/></td>
+<td id='stat_spw_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_475_box'/></td>
+<td id='stat_spw_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_500_box'/></td>
+<td id='stat_spw_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_525_box'/></td>
+<td id='stat_spw_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_550_box'/></td>
+<td id='stat_spw_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_575_box'/></td>
+</tr>
+<tr>
+<th>Speed Air</th>
+<td id='stat_spr_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_75_box'/></td>
+<td id='stat_spr_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_100_box'/></td>
+<td id='stat_spr_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_125_box'/></td>
+<td id='stat_spr_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_150_box'/></td>
+<td id='stat_spr_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_175_box'/></td>
+<td id='stat_spr_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_200_box'/></td>
+<td id='stat_spr_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_225_box'/></td>
+<td id='stat_spr_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_250_box'/></td>
+<td id='stat_spr_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_275_box'/></td>
+<td id='stat_spr_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_300_box'/></td>
+<td id='stat_spr_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_325_box'/></td>
+<td id='stat_spr_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_350_box'/></td>
+<td id='stat_spr_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_375_box'/></td>
+<td id='stat_spr_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_400_box'/></td>
+<td id='stat_spr_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_425_box'/></td>
+<td id='stat_spr_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_450_box'/></td>
+<td id='stat_spr_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_475_box'/></td>
+<td id='stat_spr_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_500_box'/></td>
+<td id='stat_spr_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_525_box'/></td>
+<td id='stat_spr_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_550_box'/></td>
+<td id='stat_spr_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_575_box'/></td>
+</tr>
+<tr>
+<th>Speed Anti-Gravity</th>
+<td id='stat_spy_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_75_box'/></td>
+<td id='stat_spy_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_100_box'/></td>
+<td id='stat_spy_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_125_box'/></td>
+<td id='stat_spy_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_150_box'/></td>
+<td id='stat_spy_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_175_box'/></td>
+<td id='stat_spy_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_200_box'/></td>
+<td id='stat_spy_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_225_box'/></td>
+<td id='stat_spy_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_250_box'/></td>
+<td id='stat_spy_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_275_box'/></td>
+<td id='stat_spy_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_300_box'/></td>
+<td id='stat_spy_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_325_box'/></td>
+<td id='stat_spy_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_350_box'/></td>
+<td id='stat_spy_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_375_box'/></td>
+<td id='stat_spy_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_400_box'/></td>
+<td id='stat_spy_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_425_box'/></td>
+<td id='stat_spy_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_450_box'/></td>
+<td id='stat_spy_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_475_box'/></td>
+<td id='stat_spy_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_500_box'/></td>
+<td id='stat_spy_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_525_box'/></td>
+<td id='stat_spy_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_550_box'/></td>
+<td id='stat_spy_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_575_box'/></td>
+</tr>
+<tr>
+<th>Acceleration</th>
+<td id='stat_acc_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_75_box'/></td>
+<td id='stat_acc_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_100_box'/></td>
+<td id='stat_acc_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_125_box'/></td>
+<td id='stat_acc_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_150_box'/></td>
+<td id='stat_acc_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_175_box'/></td>
+<td id='stat_acc_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_200_box'/></td>
+<td id='stat_acc_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_225_box'/></td>
+<td id='stat_acc_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_250_box'/></td>
+<td id='stat_acc_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_275_box'/></td>
+<td id='stat_acc_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_300_box'/></td>
+<td id='stat_acc_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_325_box'/></td>
+<td id='stat_acc_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_350_box'/></td>
+<td id='stat_acc_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_375_box'/></td>
+<td id='stat_acc_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_400_box'/></td>
+<td id='stat_acc_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_425_box'/></td>
+<td id='stat_acc_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_450_box'/></td>
+<td id='stat_acc_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_475_box'/></td>
+<td id='stat_acc_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_500_box'/></td>
+<td id='stat_acc_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_525_box'/></td>
+<td id='stat_acc_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_550_box'/></td>
+<td id='stat_acc_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_575_box'/></td>
+</tr>
+<tr>
+<th>Weight</th>
+<td id='stat_wgt_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_75_box'/></td>
+<td id='stat_wgt_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_100_box'/></td>
+<td id='stat_wgt_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_125_box'/></td>
+<td id='stat_wgt_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_150_box'/></td>
+<td id='stat_wgt_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_175_box'/></td>
+<td id='stat_wgt_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_200_box'/></td>
+<td id='stat_wgt_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_225_box'/></td>
+<td id='stat_wgt_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_250_box'/></td>
+<td id='stat_wgt_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_275_box'/></td>
+<td id='stat_wgt_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_300_box'/></td>
+<td id='stat_wgt_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_325_box'/></td>
+<td id='stat_wgt_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_350_box'/></td>
+<td id='stat_wgt_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_375_box'/></td>
+<td id='stat_wgt_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_400_box'/></td>
+<td id='stat_wgt_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_425_box'/></td>
+<td id='stat_wgt_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_450_box'/></td>
+<td id='stat_wgt_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_475_box'/></td>
+<td id='stat_wgt_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_500_box'/></td>
+<td id='stat_wgt_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_525_box'/></td>
+<td id='stat_wgt_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_550_box'/></td>
+<td id='stat_wgt_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_575_box'/></td>
+</tr>
+<tr>
+<th>Handling Ground</th>
+<td id='stat_hdg_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_75_box'/></td>
+<td id='stat_hdg_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_100_box'/></td>
+<td id='stat_hdg_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_125_box'/></td>
+<td id='stat_hdg_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_150_box'/></td>
+<td id='stat_hdg_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_175_box'/></td>
+<td id='stat_hdg_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_200_box'/></td>
+<td id='stat_hdg_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_225_box'/></td>
+<td id='stat_hdg_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_250_box'/></td>
+<td id='stat_hdg_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_275_box'/></td>
+<td id='stat_hdg_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_300_box'/></td>
+<td id='stat_hdg_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_325_box'/></td>
+<td id='stat_hdg_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_350_box'/></td>
+<td id='stat_hdg_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_375_box'/></td>
+<td id='stat_hdg_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_400_box'/></td>
+<td id='stat_hdg_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_425_box'/></td>
+<td id='stat_hdg_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_450_box'/></td>
+<td id='stat_hdg_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_475_box'/></td>
+<td id='stat_hdg_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_500_box'/></td>
+<td id='stat_hdg_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_525_box'/></td>
+<td id='stat_hdg_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_550_box'/></td>
+<td id='stat_hdg_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_575_box'/></td>
+</tr>
+<tr>
+<th>Handling Water</th>
+<td id='stat_hdw_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_75_box'/></td>
+<td id='stat_hdw_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_100_box'/></td>
+<td id='stat_hdw_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_125_box'/></td>
+<td id='stat_hdw_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_150_box'/></td>
+<td id='stat_hdw_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_175_box'/></td>
+<td id='stat_hdw_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_200_box'/></td>
+<td id='stat_hdw_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_225_box'/></td>
+<td id='stat_hdw_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_250_box'/></td>
+<td id='stat_hdw_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_275_box'/></td>
+<td id='stat_hdw_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_300_box'/></td>
+<td id='stat_hdw_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_325_box'/></td>
+<td id='stat_hdw_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_350_box'/></td>
+<td id='stat_hdw_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_375_box'/></td>
+<td id='stat_hdw_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_400_box'/></td>
+<td id='stat_hdw_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_425_box'/></td>
+<td id='stat_hdw_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_450_box'/></td>
+<td id='stat_hdw_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_475_box'/></td>
+<td id='stat_hdw_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_500_box'/></td>
+<td id='stat_hdw_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_525_box'/></td>
+<td id='stat_hdw_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_550_box'/></td>
+<td id='stat_hdw_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_575_box'/></td>
+</tr>
+<tr>
+<th>Handling Air</th>
+<td id='stat_hda_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_75_box'/></td>
+<td id='stat_hda_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_100_box'/></td>
+<td id='stat_hda_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_125_box'/></td>
+<td id='stat_hda_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_150_box'/></td>
+<td id='stat_hda_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_175_box'/></td>
+<td id='stat_hda_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_200_box'/></td>
+<td id='stat_hda_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_225_box'/></td>
+<td id='stat_hda_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_250_box'/></td>
+<td id='stat_hda_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_275_box'/></td>
+<td id='stat_hda_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_300_box'/></td>
+<td id='stat_hda_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_325_box'/></td>
+<td id='stat_hda_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_350_box'/></td>
+<td id='stat_hda_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_375_box'/></td>
+<td id='stat_hda_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_400_box'/></td>
+<td id='stat_hda_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_425_box'/></td>
+<td id='stat_hda_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_450_box'/></td>
+<td id='stat_hda_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_475_box'/></td>
+<td id='stat_hda_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_500_box'/></td>
+<td id='stat_hda_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_525_box'/></td>
+<td id='stat_hda_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_550_box'/></td>
+<td id='stat_hda_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_575_box'/></td>
+</tr>
+<tr>
+<th>Handling Anti-Gravity</th>
+<td id='stat_hdy_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_75_box'/></td>
+<td id='stat_hdy_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_100_box'/></td>
+<td id='stat_hdy_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_125_box'/></td>
+<td id='stat_hdy_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_150_box'/></td>
+<td id='stat_hdy_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_175_box'/></td>
+<td id='stat_hdy_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_200_box'/></td>
+<td id='stat_hdy_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_225_box'/></td>
+<td id='stat_hdy_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_250_box'/></td>
+<td id='stat_hdy_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_275_box'/></td>
+<td id='stat_hdy_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_300_box'/></td>
+<td id='stat_hdy_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_325_box'/></td>
+<td id='stat_hdy_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_350_box'/></td>
+<td id='stat_hdy_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_375_box'/></td>
+<td id='stat_hdy_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_400_box'/></td>
+<td id='stat_hdy_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_425_box'/></td>
+<td id='stat_hdy_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_450_box'/></td>
+<td id='stat_hdy_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_475_box'/></td>
+<td id='stat_hdy_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_500_box'/></td>
+<td id='stat_hdy_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_525_box'/></td>
+<td id='stat_hdy_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_550_box'/></td>
+<td id='stat_hdy_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_575_box'/></td>
+</tr>
+<tr>
+<th>Traction</th>
+<td id='stat_ttn_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_75_box'/></td>
+<td id='stat_ttn_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_100_box'/></td>
+<td id='stat_ttn_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_125_box'/></td>
+<td id='stat_ttn_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_150_box'/></td>
+<td id='stat_ttn_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_175_box'/></td>
+<td id='stat_ttn_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_200_box'/></td>
+<td id='stat_ttn_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_225_box'/></td>
+<td id='stat_ttn_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_250_box'/></td>
+<td id='stat_ttn_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_275_box'/></td>
+<td id='stat_ttn_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_300_box'/></td>
+<td id='stat_ttn_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_325_box'/></td>
+<td id='stat_ttn_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_350_box'/></td>
+<td id='stat_ttn_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_375_box'/></td>
+<td id='stat_ttn_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_400_box'/></td>
+<td id='stat_ttn_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_425_box'/></td>
+<td id='stat_ttn_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_450_box'/></td>
+<td id='stat_ttn_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_475_box'/></td>
+<td id='stat_ttn_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_500_box'/></td>
+<td id='stat_ttn_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_525_box'/></td>
+<td id='stat_ttn_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_550_box'/></td>
+<td id='stat_ttn_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_575_box'/></td>
+</tr>
+<tr>
+<th>Mini-Turbo</th>
+<td id='stat_mtb_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_75_box'/></td>
+<td id='stat_mtb_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_100_box'/></td>
+<td id='stat_mtb_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_125_box'/></td>
+<td id='stat_mtb_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_150_box'/></td>
+<td id='stat_mtb_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_175_box'/></td>
+<td id='stat_mtb_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_200_box'/></td>
+<td id='stat_mtb_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_225_box'/></td>
+<td id='stat_mtb_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_250_box'/></td>
+<td id='stat_mtb_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_275_box'/></td>
+<td id='stat_mtb_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_300_box'/></td>
+<td id='stat_mtb_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_325_box'/></td>
+<td id='stat_mtb_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_350_box'/></td>
+<td id='stat_mtb_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_375_box'/></td>
+<td id='stat_mtb_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_400_box'/></td>
+<td id='stat_mtb_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_425_box'/></td>
+<td id='stat_mtb_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_450_box'/></td>
+<td id='stat_mtb_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_475_box'/></td>
+<td id='stat_mtb_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_500_box'/></td>
+<td id='stat_mtb_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_525_box'/></td>
+<td id='stat_mtb_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_550_box'/></td>
+<td id='stat_mtb_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_575_box'/></td>
+</tr>
+<tr>
+<th></th>
+<th>OFF</th>
+<th>ON</th>
+</tr>
+<tr>
+<th>Inside Drift</th>
+<td id='stat_isd_b0_bg'><input class='box' onclick='box_click()' type='checkbox' id='stat_isd_b0_box'/></td>
+<td id='stat_isd_b1_bg'><input class='box' onclick='box_click()' type='checkbox' id='stat_isd_b1_box'/></td>
+</tr>
+</table>
+
+
+<h2>Character</h2>
+<button onclick='set_all("char_box",true)'>All</button>
+<button onclick='set_all("char_box",false)'>None</button>
+<table>
+<tr><th>Baby Peach</th><td id='char_charbabypeach_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charbabypeach_box'/></td></tr>
+<tr><th>Baby Daisy</th><td id='char_charbabydaisy_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charbabydaisy_box'/></td></tr>
+<tr><th>Baby Rosalina</th><td id='char_charbabyrosalina_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charbabyrosalina_box'/></td></tr>
+<tr><th>Lemmy Koopa</th><td id='char_charlemmykoopa_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charlemmykoopa_box'/></td></tr>
+<tr><th>Baby Mario</th><td id='char_charbabymario_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charbabymario_box'/></td></tr>
+<tr><th>Baby Luigi</th><td id='char_charbabyluigi_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charbabyluigi_box'/></td></tr>
+<tr><th>Dry Bones</th><td id='char_chardrybones_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_chardrybones_box'/></td></tr>
+<tr><th>Mii L</th><td id='char_charmiil_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charmiil_box'/></td></tr>
+<tr><th>Koopa Troopa</th><td id='char_charkoopatroopa_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charkoopatroopa_box'/></td></tr>
+<tr><th>Lakitu</th><td id='char_charlakitu_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charlakitu_box'/></td></tr>
+<tr><th>Bowser Jr</th><td id='char_charbowserjr_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charbowserjr_box'/></td></tr>
+<tr><th>Toadette</th><td id='char_chartoadette_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_chartoadette_box'/></td></tr>
+<tr><th>Wendy O Koopa</th><td id='char_charwendyokoopa_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charwendyokoopa_box'/></td></tr>
+<tr><th>Isabelle</th><td id='char_charisabelle_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charisabelle_box'/></td></tr>
+<tr><th>Toad</th><td id='char_chartoad_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_chartoad_box'/></td></tr>
+<tr><th>Shy Guy</th><td id='char_charshyguy_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charshyguy_box'/></td></tr>
+<tr><th>Larry Koopa</th><td id='char_charlarrykoopa_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charlarrykoopa_box'/></td></tr>
+<tr><th>Cat Peach</th><td id='char_charcatpeach_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charcatpeach_box'/></td></tr>
+<tr><th>Inkling Girl</th><td id='char_charinklinggirl_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charinklinggirl_box'/></td></tr>
+<tr><th>Villager F</th><td id='char_charvillagerf_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charvillagerf_box'/></td></tr>
+<tr><th>Peach</th><td id='char_charpeach_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charpeach_box'/></td></tr>
+<tr><th>Daisy</th><td id='char_chardaisy_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_chardaisy_box'/></td></tr>
+<tr><th>Yoshi</th><td id='char_charyoshi_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charyoshi_box'/></td></tr>
+<tr><th>Tanooki Mario</th><td id='char_chartanookimario_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_chartanookimario_box'/></td></tr>
+<tr><th>Inkling Boy</th><td id='char_charinklingboy_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charinklingboy_box'/></td></tr>
+<tr><th>Villager M</th><td id='char_charvillagerm_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charvillagerm_box'/></td></tr>
+<tr><th>Luigi</th><td id='char_charluigi_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charluigi_box'/></td></tr>
+<tr><th>Iggy</th><td id='char_chariggy_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_chariggy_box'/></td></tr>
+<tr><th>Mario</th><td id='char_charmario_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charmario_box'/></td></tr>
+<tr><th>Ludwig</th><td id='char_charludwig_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charludwig_box'/></td></tr>
+<tr><th>Mii M</th><td id='char_charmiim_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charmiim_box'/></td></tr>
+<tr><th>Rosalina</th><td id='char_charrosalina_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charrosalina_box'/></td></tr>
+<tr><th>King Boo</th><td id='char_charkingboo_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charkingboo_box'/></td></tr>
+<tr><th>Link</th><td id='char_charlink_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charlink_box'/></td></tr>
+<tr><th>Waluigi</th><td id='char_charwaluigi_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charwaluigi_box'/></td></tr>
+<tr><th>Donkey Kong</th><td id='char_chardonkeykong_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_chardonkeykong_box'/></td></tr>
+<tr><th>Roy</th><td id='char_charroy_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charroy_box'/></td></tr>
+<tr><th>Wario</th><td id='char_charwario_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charwario_box'/></td></tr>
+<tr><th>Dry Bowser</th><td id='char_chardrybowser_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_chardrybowser_box'/></td></tr>
+<tr><th>Metal Mario</th><td id='char_charmetalmario_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charmetalmario_box'/></td></tr>
+<tr><th>Pink Gold Peach</th><td id='char_charpinkgoldpeach_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charpinkgoldpeach_box'/></td></tr>
+<tr><th>Bowser</th><td id='char_charbowser_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charbowser_box'/></td></tr>
+<tr><th>Morton</th><td id='char_charmorton_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charmorton_box'/></td></tr>
+<tr><th>Mii H</th><td id='char_charmiih_bg'><input class='box char_box' onclick='box_click()' type='checkbox' id='char_charmiih_box'/></td></tr>
+</table>
+<h2>Body</h2>
+<button onclick='set_all("body_box",true)'>All</button>
+<button onclick='set_all("body_box",false)'>None</button>
+<table>
+<tr><th>Standard Kart</th><td id='body_bodystandardkart_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodystandardkart_box'/></td></tr>
+<tr><th>Pipe Frame</th><td id='body_bodypipeframe_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodypipeframe_box'/></td></tr>
+<tr><th>Mach 8</th><td id='body_bodymach8_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodymach8_box'/></td></tr>
+<tr><th>Steel Driver</th><td id='body_bodysteeldriver_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodysteeldriver_box'/></td></tr>
+<tr><th>Cat Cruiser</th><td id='body_bodycatcruiser_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodycatcruiser_box'/></td></tr>
+<tr><th>Circuit Special</th><td id='body_bodycircuitspecial_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodycircuitspecial_box'/></td></tr>
+<tr><th>Tri Speeder</th><td id='body_bodytrispeeder_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodytrispeeder_box'/></td></tr>
+<tr><th>Badwagon</th><td id='body_bodybadwagon_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodybadwagon_box'/></td></tr>
+<tr><th>Prancer</th><td id='body_bodyprancer_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodyprancer_box'/></td></tr>
+<tr><th>Biddybuggy</th><td id='body_bodybiddybuggy_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodybiddybuggy_box'/></td></tr>
+<tr><th>Landship</th><td id='body_bodylandship_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodylandship_box'/></td></tr>
+<tr><th>Sneeker</th><td id='body_bodysneeker_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodysneeker_box'/></td></tr>
+<tr><th>Sports Coupe</th><td id='body_bodysportscoupe_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodysportscoupe_box'/></td></tr>
+<tr><th>Gold Standard</th><td id='body_bodygoldstandard_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodygoldstandard_box'/></td></tr>
+<tr><th>GLA</th><td id='body_bodygla_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodygla_box'/></td></tr>
+<tr><th>W 25 Silver Arrow</th><td id='body_bodyw25silverarrow_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodyw25silverarrow_box'/></td></tr>
+<tr><th>300 SL Roadster</th><td id='body_body300slroadster_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_body300slroadster_box'/></td></tr>
+<tr><th>Blue Falcon</th><td id='body_bodybluefalcon_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodybluefalcon_box'/></td></tr>
+<tr><th>Tanooki Kart</th><td id='body_bodytanookikart_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodytanookikart_box'/></td></tr>
+<tr><th>B Dasher</th><td id='body_bodybdasher_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodybdasher_box'/></td></tr>
+<tr><th>Streetle</th><td id='body_bodystreetle_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodystreetle_box'/></td></tr>
+<tr><th>P Wing</th><td id='body_bodypwing_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodypwing_box'/></td></tr>
+<tr><th>Koopa Clown</th><td id='body_bodykoopaclown_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodykoopaclown_box'/></td></tr>
+<tr><th>Standard Bike</th><td id='body_bodystandardbike_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodystandardbike_box'/></td></tr>
+<tr><th>Comet</th><td id='body_bodycomet_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodycomet_box'/></td></tr>
+<tr><th>Sport Bike</th><td id='body_bodysportbike_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodysportbike_box'/></td></tr>
+<tr><th>The Duke</th><td id='body_bodytheduke_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodytheduke_box'/></td></tr>
+<tr><th>Flame Rider</th><td id='body_bodyflamerider_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodyflamerider_box'/></td></tr>
+<tr><th>Varmint</th><td id='body_bodyvarmint_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodyvarmint_box'/></td></tr>
+<tr><th>Mr Scooty</th><td id='body_bodymrscooty_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodymrscooty_box'/></td></tr>
+<tr><th>Jet Bike</th><td id='body_bodyjetbike_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodyjetbike_box'/></td></tr>
+<tr><th>Yoshi Bike</th><td id='body_bodyyoshibike_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodyyoshibike_box'/></td></tr>
+<tr><th>Master Cycle</th><td id='body_bodymastercycle_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodymastercycle_box'/></td></tr>
+<tr><th>City Tripper</th><td id='body_bodycitytripper_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodycitytripper_box'/></td></tr>
+<tr><th>Standard ATV</th><td id='body_bodystandardatv_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodystandardatv_box'/></td></tr>
+<tr><th>Wild Wiggler</th><td id='body_bodywildwiggler_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodywildwiggler_box'/></td></tr>
+<tr><th>Teddy Buggy</th><td id='body_bodyteddybuggy_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodyteddybuggy_box'/></td></tr>
+<tr><th>Bone Rattler</th><td id='body_bodybonerattler_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodybonerattler_box'/></td></tr>
+<tr><th>Inkstriker</th><td id='body_bodyinkstriker_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodyinkstriker_box'/></td></tr>
+<tr><th>Splat Buggy</th><td id='body_bodysplatbuggy_bg'><input class='box body_box' onclick='box_click()' type='checkbox' id='body_bodysplatbuggy_box'/></td></tr>
+</table>
+<h2>Tire</h2>
+<button onclick='set_all("tire_box",true)'>All</button>
+<button onclick='set_all("tire_box",false)'>None</button>
+<table>
+<tr><th>Standard</th><td id='tire_tirestandard_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tirestandard_box'/></td></tr>
+<tr><th>Monster</th><td id='tire_tiremonster_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tiremonster_box'/></td></tr>
+<tr><th>Roller</th><td id='tire_tireroller_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tireroller_box'/></td></tr>
+<tr><th>Slim</th><td id='tire_tireslim_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tireslim_box'/></td></tr>
+<tr><th>Slick</th><td id='tire_tireslick_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tireslick_box'/></td></tr>
+<tr><th>Metal</th><td id='tire_tiremetal_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tiremetal_box'/></td></tr>
+<tr><th>Button</th><td id='tire_tirebutton_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tirebutton_box'/></td></tr>
+<tr><th>Off Road</th><td id='tire_tireoffroad_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tireoffroad_box'/></td></tr>
+<tr><th>Sponge</th><td id='tire_tiresponge_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tiresponge_box'/></td></tr>
+<tr><th>Wood</th><td id='tire_tirewood_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tirewood_box'/></td></tr>
+<tr><th>Cushion</th><td id='tire_tirecushion_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tirecushion_box'/></td></tr>
+<tr><th>Blue Standard</th><td id='tire_tirebluestandard_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tirebluestandard_box'/></td></tr>
+<tr><th>Hot Monster</th><td id='tire_tirehotmonster_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tirehotmonster_box'/></td></tr>
+<tr><th>Azure Roller</th><td id='tire_tireazureroller_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tireazureroller_box'/></td></tr>
+<tr><th>Crimson Slim</th><td id='tire_tirecrimsonslim_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tirecrimsonslim_box'/></td></tr>
+<tr><th>Cyber Slick</th><td id='tire_tirecyberslick_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tirecyberslick_box'/></td></tr>
+<tr><th>Retro Off Road</th><td id='tire_tireretrooffroad_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tireretrooffroad_box'/></td></tr>
+<tr><th>Gold Tires</th><td id='tire_tiregoldtires_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tiregoldtires_box'/></td></tr>
+<tr><th>GLA Tires</th><td id='tire_tireglatires_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tireglatires_box'/></td></tr>
+<tr><th>Triforce Tires</th><td id='tire_tiretriforcetires_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tiretriforcetires_box'/></td></tr>
+<tr><th>Leaf Tires</th><td id='tire_tireleaftires_bg'><input class='box tire_box' onclick='box_click()' type='checkbox' id='tire_tireleaftires_box'/></td></tr>
+</table>
+<h2>Glider</h2>
+<button onclick='set_all("glider_box",true)'>All</button>
+<button onclick='set_all("glider_box",false)'>None</button>
+<table>
+<tr><th>Super Glider</th><td id='glider_glidersuperglider_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_glidersuperglider_box'/></td></tr>
+<tr><th>Cloud Glider</th><td id='glider_glidercloudglider_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_glidercloudglider_box'/></td></tr>
+<tr><th>Wario Wing</th><td id='glider_gliderwariowing_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_gliderwariowing_box'/></td></tr>
+<tr><th>Waddle Wing</th><td id='glider_gliderwaddlewing_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_gliderwaddlewing_box'/></td></tr>
+<tr><th>Peach Parasol</th><td id='glider_gliderpeachparasol_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_gliderpeachparasol_box'/></td></tr>
+<tr><th>Parachute</th><td id='glider_gliderparachute_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_gliderparachute_box'/></td></tr>
+<tr><th>Parafoil</th><td id='glider_gliderparafoil_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_gliderparafoil_box'/></td></tr>
+<tr><th>Flower Glider</th><td id='glider_gliderflowerglider_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_gliderflowerglider_box'/></td></tr>
+<tr><th>Bowser Kite</th><td id='glider_gliderbowserkite_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_gliderbowserkite_box'/></td></tr>
+<tr><th>Plane Glider</th><td id='glider_gliderplaneglider_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_gliderplaneglider_box'/></td></tr>
+<tr><th>MKTV Parafoil</th><td id='glider_glidermktvparafoil_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_glidermktvparafoil_box'/></td></tr>
+<tr><th>Gold Glider</th><td id='glider_glidergoldglider_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_glidergoldglider_box'/></td></tr>
+<tr><th>Hylian Kite</th><td id='glider_gliderhyliankite_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_gliderhyliankite_box'/></td></tr>
+<tr><th>Paper Glider</th><td id='glider_gliderpaperglider_bg'><input class='box glider_box' onclick='box_click()' type='checkbox' id='glider_gliderpaperglider_box'/></td></tr>
+</table>
+
+<h2>Search result</h2>
+<div id="search_count"></div>
+<table id="search_result">
+</table>
+
+<script src="jquery-3.2.1.min.js"></script>
+<script src="kartbuilder.js"></script>
+
+</body>
+</html>

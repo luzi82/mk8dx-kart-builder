@@ -284,5 +284,4 @@ $.getJSON('data.json',function(output){
 	init_PART_STAT_DICT();
 	init_PART_GROUP_DICT_DICT();
 	set_all("box",true);
-	updateAll();
 });
