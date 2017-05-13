@@ -9,6 +9,7 @@ $BOOL_LIST = [
 ?>
 <html>
 <head>
+<title>Mario Kart 8 Kart builder</title>
 </head>
 <body>
 <h2>Stat</h2>
