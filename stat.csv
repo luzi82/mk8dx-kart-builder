@@ -1,0 +1,120 @@
+id,name,type,isd,spg,spw,spr,spy,acc,wgt,hdg,hdw,hda,hdy,ttn,mtb
+charbabypeach,Baby Peach,char,0,2.25,2.5,2.75,2,4,2,5,4.5,5,5,4.25,4
+charbabydaisy,Baby Daisy,char,0,2.25,2.5,2.75,2,4,2,5,4.5,5,5,4.25,4
+charbabyrosalina,Baby Rosalina,char,0,2.25,2.5,2.75,2,4.25,2,4.75,4.25,4.75,4.75,3.75,4
+charlemmykoopa,Lemmy Koopa,char,0,2.25,2.5,2.75,2,4.25,2,4.75,4.25,4.75,4.75,3.75,4
+charbabymario,Baby Mario,char,0,2.5,2.75,3,2.25,4.25,2.25,4.5,4,4.5,4.5,4,3.75
+charbabyluigi,Baby Luigi,char,0,2.5,2.75,3,2.25,4.25,2.25,4.5,4,4.5,4.5,4,3.75
+chardrybones,Dry Bones,char,0,2.5,2.75,3,2.25,4.25,2.25,4.5,4,4.5,4.5,4,3.75
+charmiil,Mii L,char,0,2.5,2.75,3,2.25,4.25,2.25,4.5,4,4.5,4.5,4,3.75
+charkoopatroopa,Koopa Troopa,char,0,2.75,3,3.25,2.5,4,2.5,4.5,4,4.5,4.5,4.25,3.75
+charlakitu,Lakitu,char,0,2.75,3,3.25,2.5,4,2.5,4.5,4,4.5,4.5,4.25,3.75
+charbowserjr,Bowser Jr,char,0,2.75,3,3.25,2.5,4,2.5,4.5,4,4.5,4.5,4.25,3.75
+chartoadette,Toadette,char,0,2.75,3,3.25,2.5,4.25,2.5,4.25,3.75,4.25,4.25,3.5,3.75
+charwendyokoopa,Wendy O Koopa,char,0,2.75,3,3.25,2.5,4.25,2.5,4.25,3.75,4.25,4.25,3.5,3.75
+charisabelle,Isabelle,char,0,2.75,3,3.25,2.5,4.25,2.5,4.25,3.75,4.25,4.25,3.5,3.75
+chartoad,Toad,char,0,3,3.25,3.5,2.75,4,2.75,4.25,3.75,4.25,4.25,4,3.5
+charshyguy,Shy Guy,char,0,3,3.25,3.5,2.75,4,2.75,4.25,3.75,4.25,4.25,4,3.5
+charlarrykoopa,Larry Koopa,char,0,3,3.25,3.5,2.75,4,2.75,4.25,3.75,4.25,4.25,4,3.5
+charcatpeach,Cat Peach,char,0,3.25,3.5,3.75,3,4,2.75,4,3.5,4,4,3.75,3.5
+charinklinggirl,Inkling Girl,char,0,3.25,3.5,3.75,3,4,2.75,4,3.5,4,4,3.75,3.5
+charvillagerf,Villager F,char,0,3.25,3.5,3.75,3,4,2.75,4,3.5,4,4,3.75,3.5
+charpeach,Peach,char,0,3.5,3.75,4,3.25,3.75,3,3.75,3.25,3.75,3.75,3.75,3.5
+chardaisy,Daisy,char,0,3.5,3.75,4,3.25,3.75,3,3.75,3.25,3.75,3.75,3.75,3.5
+charyoshi,Yoshi,char,0,3.5,3.75,4,3.25,3.75,3,3.75,3.25,3.75,3.75,3.75,3.5
+chartanookimario,Tanooki Mario,char,0,3.5,3.75,4,3.25,3.75,3.25,3.75,3.25,3.75,3.75,3.25,3.5
+charinklingboy,Inkling Boy,char,0,3.5,3.75,4,3.25,3.75,3.25,3.75,3.25,3.75,3.75,3.25,3.5
+charvillagerm,Villager M,char,0,3.5,3.75,4,3.25,3.75,3.25,3.75,3.25,3.75,3.75,3.25,3.5
+charluigi,Luigi,char,0,3.75,4,4.25,3.5,3.5,3.5,3.75,3.25,3.75,3.75,3.25,3.25
+chariggy,Iggy,char,0,3.75,4,4.25,3.5,3.5,3.5,3.75,3.25,3.75,3.75,3.25,3.25
+charmario,Mario,char,0,3.75,4,4.25,3.5,3.5,3.5,3.5,3,3.5,3.5,3.5,3.25
+charludwig,Ludwig,char,0,3.75,4,4.25,3.5,3.5,3.5,3.5,3,3.5,3.5,3.5,3.25
+charmiim,Mii M,char,0,3.75,4,4.25,3.5,3.5,3.5,3.5,3,3.5,3.5,3.5,3.25
+charrosalina,Rosalina,char,0,4,4.25,4.5,3.75,3.25,3.75,3.25,2.75,3.25,3.25,3.75,3.25
+charkingboo,King Boo,char,0,4,4.25,4.5,3.75,3.25,3.75,3.25,2.75,3.25,3.25,3.75,3.25
+charlink,Link,char,0,4,4.25,4.5,3.75,3.25,3.75,3.25,2.75,3.25,3.25,3.75,3.25
+charwaluigi,Waluigi,char,0,4.5,4.75,5,4.25,3.25,4,3,2.5,3,3,3,3
+chardonkeykong,Donkey Kong,char,0,4.5,4.75,5,4.25,3.25,4,3,2.5,3,3,3,3
+charroy,Roy,char,0,4.5,4.75,5,4.25,3.25,4,3,2.5,3,3,3,3
+charwario,Wario,char,0,4.75,5,5.25,4.5,3,4.25,2.75,2.25,2.75,2.75,3.25,2.75
+chardrybowser,Dry Bowser,char,0,4.75,5,5.25,4.5,3,4.25,2.75,2.25,2.75,2.75,3.25,2.75
+charmetalmario,Metal Mario,char,0,4.25,4.5,4.75,4,3.25,4.5,3.25,2.75,3.25,3.25,3.25,3
+charpinkgoldpeach,Pink Gold Peach,char,0,4.25,4.5,4.75,4,3.25,4.5,3.25,2.75,3.25,3.25,3.25,3
+charbowser,Bowser,char,0,4.75,5,5.25,4.5,3,4.5,2.5,2,2.5,2.5,3,2.75
+charmorton,Morton,char,0,4.75,5,5.25,4.5,3,4.5,2.5,2,2.5,2.5,3,2.75
+charmiih,Mii H,char,0,4.75,5,5.25,4.5,3,4.5,2.5,2,2.5,2.5,3,2.75
+bodystandardkart,Standard Kart,body,0,0,0,0,0,0,0,0,0,0,0,0,0
+bodypipeframe,Pipe Frame,body,0,-0.5,0,-0.5,-0.5,0.5,-0.25,0.5,0.5,-0.25,0.25,0.25,0.5
+bodymach8,Mach 8,body,0,0,0,0.25,0.5,-0.25,0.25,-0.25,0,-0.25,0.25,0.25,0
+bodysteeldriver,Steel Driver,body,0,0.25,0.5,-0.75,-0.25,-0.75,0.5,-0.5,0.75,-0.5,-0.5,0,-0.5
+bodycatcruiser,Cat Cruiser,body,0,-0.25,-0.25,0.25,0,0.25,0,0.25,0,0.25,0,0,0.25
+bodycircuitspecial,Circuit Special,body,0,0.5,-0.5,-0.25,0.25,-0.75,0.25,-0.5,-0.25,-0.75,-0.25,-0.5,-0.75
+bodytrispeeder,Tri Speeder,body,0,0.25,0.5,-0.75,-0.25,-0.75,0.5,-0.5,0.75,-0.5,-0.5,0,-0.5
+bodybadwagon,Badwagon,body,0,0.5,-0.25,-0.5,0,-1,0.5,-0.75,-0.25,-0.75,-0.5,0.5,-1
+bodyprancer,Prancer,body,0,0.25,0,0,0,-0.5,-0.25,0,0.25,0,-0.25,-0.25,-0.25
+bodybiddybuggy,Biddybuggy,body,0,-0.75,-0.5,-0.5,-0.25,0.75,-0.5,0.5,0.5,0.25,0.5,0.25,0.75
+bodylandship,Landship,body,0,-0.5,0.5,-0.25,-0.75,0.5,-0.5,0.25,0.75,0,-0.25,0.75,0.5
+bodysneeker,Sneeker,body,0,0.25,-0.25,0,0,-0.5,0,0,0,-0.25,0,-0.75,-0.25
+bodysportscoupe,Sports Coupe,body,0,0,0,0.25,0.5,-0.25,0.25,-0.25,0,-0.25,0.25,0.25,0
+bodygoldstandard,Gold Standard,body,0,0.25,-0.25,0,0,-0.5,0,0,0,-0.25,0,-0.75,-0.25
+bodygla,GLA,body,0,0.5,-0.25,-0.5,0,-1,0.5,-0.75,-0.25,-0.75,-0.5,0.5,-1
+bodyw25silverarrow,W 25 Silver Arrow,body,0,-0.25,-0.25,0,0.25,0.25,-0.25,0.25,0.25,0,0.25,0.5,0.25
+body300slroadster,300 SL Roadster,body,0,0,0,0,0,0,0,0,0,0,0,0,0
+bodybluefalcon,Blue Falcon,body,0,0.25,-0.25,0,0.25,-0.25,-0.5,-0.25,0.25,-0.5,0.5,0,-0.25
+bodytanookikart,Tanooki Kart,body,0,-0.25,0.25,0,0,-0.5,0.25,0.25,0.5,0,0,1,-0.25
+bodybdasher,B Dasher,body,0,0.5,-0.5,-0.25,0.25,-0.75,0.25,-0.5,-0.25,-0.75,-0.25,-0.5,-0.75
+bodystreetle,Streetle,body,0,-0.5,0.25,-0.25,-0.75,0.5,-0.5,0.25,0.75,0,-0.25,0.75,0.5
+bodypwing,P Wing,body,0,0.5,-0.5,-0.25,0.25,-0.75,0.25,-0.5,-0.25,-0.75,-0.25,-0.5,-0.75
+bodykoopaclown,Koopa Clown,body,0,-0.25,0.25,0,0,-0.5,0.25,0.25,0.5,0,0,1,-0.25
+bodystandardbike,Standard Bike,body,0,-0.25,-0.25,0,0.25,0.25,-0.25,0.25,0.25,0,0.25,0.5,0.25
+bodycomet,Comet,body,1,-0.25,-0.25,0.25,0,0.25,0,0.25,0,0.25,0,0,0.25
+bodysportbike,Sport Bike,body,1,0.25,0,0,0,-0.5,-0.25,0,0.25,0,-0.25,-0.25,-0.25
+bodytheduke,The Duke,body,0,0,0,0,0,0,0,0,0,0,0,0,0
+bodyflamerider,Flame Rider,body,0,-0.25,-0.25,0,0.25,0.25,-0.25,0.25,0.25,0,0.25,0.5,0.25
+bodyvarmint,Varmint,body,0,-0.5,0,-0.5,-0.5,0.5,-0.25,0.5,0.5,-0.25,0.25,0.25,0.5
+bodymrscooty,Mr Scooty,body,0,-0.75,-0.5,-0.5,-0.25,0.75,-0.5,0.5,0.5,0.25,0.5,0.25,0.75
+bodyjetbike,Jet Bike,body,1,0.25,0,0,0,-0.5,-0.25,0,0.25,0,-0.25,-0.25,-0.25
+bodyyoshibike,Yoshi Bike,body,1,-0.25,-0.25,0.25,0,0.25,0,0.25,0,0.25,0,0,0.25
+bodymastercycle,Master Cycle,body,1,0.25,-0.25,0,0,-0.5,0,0,0,-0.25,0,-0.75,-0.25
+bodycitytripper,City Tripper,body,0,-0.5,0,-0.5,-0.5,0.5,-0.25,0.5,0.5,-0.25,0.25,0.25,0.5
+bodystandardatv,Standard ATV,body,0,0.5,-0.25,-0.5,0,-1,0.5,-0.75,-0.25,-0.75,-0.5,0.5,-1
+bodywildwiggler,Wild Wiggler,body,0,-0.25,-0.25,0,0.25,0.25,-0.25,0.25,0.25,0,0.25,0.5,0.25
+bodyteddybuggy,Teddy Buggy,body,0,-0.25,-0.25,0.25,0,0.25,0,0.25,0,0.25,0,0,0.25
+bodybonerattler,Bone Rattler,body,0,0.25,0.5,-0.75,-0.25,-0.75,0.5,-0.5,0.75,-0.5,-0.5,0,-0.5
+bodyinkstriker,Inkstriker,body,0,0,0,0.25,0.5,-0.25,0.25,-0.25,0,-0.25,0.25,0.25,0
+bodysplatbuggy,Splat Buggy,body,0,0.25,-0.25,0,0.25,-0.25,-0.5,-0.25,0.25,-0.5,0.5,0,-0.25
+tirestandard,Standard,tire,0,0,0,0,0,0,0,0,0,0,0,0,0
+tiremonster,Monster,tire,0,0,-0.25,-0.5,0,-0.5,0.5,-0.75,-0.5,-0.5,-0.75,0.5,-0.25
+tireroller,Roller,tire,0,-0.5,0,0,-0.5,0.5,-0.5,0.25,0.25,0.25,0.25,-0.25,0.75
+tireslim,Slim,tire,0,0.25,-0.25,-0.25,0.5,-0.5,0,0.25,0.25,0.25,0,-1,-0.25
+tireslick,Slick,tire,0,0.5,-0.75,-0.75,0.5,-0.75,0.25,-0.25,-0.75,-0.5,-0.25,-1.25,-0.75
+tiremetal,Metal,tire,0,0.5,0,-0.25,-0.25,-1,0.5,-0.25,-0.25,-0.75,-0.5,-0.75,-0.75
+tirebutton,Button,tire,0,-0.25,-0.25,-0.25,0,0.25,-0.5,0,0,-0.25,0.25,-0.5,0.5
+tireoffroad,Off Road,tire,0,0.25,0.25,-0.5,0,-0.25,0.25,-0.5,-0.5,-0.5,-0.25,0.25,-0.5
+tiresponge,Sponge,tire,0,-0.25,-0.5,0.25,-0.25,0,-0.25,-0.25,-0.5,0,0,0.25,0.25
+tirewood,Wood,tire,0,0.25,-0.25,-0.25,0.5,-0.5,0,0.25,0.25,0.25,0,-1,-0.25
+tirecushion,Cushion,tire,0,-0.25,-0.5,0.25,-0.25,0,-0.25,-0.25,-0.5,0,-0.25,0.25,0.25
+tirebluestandard,Blue Standard,tire,0,0,0,0,0,0,0,0,0,0,0,0,0
+tirehotmonster,Hot Monster,tire,0,0,-0.25,-0.5,0,-0.5,0.5,-0.75,-0.5,-0.5,-0.75,0.5,-0.25
+tireazureroller,Azure Roller,tire,0,-0.5,0,0,-0.5,0.5,-0.5,0.25,0.25,0.25,0.25,-0.25,0.75
+tirecrimsonslim,Crimson Slim,tire,0,0.25,-0.25,-0.25,0.5,-0.5,0,0.25,0.25,0.25,0,-1,-0.25
+tirecyberslick,Cyber Slick,tire,0,0.5,-0.75,-0.75,0.5,-0.75,0.25,-0.25,-0.75,-0.5,-0.25,-1.25,-0.75
+tireretrooffroad,Retro Off Road,tire,0,0.25,0.25,-0.5,0,-0.25,0.25,-0.5,-0.5,-0.25,-0.25,0.25,-0.5
+tiregoldtires,Gold Tires,tire,0,0.5,0,-0.25,-0.25,-1,0.5,-0.25,-0.25,-0.75,-0.5,-0.75,-0.75
+tireglatires,GLA Tires,tire,0,0,0,0,0,0,0,0,0,0,0,0,0
+tiretriforcetires,Triforce Tires,tire,0,0.25,0.25,-0.5,0,-0.25,0.25,-0.5,-0.5,-0.25,-0.25,0.25,-0.5
+tireleaftires,Leaf Tires,tire,0,-0.25,-0.25,-0.25,0,0.25,-0.5,0,0,-0.25,0.25,-0.5,0.5
+glidersuperglider,Super Glider,glider,0,0,0,0,0,0,0,0,0,0,0,0,0
+glidercloudglider,Cloud Glider,glider,0,-0.25,0,-0.25,0.25,0.25,-0.25,0,0,0.25,0,0,0.25
+gliderwariowing,Wario Wing,glider,0,0,-0.25,0,0.25,0,0.25,0,0.25,0,-0.25,-0.25,0
+gliderwaddlewing,Waddle Wing,glider,0,0,0,0,0,0,0,0,0,0,0,0,0
+gliderpeachparasol,Peach Parasol,glider,0,-0.25,-0.25,-0.25,0.25,0.25,0,0,0.25,0.25,-0.25,-0.25,0.25
+gliderparachute,Parachute,glider,0,-0.25,0,-0.25,0.25,0.25,-0.25,0,0,0.25,0,0,0.25
+gliderparafoil,Parafoil,glider,0,-0.25,-0.25,-0.25,0.25,0.25,0,0,0.25,0.25,-0.25,-0.25,0.25
+gliderflowerglider,Flower Glider,glider,0,-0.25,0,-0.25,0.25,0.25,-0.25,0,0,0.25,0,0,0.25
+gliderbowserkite,Bowser Kite,glider,0,-0.25,-0.25,-0.25,0.25,0.25,0,0,0.25,0.25,-0.25,-0.25,0.25
+gliderplaneglider,Plane Glider,glider,0,0,-0.25,0,0.25,0,0.25,0,0.25,0,-0.25,-0.25,0
+glidermktvparafoil,MKTV Parafoil,glider,0,-0.25,-0.25,-0.25,0.25,0.25,0,0,0.25,0.25,-0.25,-0.25,0.25
+glidergoldglider,Gold Glider,glider,0,0,-0.25,0,0.25,0,0.25,0,0.25,0,-0.25,-0.25,0
+gliderhyliankite,Hylian Kite,glider,0,0,0,0,0,0,0,0,0,0,0,0,0
+gliderpaperglider,Paper Glider,glider,0,-0.25,0,-0.25,0.25,0.25,-0.25,0,0,0.25,0,0,0.25
