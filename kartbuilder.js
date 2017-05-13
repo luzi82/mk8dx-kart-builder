@@ -33,19 +33,19 @@ function getCondition(){
 		}
 	});
 	
-	filter = {};
+	part_dict = {};
 	DATA["part_type_list"].forEach(function(part_type){
-		filter[part_type["id"]] = {};
+		part_dict[part_type["id"]] = {};
 		DATA["part_dict"][part_type["id"]].forEach(function(part){
 			key = part_type["id"]+"_"+part["id"];
 			value = $('#'+key+'_box').is(":checked");
-			filter[part_type["id"]][part["id"]] = value;
+			part_dict[part_type["id"]][part["id"]] = value;
 		});
 	});
 	
 	return {
 		'stat':stat,
-		'filter':filter,
+		'part':part_dict,
 	};
 }
 
@@ -65,17 +65,17 @@ function getDummyCondition(){
 		}
 	});
 	
-	filter = {};
+	part_dict = {};
 	DATA["part_type_list"].forEach(function(part_type){
-		filter[part_type["id"]] = {};
+		part_dict[part_type["id"]] = {};
 		DATA["part_dict"][part_type["id"]].forEach(function(part){
-			filter[part_type["id"]][part["id"]] = false;
+			part_dict[part_type["id"]][part["id"]] = false;
 		});
 	});
 	
 	return {
 		'stat':stat,
-		'filter':filter,
+		'part':part_dict,
 	};
 }
 
@@ -84,14 +84,14 @@ function searchSolution(condition){
 	condition0 = getDummyCondition();
 	
 	DATA['part_dict']['char'].forEach(function(char_part){
-	if(!condition['filter']['char'][char_part['id']])return;
+	if(!condition['part']['char'][char_part['id']])return;
 	DATA['part_dict']['body'].forEach(function(body_part){
-	if(!condition['filter']['body'][body_part['id']])return;
+	if(!condition['part']['body'][body_part['id']])return;
 	if(!condition['stat']['isd'][body_part['isd']])return; // speed hack
 	DATA['part_dict']['tire'].forEach(function(tire_part){
-	if(!condition['filter']['tire'][tire_part['id']])return;
+	if(!condition['part']['tire'][tire_part['id']])return;
 	DATA['part_dict']['glider'].forEach(function(glider_part){
-	if(!condition['filter']['glider'][glider_part['id']])return;
+	if(!condition['part']['glider'][glider_part['id']])return;
 		var good = true;
 		stat = {};
 		DATA['stat_type_list'].forEach(function(stat_type){
@@ -116,10 +116,10 @@ function searchSolution(condition){
 		for(var stat_id in stat){
 			condition0['stat'][stat_id][stat[stat_id]] = true;
 		}
-		condition['filter']['char'][char_part['id']] = true;
-		condition['filter']['body'][body_part['id']] = true;
-		condition['filter']['tire'][tire_part['id']] = true;
-		condition['filter']['glider'][glider_part['id']] = true;
+		condition['part']['char'][char_part['id']] = true;
+		condition['part']['body'][body_part['id']] = true;
+		condition['part']['tire'][tire_part['id']] = true;
+		condition['part']['glider'][glider_part['id']] = true;
 	});
 	});
 	});
