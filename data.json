@@ -3,6 +3,7 @@
     "body": [
       {
         "acc": 0,
+        "group": "groupbodystandardkart",
         "hda": 0,
         "hdg": 0,
         "hdw": 0,
@@ -21,6 +22,7 @@
       },
       {
         "acc": 50,
+        "group": "groupbodypipeframe",
         "hda": -25,
         "hdg": 50,
         "hdw": 50,
@@ -39,6 +41,7 @@
       },
       {
         "acc": -25,
+        "group": "groupbodymach8",
         "hda": -25,
         "hdg": -25,
         "hdw": 0,
@@ -57,6 +60,7 @@
       },
       {
         "acc": -75,
+        "group": "groupbodysteeldriver",
         "hda": -50,
         "hdg": -50,
         "hdw": 75,
@@ -75,6 +79,7 @@
       },
       {
         "acc": 25,
+        "group": "groupbodycatcruiser",
         "hda": 25,
         "hdg": 25,
         "hdw": 0,
@@ -93,6 +98,7 @@
       },
       {
         "acc": -75,
+        "group": "groupbodycircuitspecial",
         "hda": -75,
         "hdg": -50,
         "hdw": -25,
@@ -111,6 +117,7 @@
       },
       {
         "acc": -75,
+        "group": "groupbodysteeldriver",
         "hda": -50,
         "hdg": -50,
         "hdw": 75,
@@ -129,6 +136,7 @@
       },
       {
         "acc": -100,
+        "group": "groupbodybadwagon",
         "hda": -75,
         "hdg": -75,
         "hdw": -25,
@@ -147,6 +155,7 @@
       },
       {
         "acc": -50,
+        "group": "groupbodyprancer",
         "hda": 0,
         "hdg": 0,
         "hdw": 25,
@@ -165,6 +174,7 @@
       },
       {
         "acc": 75,
+        "group": "groupbodybiddybuggy",
         "hda": 25,
         "hdg": 50,
         "hdw": 50,
@@ -183,6 +193,7 @@
       },
       {
         "acc": 50,
+        "group": "groupbodylandship",
         "hda": 0,
         "hdg": 25,
         "hdw": 75,
@@ -201,6 +212,7 @@
       },
       {
         "acc": -50,
+        "group": "groupbodysneeker",
         "hda": -25,
         "hdg": 0,
         "hdw": 0,
@@ -219,6 +231,7 @@
       },
       {
         "acc": -25,
+        "group": "groupbodymach8",
         "hda": -25,
         "hdg": -25,
         "hdw": 0,
@@ -237,6 +250,7 @@
       },
       {
         "acc": -50,
+        "group": "groupbodysneeker",
         "hda": -25,
         "hdg": 0,
         "hdw": 0,
@@ -255,6 +269,7 @@
       },
       {
         "acc": -100,
+        "group": "groupbodybadwagon",
         "hda": -75,
         "hdg": -75,
         "hdw": -25,
@@ -273,6 +288,7 @@
       },
       {
         "acc": 25,
+        "group": "groupbodyw25silverarrow",
         "hda": 0,
         "hdg": 25,
         "hdw": 25,
@@ -291,6 +307,7 @@
       },
       {
         "acc": 0,
+        "group": "groupbodystandardkart",
         "hda": 0,
         "hdg": 0,
         "hdw": 0,
@@ -309,6 +326,7 @@
       },
       {
         "acc": -25,
+        "group": "groupbodybluefalcon",
         "hda": -50,
         "hdg": -25,
         "hdw": 25,
@@ -327,6 +345,7 @@
       },
       {
         "acc": -50,
+        "group": "groupbodytanookikart",
         "hda": 0,
         "hdg": 25,
         "hdw": 50,
@@ -345,6 +364,7 @@
       },
       {
         "acc": -75,
+        "group": "groupbodycircuitspecial",
         "hda": -75,
         "hdg": -50,
         "hdw": -25,
@@ -363,6 +383,7 @@
       },
       {
         "acc": 50,
+        "group": "groupbodystreetle",
         "hda": 0,
         "hdg": 25,
         "hdw": 75,
@@ -381,6 +402,7 @@
       },
       {
         "acc": -75,
+        "group": "groupbodycircuitspecial",
         "hda": -75,
         "hdg": -50,
         "hdw": -25,
@@ -399,6 +421,7 @@
       },
       {
         "acc": -50,
+        "group": "groupbodytanookikart",
         "hda": 0,
         "hdg": 25,
         "hdw": 50,
@@ -417,6 +440,7 @@
       },
       {
         "acc": 25,
+        "group": "groupbodyw25silverarrow",
         "hda": 0,
         "hdg": 25,
         "hdw": 25,
@@ -435,6 +459,7 @@
       },
       {
         "acc": 25,
+        "group": "groupbodycomet",
         "hda": 25,
         "hdg": 25,
         "hdw": 0,
@@ -453,6 +478,7 @@
       },
       {
         "acc": -50,
+        "group": "groupbodysportbike",
         "hda": 0,
         "hdg": 0,
         "hdw": 25,
@@ -471,6 +497,7 @@
       },
       {
         "acc": 0,
+        "group": "groupbodystandardkart",
         "hda": 0,
         "hdg": 0,
         "hdw": 0,
@@ -489,6 +516,7 @@
       },
       {
         "acc": 25,
+        "group": "groupbodyw25silverarrow",
         "hda": 0,
         "hdg": 25,
         "hdw": 25,
@@ -507,6 +535,7 @@
       },
       {
         "acc": 50,
+        "group": "groupbodypipeframe",
         "hda": -25,
         "hdg": 50,
         "hdw": 50,
@@ -525,6 +554,7 @@
       },
       {
         "acc": 75,
+        "group": "groupbodybiddybuggy",
         "hda": 25,
         "hdg": 50,
         "hdw": 50,
@@ -543,6 +573,7 @@
       },
       {
         "acc": -50,
+        "group": "groupbodysportbike",
         "hda": 0,
         "hdg": 0,
         "hdw": 25,
@@ -561,6 +592,7 @@
       },
       {
         "acc": 25,
+        "group": "groupbodycomet",
         "hda": 25,
         "hdg": 25,
         "hdw": 0,
@@ -579,6 +611,7 @@
       },
       {
         "acc": -50,
+        "group": "groupbodymastercycle",
         "hda": -25,
         "hdg": 0,
         "hdw": 0,
@@ -597,6 +630,7 @@
       },
       {
         "acc": 50,
+        "group": "groupbodypipeframe",
         "hda": -25,
         "hdg": 50,
         "hdw": 50,
@@ -615,6 +649,7 @@
       },
       {
         "acc": -100,
+        "group": "groupbodybadwagon",
         "hda": -75,
         "hdg": -75,
         "hdw": -25,
@@ -633,6 +668,7 @@
       },
       {
         "acc": 25,
+        "group": "groupbodyw25silverarrow",
         "hda": 0,
         "hdg": 25,
         "hdw": 25,
@@ -651,6 +687,7 @@
       },
       {
         "acc": 25,
+        "group": "groupbodycatcruiser",
         "hda": 25,
         "hdg": 25,
         "hdw": 0,
@@ -669,6 +706,7 @@
       },
       {
         "acc": -75,
+        "group": "groupbodysteeldriver",
         "hda": -50,
         "hdg": -50,
         "hdw": 75,
@@ -687,6 +725,7 @@
       },
       {
         "acc": -25,
+        "group": "groupbodymach8",
         "hda": -25,
         "hdg": -25,
         "hdw": 0,
@@ -705,6 +744,7 @@
       },
       {
         "acc": -25,
+        "group": "groupbodybluefalcon",
         "hda": -50,
         "hdg": -25,
         "hdw": 25,
@@ -725,6 +765,7 @@
     "char": [
       {
         "acc": 400,
+        "group": "groupcharbabypeach",
         "hda": 500,
         "hdg": 500,
         "hdw": 450,
@@ -743,6 +784,7 @@
       },
       {
         "acc": 400,
+        "group": "groupcharbabypeach",
         "hda": 500,
         "hdg": 500,
         "hdw": 450,
@@ -761,6 +803,7 @@
       },
       {
         "acc": 425,
+        "group": "groupcharbabyrosalina",
         "hda": 475,
         "hdg": 475,
         "hdw": 425,
@@ -779,6 +822,7 @@
       },
       {
         "acc": 425,
+        "group": "groupcharbabyrosalina",
         "hda": 475,
         "hdg": 475,
         "hdw": 425,
@@ -797,6 +841,7 @@
       },
       {
         "acc": 425,
+        "group": "groupcharbabymario",
         "hda": 450,
         "hdg": 450,
         "hdw": 400,
@@ -815,6 +860,7 @@
       },
       {
         "acc": 425,
+        "group": "groupcharbabymario",
         "hda": 450,
         "hdg": 450,
         "hdw": 400,
@@ -833,6 +879,7 @@
       },
       {
         "acc": 425,
+        "group": "groupcharbabymario",
         "hda": 450,
         "hdg": 450,
         "hdw": 400,
@@ -851,6 +898,7 @@
       },
       {
         "acc": 425,
+        "group": "groupcharbabymario",
         "hda": 450,
         "hdg": 450,
         "hdw": 400,
@@ -869,6 +917,7 @@
       },
       {
         "acc": 400,
+        "group": "groupcharkoopatroopa",
         "hda": 450,
         "hdg": 450,
         "hdw": 400,
@@ -887,6 +936,7 @@
       },
       {
         "acc": 400,
+        "group": "groupcharkoopatroopa",
         "hda": 450,
         "hdg": 450,
         "hdw": 400,
@@ -905,6 +955,7 @@
       },
       {
         "acc": 400,
+        "group": "groupcharkoopatroopa",
         "hda": 450,
         "hdg": 450,
         "hdw": 400,
@@ -923,6 +974,7 @@
       },
       {
         "acc": 425,
+        "group": "groupchartoadette",
         "hda": 425,
         "hdg": 425,
         "hdw": 375,
@@ -941,6 +993,7 @@
       },
       {
         "acc": 425,
+        "group": "groupchartoadette",
         "hda": 425,
         "hdg": 425,
         "hdw": 375,
@@ -959,6 +1012,7 @@
       },
       {
         "acc": 425,
+        "group": "groupchartoadette",
         "hda": 425,
         "hdg": 425,
         "hdw": 375,
@@ -977,6 +1031,7 @@
       },
       {
         "acc": 400,
+        "group": "groupchartoad",
         "hda": 425,
         "hdg": 425,
         "hdw": 375,
@@ -995,6 +1050,7 @@
       },
       {
         "acc": 400,
+        "group": "groupchartoad",
         "hda": 425,
         "hdg": 425,
         "hdw": 375,
@@ -1013,6 +1069,7 @@
       },
       {
         "acc": 400,
+        "group": "groupchartoad",
         "hda": 425,
         "hdg": 425,
         "hdw": 375,
@@ -1031,6 +1088,7 @@
       },
       {
         "acc": 400,
+        "group": "groupcharcatpeach",
         "hda": 400,
         "hdg": 400,
         "hdw": 350,
@@ -1049,6 +1107,7 @@
       },
       {
         "acc": 400,
+        "group": "groupcharcatpeach",
         "hda": 400,
         "hdg": 400,
         "hdw": 350,
@@ -1067,6 +1126,7 @@
       },
       {
         "acc": 400,
+        "group": "groupcharcatpeach",
         "hda": 400,
         "hdg": 400,
         "hdw": 350,
@@ -1085,6 +1145,7 @@
       },
       {
         "acc": 375,
+        "group": "groupcharpeach",
         "hda": 375,
         "hdg": 375,
         "hdw": 325,
@@ -1103,6 +1164,7 @@
       },
       {
         "acc": 375,
+        "group": "groupcharpeach",
         "hda": 375,
         "hdg": 375,
         "hdw": 325,
@@ -1121,6 +1183,7 @@
       },
       {
         "acc": 375,
+        "group": "groupcharpeach",
         "hda": 375,
         "hdg": 375,
         "hdw": 325,
@@ -1139,6 +1202,7 @@
       },
       {
         "acc": 375,
+        "group": "groupchartanookimario",
         "hda": 375,
         "hdg": 375,
         "hdw": 325,
@@ -1157,6 +1221,7 @@
       },
       {
         "acc": 375,
+        "group": "groupchartanookimario",
         "hda": 375,
         "hdg": 375,
         "hdw": 325,
@@ -1175,6 +1240,7 @@
       },
       {
         "acc": 375,
+        "group": "groupchartanookimario",
         "hda": 375,
         "hdg": 375,
         "hdw": 325,
@@ -1193,6 +1259,7 @@
       },
       {
         "acc": 350,
+        "group": "groupcharluigi",
         "hda": 375,
         "hdg": 375,
         "hdw": 325,
@@ -1211,6 +1278,7 @@
       },
       {
         "acc": 350,
+        "group": "groupcharluigi",
         "hda": 375,
         "hdg": 375,
         "hdw": 325,
@@ -1229,6 +1297,7 @@
       },
       {
         "acc": 350,
+        "group": "groupcharmario",
         "hda": 350,
         "hdg": 350,
         "hdw": 300,
@@ -1247,6 +1316,7 @@
       },
       {
         "acc": 350,
+        "group": "groupcharmario",
         "hda": 350,
         "hdg": 350,
         "hdw": 300,
@@ -1265,6 +1335,7 @@
       },
       {
         "acc": 350,
+        "group": "groupcharmario",
         "hda": 350,
         "hdg": 350,
         "hdw": 300,
@@ -1283,6 +1354,7 @@
       },
       {
         "acc": 325,
+        "group": "groupcharrosalina",
         "hda": 325,
         "hdg": 325,
         "hdw": 275,
@@ -1301,6 +1373,7 @@
       },
       {
         "acc": 325,
+        "group": "groupcharrosalina",
         "hda": 325,
         "hdg": 325,
         "hdw": 275,
@@ -1319,6 +1392,7 @@
       },
       {
         "acc": 325,
+        "group": "groupcharrosalina",
         "hda": 325,
         "hdg": 325,
         "hdw": 275,
@@ -1337,6 +1411,7 @@
       },
       {
         "acc": 325,
+        "group": "groupcharwaluigi",
         "hda": 300,
         "hdg": 300,
         "hdw": 250,
@@ -1355,6 +1430,7 @@
       },
       {
         "acc": 325,
+        "group": "groupcharwaluigi",
         "hda": 300,
         "hdg": 300,
         "hdw": 250,
@@ -1373,6 +1449,7 @@
       },
       {
         "acc": 325,
+        "group": "groupcharwaluigi",
         "hda": 300,
         "hdg": 300,
         "hdw": 250,
@@ -1391,6 +1468,7 @@
       },
       {
         "acc": 300,
+        "group": "groupcharwario",
         "hda": 275,
         "hdg": 275,
         "hdw": 225,
@@ -1409,6 +1487,7 @@
       },
       {
         "acc": 300,
+        "group": "groupcharwario",
         "hda": 275,
         "hdg": 275,
         "hdw": 225,
@@ -1427,6 +1506,7 @@
       },
       {
         "acc": 325,
+        "group": "groupcharmetalmario",
         "hda": 325,
         "hdg": 325,
         "hdw": 275,
@@ -1445,6 +1525,7 @@
       },
       {
         "acc": 325,
+        "group": "groupcharmetalmario",
         "hda": 325,
         "hdg": 325,
         "hdw": 275,
@@ -1463,6 +1544,7 @@
       },
       {
         "acc": 300,
+        "group": "groupcharbowser",
         "hda": 250,
         "hdg": 250,
         "hdw": 200,
@@ -1481,6 +1563,7 @@
       },
       {
         "acc": 300,
+        "group": "groupcharbowser",
         "hda": 250,
         "hdg": 250,
         "hdw": 200,
@@ -1499,6 +1582,7 @@
       },
       {
         "acc": 300,
+        "group": "groupcharbowser",
         "hda": 250,
         "hdg": 250,
         "hdw": 200,
@@ -1519,6 +1603,7 @@
     "glider": [
       {
         "acc": 0,
+        "group": "groupglidersuperglider",
         "hda": 0,
         "hdg": 0,
         "hdw": 0,
@@ -1537,6 +1622,7 @@
       },
       {
         "acc": 25,
+        "group": "groupglidercloudglider",
         "hda": 25,
         "hdg": 0,
         "hdw": 0,
@@ -1555,6 +1641,7 @@
       },
       {
         "acc": 0,
+        "group": "groupgliderwariowing",
         "hda": 0,
         "hdg": 0,
         "hdw": 25,
@@ -1573,6 +1660,7 @@
       },
       {
         "acc": 0,
+        "group": "groupglidersuperglider",
         "hda": 0,
         "hdg": 0,
         "hdw": 0,
@@ -1591,6 +1679,7 @@
       },
       {
         "acc": 25,
+        "group": "groupgliderpeachparasol",
         "hda": 25,
         "hdg": 0,
         "hdw": 25,
@@ -1609,6 +1698,7 @@
       },
       {
         "acc": 25,
+        "group": "groupglidercloudglider",
         "hda": 25,
         "hdg": 0,
         "hdw": 0,
@@ -1627,6 +1717,7 @@
       },
       {
         "acc": 25,
+        "group": "groupgliderpeachparasol",
         "hda": 25,
         "hdg": 0,
         "hdw": 25,
@@ -1645,6 +1736,7 @@
       },
       {
         "acc": 25,
+        "group": "groupglidercloudglider",
         "hda": 25,
         "hdg": 0,
         "hdw": 0,
@@ -1663,6 +1755,7 @@
       },
       {
         "acc": 25,
+        "group": "groupgliderpeachparasol",
         "hda": 25,
         "hdg": 0,
         "hdw": 25,
@@ -1681,6 +1774,7 @@
       },
       {
         "acc": 0,
+        "group": "groupgliderwariowing",
         "hda": 0,
         "hdg": 0,
         "hdw": 25,
@@ -1699,6 +1793,7 @@
       },
       {
         "acc": 25,
+        "group": "groupgliderpeachparasol",
         "hda": 25,
         "hdg": 0,
         "hdw": 25,
@@ -1717,6 +1812,7 @@
       },
       {
         "acc": 0,
+        "group": "groupgliderwariowing",
         "hda": 0,
         "hdg": 0,
         "hdw": 25,
@@ -1735,6 +1831,7 @@
       },
       {
         "acc": 0,
+        "group": "groupglidersuperglider",
         "hda": 0,
         "hdg": 0,
         "hdw": 0,
@@ -1753,6 +1850,7 @@
       },
       {
         "acc": 25,
+        "group": "groupglidercloudglider",
         "hda": 25,
         "hdg": 0,
         "hdw": 0,
@@ -1773,6 +1871,7 @@
     "tire": [
       {
         "acc": 0,
+        "group": "grouptirestandard",
         "hda": 0,
         "hdg": 0,
         "hdw": 0,
@@ -1791,6 +1890,7 @@
       },
       {
         "acc": -50,
+        "group": "grouptiremonster",
         "hda": -50,
         "hdg": -75,
         "hdw": -50,
@@ -1809,6 +1909,7 @@
       },
       {
         "acc": 50,
+        "group": "grouptireroller",
         "hda": 25,
         "hdg": 25,
         "hdw": 25,
@@ -1827,6 +1928,7 @@
       },
       {
         "acc": -50,
+        "group": "grouptireslim",
         "hda": 25,
         "hdg": 25,
         "hdw": 25,
@@ -1845,6 +1947,7 @@
       },
       {
         "acc": -75,
+        "group": "grouptireslick",
         "hda": -50,
         "hdg": -25,
         "hdw": -75,
@@ -1863,6 +1966,7 @@
       },
       {
         "acc": -100,
+        "group": "grouptiremetal",
         "hda": -75,
         "hdg": -25,
         "hdw": -25,
@@ -1881,6 +1985,7 @@
       },
       {
         "acc": 25,
+        "group": "grouptirebutton",
         "hda": -25,
         "hdg": 0,
         "hdw": 0,
@@ -1899,6 +2004,7 @@
       },
       {
         "acc": -25,
+        "group": "grouptireoffroad",
         "hda": -50,
         "hdg": -50,
         "hdw": -50,
@@ -1917,6 +2023,7 @@
       },
       {
         "acc": 0,
+        "group": "grouptiresponge",
         "hda": 0,
         "hdg": -25,
         "hdw": -50,
@@ -1935,6 +2042,7 @@
       },
       {
         "acc": -50,
+        "group": "grouptireslim",
         "hda": 25,
         "hdg": 25,
         "hdw": 25,
@@ -1953,6 +2061,7 @@
       },
       {
         "acc": 0,
+        "group": "grouptirecushion",
         "hda": 0,
         "hdg": -25,
         "hdw": -50,
@@ -1971,6 +2080,7 @@
       },
       {
         "acc": 0,
+        "group": "grouptirestandard",
         "hda": 0,
         "hdg": 0,
         "hdw": 0,
@@ -1989,6 +2099,7 @@
       },
       {
         "acc": -50,
+        "group": "grouptiremonster",
         "hda": -50,
         "hdg": -75,
         "hdw": -50,
@@ -2007,6 +2118,7 @@
       },
       {
         "acc": 50,
+        "group": "grouptireroller",
         "hda": 25,
         "hdg": 25,
         "hdw": 25,
@@ -2025,6 +2137,7 @@
       },
       {
         "acc": -50,
+        "group": "grouptireslim",
         "hda": 25,
         "hdg": 25,
         "hdw": 25,
@@ -2043,6 +2156,7 @@
       },
       {
         "acc": -75,
+        "group": "grouptireslick",
         "hda": -50,
         "hdg": -25,
         "hdw": -75,
@@ -2061,6 +2175,7 @@
       },
       {
         "acc": -25,
+        "group": "grouptireretrooffroad",
         "hda": -25,
         "hdg": -50,
         "hdw": -50,
@@ -2079,6 +2194,7 @@
       },
       {
         "acc": -100,
+        "group": "grouptiremetal",
         "hda": -75,
         "hdg": -25,
         "hdw": -25,
@@ -2097,6 +2213,7 @@
       },
       {
         "acc": 0,
+        "group": "grouptirestandard",
         "hda": 0,
         "hdg": 0,
         "hdw": 0,
@@ -2115,6 +2232,7 @@
       },
       {
         "acc": -25,
+        "group": "grouptireretrooffroad",
         "hda": -25,
         "hdg": -50,
         "hdw": -50,
@@ -2133,6 +2251,7 @@
       },
       {
         "acc": 25,
+        "group": "grouptirebutton",
         "hda": -25,
         "hdg": 0,
         "hdw": 0,
@@ -2148,6 +2267,1066 @@
         "ttn": -50,
         "type": "tire",
         "wgt": -50
+      }
+    ]
+  },
+  "part_group_dict": {
+    "body": [
+      {
+        "acc": 0,
+        "hda": 0,
+        "hdg": 0,
+        "hdw": 0,
+        "hdy": 0,
+        "id": "groupbodystandardkart",
+        "isd": 0,
+        "member": [
+          "bodystandardkart",
+          "body300slroadster",
+          "bodytheduke"
+        ],
+        "mtb": 0,
+        "spg": 0,
+        "spr": 0,
+        "spw": 0,
+        "spy": 0,
+        "ttn": 0,
+        "type": "body",
+        "wgt": 0
+      },
+      {
+        "acc": 50,
+        "hda": -25,
+        "hdg": 50,
+        "hdw": 50,
+        "hdy": 25,
+        "id": "groupbodypipeframe",
+        "isd": 0,
+        "member": [
+          "bodypipeframe",
+          "bodyvarmint",
+          "bodycitytripper"
+        ],
+        "mtb": 50,
+        "spg": -50,
+        "spr": -50,
+        "spw": 0,
+        "spy": -50,
+        "ttn": 25,
+        "type": "body",
+        "wgt": -25
+      },
+      {
+        "acc": -25,
+        "hda": -25,
+        "hdg": -25,
+        "hdw": 0,
+        "hdy": 25,
+        "id": "groupbodymach8",
+        "isd": 0,
+        "member": [
+          "bodymach8",
+          "bodysportscoupe",
+          "bodyinkstriker"
+        ],
+        "mtb": 0,
+        "spg": 0,
+        "spr": 25,
+        "spw": 0,
+        "spy": 50,
+        "ttn": 25,
+        "type": "body",
+        "wgt": 25
+      },
+      {
+        "acc": -75,
+        "hda": -50,
+        "hdg": -50,
+        "hdw": 75,
+        "hdy": -50,
+        "id": "groupbodysteeldriver",
+        "isd": 0,
+        "member": [
+          "bodysteeldriver",
+          "bodytrispeeder",
+          "bodybonerattler"
+        ],
+        "mtb": -50,
+        "spg": 25,
+        "spr": -75,
+        "spw": 50,
+        "spy": -25,
+        "ttn": 0,
+        "type": "body",
+        "wgt": 50
+      },
+      {
+        "acc": 25,
+        "hda": 25,
+        "hdg": 25,
+        "hdw": 0,
+        "hdy": 0,
+        "id": "groupbodycatcruiser",
+        "isd": 0,
+        "member": [
+          "bodycatcruiser",
+          "bodyteddybuggy"
+        ],
+        "mtb": 25,
+        "spg": -25,
+        "spr": 25,
+        "spw": -25,
+        "spy": 0,
+        "ttn": 0,
+        "type": "body",
+        "wgt": 0
+      },
+      {
+        "acc": -75,
+        "hda": -75,
+        "hdg": -50,
+        "hdw": -25,
+        "hdy": -25,
+        "id": "groupbodycircuitspecial",
+        "isd": 0,
+        "member": [
+          "bodycircuitspecial",
+          "bodybdasher",
+          "bodypwing"
+        ],
+        "mtb": -75,
+        "spg": 50,
+        "spr": -25,
+        "spw": -50,
+        "spy": 25,
+        "ttn": -50,
+        "type": "body",
+        "wgt": 25
+      },
+      {
+        "acc": -100,
+        "hda": -75,
+        "hdg": -75,
+        "hdw": -25,
+        "hdy": -50,
+        "id": "groupbodybadwagon",
+        "isd": 0,
+        "member": [
+          "bodybadwagon",
+          "bodygla",
+          "bodystandardatv"
+        ],
+        "mtb": -100,
+        "spg": 50,
+        "spr": -50,
+        "spw": -25,
+        "spy": 0,
+        "ttn": 50,
+        "type": "body",
+        "wgt": 50
+      },
+      {
+        "acc": -50,
+        "hda": 0,
+        "hdg": 0,
+        "hdw": 25,
+        "hdy": -25,
+        "id": "groupbodyprancer",
+        "isd": 0,
+        "member": [
+          "bodyprancer"
+        ],
+        "mtb": -25,
+        "spg": 25,
+        "spr": 0,
+        "spw": 0,
+        "spy": 0,
+        "ttn": -25,
+        "type": "body",
+        "wgt": -25
+      },
+      {
+        "acc": 75,
+        "hda": 25,
+        "hdg": 50,
+        "hdw": 50,
+        "hdy": 50,
+        "id": "groupbodybiddybuggy",
+        "isd": 0,
+        "member": [
+          "bodybiddybuggy",
+          "bodymrscooty"
+        ],
+        "mtb": 75,
+        "spg": -75,
+        "spr": -50,
+        "spw": -50,
+        "spy": -25,
+        "ttn": 25,
+        "type": "body",
+        "wgt": -50
+      },
+      {
+        "acc": 50,
+        "hda": 0,
+        "hdg": 25,
+        "hdw": 75,
+        "hdy": -25,
+        "id": "groupbodylandship",
+        "isd": 0,
+        "member": [
+          "bodylandship"
+        ],
+        "mtb": 50,
+        "spg": -50,
+        "spr": -25,
+        "spw": 50,
+        "spy": -75,
+        "ttn": 75,
+        "type": "body",
+        "wgt": -50
+      },
+      {
+        "acc": -50,
+        "hda": -25,
+        "hdg": 0,
+        "hdw": 0,
+        "hdy": 0,
+        "id": "groupbodysneeker",
+        "isd": 0,
+        "member": [
+          "bodysneeker",
+          "bodygoldstandard"
+        ],
+        "mtb": -25,
+        "spg": 25,
+        "spr": 0,
+        "spw": -25,
+        "spy": 0,
+        "ttn": -75,
+        "type": "body",
+        "wgt": 0
+      },
+      {
+        "acc": 25,
+        "hda": 0,
+        "hdg": 25,
+        "hdw": 25,
+        "hdy": 25,
+        "id": "groupbodyw25silverarrow",
+        "isd": 0,
+        "member": [
+          "bodyw25silverarrow",
+          "bodystandardbike",
+          "bodyflamerider",
+          "bodywildwiggler"
+        ],
+        "mtb": 25,
+        "spg": -25,
+        "spr": 0,
+        "spw": -25,
+        "spy": 25,
+        "ttn": 50,
+        "type": "body",
+        "wgt": -25
+      },
+      {
+        "acc": -25,
+        "hda": -50,
+        "hdg": -25,
+        "hdw": 25,
+        "hdy": 50,
+        "id": "groupbodybluefalcon",
+        "isd": 0,
+        "member": [
+          "bodybluefalcon",
+          "bodysplatbuggy"
+        ],
+        "mtb": -25,
+        "spg": 25,
+        "spr": 0,
+        "spw": -25,
+        "spy": 25,
+        "ttn": 0,
+        "type": "body",
+        "wgt": -50
+      },
+      {
+        "acc": -50,
+        "hda": 0,
+        "hdg": 25,
+        "hdw": 50,
+        "hdy": 0,
+        "id": "groupbodytanookikart",
+        "isd": 0,
+        "member": [
+          "bodytanookikart",
+          "bodykoopaclown"
+        ],
+        "mtb": -25,
+        "spg": -25,
+        "spr": 0,
+        "spw": 25,
+        "spy": 0,
+        "ttn": 100,
+        "type": "body",
+        "wgt": 25
+      },
+      {
+        "acc": 50,
+        "hda": 0,
+        "hdg": 25,
+        "hdw": 75,
+        "hdy": -25,
+        "id": "groupbodystreetle",
+        "isd": 0,
+        "member": [
+          "bodystreetle"
+        ],
+        "mtb": 50,
+        "spg": -50,
+        "spr": -25,
+        "spw": 25,
+        "spy": -75,
+        "ttn": 75,
+        "type": "body",
+        "wgt": -50
+      },
+      {
+        "acc": 25,
+        "hda": 25,
+        "hdg": 25,
+        "hdw": 0,
+        "hdy": 0,
+        "id": "groupbodycomet",
+        "isd": 1,
+        "member": [
+          "bodycomet",
+          "bodyyoshibike"
+        ],
+        "mtb": 25,
+        "spg": -25,
+        "spr": 25,
+        "spw": -25,
+        "spy": 0,
+        "ttn": 0,
+        "type": "body",
+        "wgt": 0
+      },
+      {
+        "acc": -50,
+        "hda": 0,
+        "hdg": 0,
+        "hdw": 25,
+        "hdy": -25,
+        "id": "groupbodysportbike",
+        "isd": 1,
+        "member": [
+          "bodysportbike",
+          "bodyjetbike"
+        ],
+        "mtb": -25,
+        "spg": 25,
+        "spr": 0,
+        "spw": 0,
+        "spy": 0,
+        "ttn": -25,
+        "type": "body",
+        "wgt": -25
+      },
+      {
+        "acc": -50,
+        "hda": -25,
+        "hdg": 0,
+        "hdw": 0,
+        "hdy": 0,
+        "id": "groupbodymastercycle",
+        "isd": 1,
+        "member": [
+          "bodymastercycle"
+        ],
+        "mtb": -25,
+        "spg": 25,
+        "spr": 0,
+        "spw": -25,
+        "spy": 0,
+        "ttn": -75,
+        "type": "body",
+        "wgt": 0
+      }
+    ],
+    "char": [
+      {
+        "acc": 400,
+        "hda": 500,
+        "hdg": 500,
+        "hdw": 450,
+        "hdy": 500,
+        "id": "groupcharbabypeach",
+        "isd": 0,
+        "member": [
+          "charbabypeach",
+          "charbabydaisy"
+        ],
+        "mtb": 400,
+        "spg": 225,
+        "spr": 275,
+        "spw": 250,
+        "spy": 200,
+        "ttn": 425,
+        "type": "char",
+        "wgt": 200
+      },
+      {
+        "acc": 425,
+        "hda": 475,
+        "hdg": 475,
+        "hdw": 425,
+        "hdy": 475,
+        "id": "groupcharbabyrosalina",
+        "isd": 0,
+        "member": [
+          "charbabyrosalina",
+          "charlemmykoopa"
+        ],
+        "mtb": 400,
+        "spg": 225,
+        "spr": 275,
+        "spw": 250,
+        "spy": 200,
+        "ttn": 375,
+        "type": "char",
+        "wgt": 200
+      },
+      {
+        "acc": 425,
+        "hda": 450,
+        "hdg": 450,
+        "hdw": 400,
+        "hdy": 450,
+        "id": "groupcharbabymario",
+        "isd": 0,
+        "member": [
+          "charbabymario",
+          "charbabyluigi",
+          "chardrybones",
+          "charmiil"
+        ],
+        "mtb": 375,
+        "spg": 250,
+        "spr": 300,
+        "spw": 275,
+        "spy": 225,
+        "ttn": 400,
+        "type": "char",
+        "wgt": 225
+      },
+      {
+        "acc": 400,
+        "hda": 450,
+        "hdg": 450,
+        "hdw": 400,
+        "hdy": 450,
+        "id": "groupcharkoopatroopa",
+        "isd": 0,
+        "member": [
+          "charkoopatroopa",
+          "charlakitu",
+          "charbowserjr"
+        ],
+        "mtb": 375,
+        "spg": 275,
+        "spr": 325,
+        "spw": 300,
+        "spy": 250,
+        "ttn": 425,
+        "type": "char",
+        "wgt": 250
+      },
+      {
+        "acc": 425,
+        "hda": 425,
+        "hdg": 425,
+        "hdw": 375,
+        "hdy": 425,
+        "id": "groupchartoadette",
+        "isd": 0,
+        "member": [
+          "chartoadette",
+          "charwendyokoopa",
+          "charisabelle"
+        ],
+        "mtb": 375,
+        "spg": 275,
+        "spr": 325,
+        "spw": 300,
+        "spy": 250,
+        "ttn": 350,
+        "type": "char",
+        "wgt": 250
+      },
+      {
+        "acc": 400,
+        "hda": 425,
+        "hdg": 425,
+        "hdw": 375,
+        "hdy": 425,
+        "id": "groupchartoad",
+        "isd": 0,
+        "member": [
+          "chartoad",
+          "charshyguy",
+          "charlarrykoopa"
+        ],
+        "mtb": 350,
+        "spg": 300,
+        "spr": 350,
+        "spw": 325,
+        "spy": 275,
+        "ttn": 400,
+        "type": "char",
+        "wgt": 275
+      },
+      {
+        "acc": 400,
+        "hda": 400,
+        "hdg": 400,
+        "hdw": 350,
+        "hdy": 400,
+        "id": "groupcharcatpeach",
+        "isd": 0,
+        "member": [
+          "charcatpeach",
+          "charinklinggirl",
+          "charvillagerf"
+        ],
+        "mtb": 350,
+        "spg": 325,
+        "spr": 375,
+        "spw": 350,
+        "spy": 300,
+        "ttn": 375,
+        "type": "char",
+        "wgt": 275
+      },
+      {
+        "acc": 375,
+        "hda": 375,
+        "hdg": 375,
+        "hdw": 325,
+        "hdy": 375,
+        "id": "groupcharpeach",
+        "isd": 0,
+        "member": [
+          "charpeach",
+          "chardaisy",
+          "charyoshi"
+        ],
+        "mtb": 350,
+        "spg": 350,
+        "spr": 400,
+        "spw": 375,
+        "spy": 325,
+        "ttn": 375,
+        "type": "char",
+        "wgt": 300
+      },
+      {
+        "acc": 375,
+        "hda": 375,
+        "hdg": 375,
+        "hdw": 325,
+        "hdy": 375,
+        "id": "groupchartanookimario",
+        "isd": 0,
+        "member": [
+          "chartanookimario",
+          "charinklingboy",
+          "charvillagerm"
+        ],
+        "mtb": 350,
+        "spg": 350,
+        "spr": 400,
+        "spw": 375,
+        "spy": 325,
+        "ttn": 325,
+        "type": "char",
+        "wgt": 325
+      },
+      {
+        "acc": 350,
+        "hda": 375,
+        "hdg": 375,
+        "hdw": 325,
+        "hdy": 375,
+        "id": "groupcharluigi",
+        "isd": 0,
+        "member": [
+          "charluigi",
+          "chariggy"
+        ],
+        "mtb": 325,
+        "spg": 375,
+        "spr": 425,
+        "spw": 400,
+        "spy": 350,
+        "ttn": 325,
+        "type": "char",
+        "wgt": 350
+      },
+      {
+        "acc": 350,
+        "hda": 350,
+        "hdg": 350,
+        "hdw": 300,
+        "hdy": 350,
+        "id": "groupcharmario",
+        "isd": 0,
+        "member": [
+          "charmario",
+          "charludwig",
+          "charmiim"
+        ],
+        "mtb": 325,
+        "spg": 375,
+        "spr": 425,
+        "spw": 400,
+        "spy": 350,
+        "ttn": 350,
+        "type": "char",
+        "wgt": 350
+      },
+      {
+        "acc": 325,
+        "hda": 325,
+        "hdg": 325,
+        "hdw": 275,
+        "hdy": 325,
+        "id": "groupcharrosalina",
+        "isd": 0,
+        "member": [
+          "charrosalina",
+          "charkingboo",
+          "charlink"
+        ],
+        "mtb": 325,
+        "spg": 400,
+        "spr": 450,
+        "spw": 425,
+        "spy": 375,
+        "ttn": 375,
+        "type": "char",
+        "wgt": 375
+      },
+      {
+        "acc": 325,
+        "hda": 300,
+        "hdg": 300,
+        "hdw": 250,
+        "hdy": 300,
+        "id": "groupcharwaluigi",
+        "isd": 0,
+        "member": [
+          "charwaluigi",
+          "chardonkeykong",
+          "charroy"
+        ],
+        "mtb": 300,
+        "spg": 450,
+        "spr": 500,
+        "spw": 475,
+        "spy": 425,
+        "ttn": 300,
+        "type": "char",
+        "wgt": 400
+      },
+      {
+        "acc": 300,
+        "hda": 275,
+        "hdg": 275,
+        "hdw": 225,
+        "hdy": 275,
+        "id": "groupcharwario",
+        "isd": 0,
+        "member": [
+          "charwario",
+          "chardrybowser"
+        ],
+        "mtb": 275,
+        "spg": 475,
+        "spr": 525,
+        "spw": 500,
+        "spy": 450,
+        "ttn": 325,
+        "type": "char",
+        "wgt": 425
+      },
+      {
+        "acc": 325,
+        "hda": 325,
+        "hdg": 325,
+        "hdw": 275,
+        "hdy": 325,
+        "id": "groupcharmetalmario",
+        "isd": 0,
+        "member": [
+          "charmetalmario",
+          "charpinkgoldpeach"
+        ],
+        "mtb": 300,
+        "spg": 425,
+        "spr": 475,
+        "spw": 450,
+        "spy": 400,
+        "ttn": 325,
+        "type": "char",
+        "wgt": 450
+      },
+      {
+        "acc": 300,
+        "hda": 250,
+        "hdg": 250,
+        "hdw": 200,
+        "hdy": 250,
+        "id": "groupcharbowser",
+        "isd": 0,
+        "member": [
+          "charbowser",
+          "charmorton",
+          "charmiih"
+        ],
+        "mtb": 275,
+        "spg": 475,
+        "spr": 525,
+        "spw": 500,
+        "spy": 450,
+        "ttn": 300,
+        "type": "char",
+        "wgt": 450
+      }
+    ],
+    "glider": [
+      {
+        "acc": 0,
+        "hda": 0,
+        "hdg": 0,
+        "hdw": 0,
+        "hdy": 0,
+        "id": "groupglidersuperglider",
+        "isd": 0,
+        "member": [
+          "glidersuperglider",
+          "gliderwaddlewing",
+          "gliderhyliankite"
+        ],
+        "mtb": 0,
+        "spg": 0,
+        "spr": 0,
+        "spw": 0,
+        "spy": 0,
+        "ttn": 0,
+        "type": "glider",
+        "wgt": 0
+      },
+      {
+        "acc": 25,
+        "hda": 25,
+        "hdg": 0,
+        "hdw": 0,
+        "hdy": 0,
+        "id": "groupglidercloudglider",
+        "isd": 0,
+        "member": [
+          "glidercloudglider",
+          "gliderparachute",
+          "gliderflowerglider",
+          "gliderpaperglider"
+        ],
+        "mtb": 25,
+        "spg": -25,
+        "spr": -25,
+        "spw": 0,
+        "spy": 25,
+        "ttn": 0,
+        "type": "glider",
+        "wgt": -25
+      },
+      {
+        "acc": 0,
+        "hda": 0,
+        "hdg": 0,
+        "hdw": 25,
+        "hdy": -25,
+        "id": "groupgliderwariowing",
+        "isd": 0,
+        "member": [
+          "gliderwariowing",
+          "gliderplaneglider",
+          "glidergoldglider"
+        ],
+        "mtb": 0,
+        "spg": 0,
+        "spr": 0,
+        "spw": -25,
+        "spy": 25,
+        "ttn": -25,
+        "type": "glider",
+        "wgt": 25
+      },
+      {
+        "acc": 25,
+        "hda": 25,
+        "hdg": 0,
+        "hdw": 25,
+        "hdy": -25,
+        "id": "groupgliderpeachparasol",
+        "isd": 0,
+        "member": [
+          "gliderpeachparasol",
+          "gliderparafoil",
+          "gliderbowserkite",
+          "glidermktvparafoil"
+        ],
+        "mtb": 25,
+        "spg": -25,
+        "spr": -25,
+        "spw": -25,
+        "spy": 25,
+        "ttn": -25,
+        "type": "glider",
+        "wgt": 0
+      }
+    ],
+    "tire": [
+      {
+        "acc": 0,
+        "hda": 0,
+        "hdg": 0,
+        "hdw": 0,
+        "hdy": 0,
+        "id": "grouptirestandard",
+        "isd": 0,
+        "member": [
+          "tirestandard",
+          "tirebluestandard",
+          "tireglatires"
+        ],
+        "mtb": 0,
+        "spg": 0,
+        "spr": 0,
+        "spw": 0,
+        "spy": 0,
+        "ttn": 0,
+        "type": "tire",
+        "wgt": 0
+      },
+      {
+        "acc": -50,
+        "hda": -50,
+        "hdg": -75,
+        "hdw": -50,
+        "hdy": -75,
+        "id": "grouptiremonster",
+        "isd": 0,
+        "member": [
+          "tiremonster",
+          "tirehotmonster"
+        ],
+        "mtb": -25,
+        "spg": 0,
+        "spr": -50,
+        "spw": -25,
+        "spy": 0,
+        "ttn": 50,
+        "type": "tire",
+        "wgt": 50
+      },
+      {
+        "acc": 50,
+        "hda": 25,
+        "hdg": 25,
+        "hdw": 25,
+        "hdy": 25,
+        "id": "grouptireroller",
+        "isd": 0,
+        "member": [
+          "tireroller",
+          "tireazureroller"
+        ],
+        "mtb": 75,
+        "spg": -50,
+        "spr": 0,
+        "spw": 0,
+        "spy": -50,
+        "ttn": -25,
+        "type": "tire",
+        "wgt": -50
+      },
+      {
+        "acc": -50,
+        "hda": 25,
+        "hdg": 25,
+        "hdw": 25,
+        "hdy": 0,
+        "id": "grouptireslim",
+        "isd": 0,
+        "member": [
+          "tireslim",
+          "tirewood",
+          "tirecrimsonslim"
+        ],
+        "mtb": -25,
+        "spg": 25,
+        "spr": -25,
+        "spw": -25,
+        "spy": 50,
+        "ttn": -100,
+        "type": "tire",
+        "wgt": 0
+      },
+      {
+        "acc": -75,
+        "hda": -50,
+        "hdg": -25,
+        "hdw": -75,
+        "hdy": -25,
+        "id": "grouptireslick",
+        "isd": 0,
+        "member": [
+          "tireslick",
+          "tirecyberslick"
+        ],
+        "mtb": -75,
+        "spg": 50,
+        "spr": -75,
+        "spw": -75,
+        "spy": 50,
+        "ttn": -125,
+        "type": "tire",
+        "wgt": 25
+      },
+      {
+        "acc": -100,
+        "hda": -75,
+        "hdg": -25,
+        "hdw": -25,
+        "hdy": -50,
+        "id": "grouptiremetal",
+        "isd": 0,
+        "member": [
+          "tiremetal",
+          "tiregoldtires"
+        ],
+        "mtb": -75,
+        "spg": 50,
+        "spr": -25,
+        "spw": 0,
+        "spy": -25,
+        "ttn": -75,
+        "type": "tire",
+        "wgt": 50
+      },
+      {
+        "acc": 25,
+        "hda": -25,
+        "hdg": 0,
+        "hdw": 0,
+        "hdy": 25,
+        "id": "grouptirebutton",
+        "isd": 0,
+        "member": [
+          "tirebutton",
+          "tireleaftires"
+        ],
+        "mtb": 50,
+        "spg": -25,
+        "spr": -25,
+        "spw": -25,
+        "spy": 0,
+        "ttn": -50,
+        "type": "tire",
+        "wgt": -50
+      },
+      {
+        "acc": -25,
+        "hda": -50,
+        "hdg": -50,
+        "hdw": -50,
+        "hdy": -25,
+        "id": "grouptireoffroad",
+        "isd": 0,
+        "member": [
+          "tireoffroad"
+        ],
+        "mtb": -50,
+        "spg": 25,
+        "spr": -50,
+        "spw": 25,
+        "spy": 0,
+        "ttn": 25,
+        "type": "tire",
+        "wgt": 25
+      },
+      {
+        "acc": 0,
+        "hda": 0,
+        "hdg": -25,
+        "hdw": -50,
+        "hdy": 0,
+        "id": "grouptiresponge",
+        "isd": 0,
+        "member": [
+          "tiresponge"
+        ],
+        "mtb": 25,
+        "spg": -25,
+        "spr": 25,
+        "spw": -50,
+        "spy": -25,
+        "ttn": 25,
+        "type": "tire",
+        "wgt": -25
+      },
+      {
+        "acc": 0,
+        "hda": 0,
+        "hdg": -25,
+        "hdw": -50,
+        "hdy": -25,
+        "id": "grouptirecushion",
+        "isd": 0,
+        "member": [
+          "tirecushion"
+        ],
+        "mtb": 25,
+        "spg": -25,
+        "spr": 25,
+        "spw": -50,
+        "spy": -25,
+        "ttn": 25,
+        "type": "tire",
+        "wgt": -25
+      },
+      {
+        "acc": -25,
+        "hda": -25,
+        "hdg": -50,
+        "hdw": -50,
+        "hdy": -25,
+        "id": "grouptireretrooffroad",
+        "isd": 0,
+        "member": [
+          "tireretrooffroad",
+          "tiretriforcetires"
+        ],
+        "mtb": -50,
+        "spg": 25,
+        "spr": -50,
+        "spw": 25,
+        "spy": 0,
+        "ttn": 25,
+        "type": "tire",
+        "wgt": 25
       }
     ]
   },
@@ -2172,6 +3351,7 @@
   "stat_list": [
     {
       "acc": 400,
+      "group": "groupcharbabypeach",
       "hda": 500,
       "hdg": 500,
       "hdw": 450,
@@ -2190,6 +3370,7 @@
     },
     {
       "acc": 400,
+      "group": "groupcharbabypeach",
       "hda": 500,
       "hdg": 500,
       "hdw": 450,
@@ -2208,6 +3389,7 @@
     },
     {
       "acc": 425,
+      "group": "groupcharbabyrosalina",
       "hda": 475,
       "hdg": 475,
       "hdw": 425,
@@ -2226,6 +3408,7 @@
     },
     {
       "acc": 425,
+      "group": "groupcharbabyrosalina",
       "hda": 475,
       "hdg": 475,
       "hdw": 425,
@@ -2244,6 +3427,7 @@
     },
     {
       "acc": 425,
+      "group": "groupcharbabymario",
       "hda": 450,
       "hdg": 450,
       "hdw": 400,
@@ -2262,6 +3446,7 @@
     },
     {
       "acc": 425,
+      "group": "groupcharbabymario",
       "hda": 450,
       "hdg": 450,
       "hdw": 400,
@@ -2280,6 +3465,7 @@
     },
     {
       "acc": 425,
+      "group": "groupcharbabymario",
       "hda": 450,
       "hdg": 450,
       "hdw": 400,
@@ -2298,6 +3484,7 @@
     },
     {
       "acc": 425,
+      "group": "groupcharbabymario",
       "hda": 450,
       "hdg": 450,
       "hdw": 400,
@@ -2316,6 +3503,7 @@
     },
     {
       "acc": 400,
+      "group": "groupcharkoopatroopa",
       "hda": 450,
       "hdg": 450,
       "hdw": 400,
@@ -2334,6 +3522,7 @@
     },
     {
       "acc": 400,
+      "group": "groupcharkoopatroopa",
       "hda": 450,
       "hdg": 450,
       "hdw": 400,
@@ -2352,6 +3541,7 @@
     },
     {
       "acc": 400,
+      "group": "groupcharkoopatroopa",
       "hda": 450,
       "hdg": 450,
       "hdw": 400,
@@ -2370,6 +3560,7 @@
     },
     {
       "acc": 425,
+      "group": "groupchartoadette",
       "hda": 425,
       "hdg": 425,
       "hdw": 375,
@@ -2388,6 +3579,7 @@
     },
     {
       "acc": 425,
+      "group": "groupchartoadette",
       "hda": 425,
       "hdg": 425,
       "hdw": 375,
@@ -2406,6 +3598,7 @@
     },
     {
       "acc": 425,
+      "group": "groupchartoadette",
       "hda": 425,
       "hdg": 425,
       "hdw": 375,
@@ -2424,6 +3617,7 @@
     },
     {
       "acc": 400,
+      "group": "groupchartoad",
       "hda": 425,
       "hdg": 425,
       "hdw": 375,
@@ -2442,6 +3636,7 @@
     },
     {
       "acc": 400,
+      "group": "groupchartoad",
       "hda": 425,
       "hdg": 425,
       "hdw": 375,
@@ -2460,6 +3655,7 @@
     },
     {
       "acc": 400,
+      "group": "groupchartoad",
       "hda": 425,
       "hdg": 425,
       "hdw": 375,
@@ -2478,6 +3674,7 @@
     },
     {
       "acc": 400,
+      "group": "groupcharcatpeach",
       "hda": 400,
       "hdg": 400,
       "hdw": 350,
@@ -2496,6 +3693,7 @@
     },
     {
       "acc": 400,
+      "group": "groupcharcatpeach",
       "hda": 400,
       "hdg": 400,
       "hdw": 350,
@@ -2514,6 +3712,7 @@
     },
     {
       "acc": 400,
+      "group": "groupcharcatpeach",
       "hda": 400,
       "hdg": 400,
       "hdw": 350,
@@ -2532,6 +3731,7 @@
     },
     {
       "acc": 375,
+      "group": "groupcharpeach",
       "hda": 375,
       "hdg": 375,
       "hdw": 325,
@@ -2550,6 +3750,7 @@
     },
     {
       "acc": 375,
+      "group": "groupcharpeach",
       "hda": 375,
       "hdg": 375,
       "hdw": 325,
@@ -2568,6 +3769,7 @@
     },
     {
       "acc": 375,
+      "group": "groupcharpeach",
       "hda": 375,
       "hdg": 375,
       "hdw": 325,
@@ -2586,6 +3788,7 @@
     },
     {
       "acc": 375,
+      "group": "groupchartanookimario",
       "hda": 375,
       "hdg": 375,
       "hdw": 325,
@@ -2604,6 +3807,7 @@
     },
     {
       "acc": 375,
+      "group": "groupchartanookimario",
       "hda": 375,
       "hdg": 375,
       "hdw": 325,
@@ -2622,6 +3826,7 @@
     },
     {
       "acc": 375,
+      "group": "groupchartanookimario",
       "hda": 375,
       "hdg": 375,
       "hdw": 325,
@@ -2640,6 +3845,7 @@
     },
     {
       "acc": 350,
+      "group": "groupcharluigi",
       "hda": 375,
       "hdg": 375,
       "hdw": 325,
@@ -2658,6 +3864,7 @@
     },
     {
       "acc": 350,
+      "group": "groupcharluigi",
       "hda": 375,
       "hdg": 375,
       "hdw": 325,
@@ -2676,6 +3883,7 @@
     },
     {
       "acc": 350,
+      "group": "groupcharmario",
       "hda": 350,
       "hdg": 350,
       "hdw": 300,
@@ -2694,6 +3902,7 @@
     },
     {
       "acc": 350,
+      "group": "groupcharmario",
       "hda": 350,
       "hdg": 350,
       "hdw": 300,
@@ -2712,6 +3921,7 @@
     },
     {
       "acc": 350,
+      "group": "groupcharmario",
       "hda": 350,
       "hdg": 350,
       "hdw": 300,
@@ -2730,6 +3940,7 @@
     },
     {
       "acc": 325,
+      "group": "groupcharrosalina",
       "hda": 325,
       "hdg": 325,
       "hdw": 275,
@@ -2748,6 +3959,7 @@
     },
     {
       "acc": 325,
+      "group": "groupcharrosalina",
       "hda": 325,
       "hdg": 325,
       "hdw": 275,
@@ -2766,6 +3978,7 @@
     },
     {
       "acc": 325,
+      "group": "groupcharrosalina",
       "hda": 325,
       "hdg": 325,
       "hdw": 275,
@@ -2784,6 +3997,7 @@
     },
     {
       "acc": 325,
+      "group": "groupcharwaluigi",
       "hda": 300,
       "hdg": 300,
       "hdw": 250,
@@ -2802,6 +4016,7 @@
     },
     {
       "acc": 325,
+      "group": "groupcharwaluigi",
       "hda": 300,
       "hdg": 300,
       "hdw": 250,
@@ -2820,6 +4035,7 @@
     },
     {
       "acc": 325,
+      "group": "groupcharwaluigi",
       "hda": 300,
       "hdg": 300,
       "hdw": 250,
@@ -2838,6 +4054,7 @@
     },
     {
       "acc": 300,
+      "group": "groupcharwario",
       "hda": 275,
       "hdg": 275,
       "hdw": 225,
@@ -2856,6 +4073,7 @@
     },
     {
       "acc": 300,
+      "group": "groupcharwario",
       "hda": 275,
       "hdg": 275,
       "hdw": 225,
@@ -2874,6 +4092,7 @@
     },
     {
       "acc": 325,
+      "group": "groupcharmetalmario",
       "hda": 325,
       "hdg": 325,
       "hdw": 275,
@@ -2892,6 +4111,7 @@
     },
     {
       "acc": 325,
+      "group": "groupcharmetalmario",
       "hda": 325,
       "hdg": 325,
       "hdw": 275,
@@ -2910,6 +4130,7 @@
     },
     {
       "acc": 300,
+      "group": "groupcharbowser",
       "hda": 250,
       "hdg": 250,
       "hdw": 200,
@@ -2928,6 +4149,7 @@
     },
     {
       "acc": 300,
+      "group": "groupcharbowser",
       "hda": 250,
       "hdg": 250,
       "hdw": 200,
@@ -2946,6 +4168,7 @@
     },
     {
       "acc": 300,
+      "group": "groupcharbowser",
       "hda": 250,
       "hdg": 250,
       "hdw": 200,
@@ -2964,6 +4187,7 @@
     },
     {
       "acc": 0,
+      "group": "groupbodystandardkart",
       "hda": 0,
       "hdg": 0,
       "hdw": 0,
@@ -2982,6 +4206,7 @@
     },
     {
       "acc": 50,
+      "group": "groupbodypipeframe",
       "hda": -25,
       "hdg": 50,
       "hdw": 50,
@@ -3000,6 +4225,7 @@
     },
     {
       "acc": -25,
+      "group": "groupbodymach8",
       "hda": -25,
       "hdg": -25,
       "hdw": 0,
@@ -3018,6 +4244,7 @@
     },
     {
       "acc": -75,
+      "group": "groupbodysteeldriver",
       "hda": -50,
       "hdg": -50,
       "hdw": 75,
@@ -3036,6 +4263,7 @@
     },
     {
       "acc": 25,
+      "group": "groupbodycatcruiser",
       "hda": 25,
       "hdg": 25,
       "hdw": 0,
@@ -3054,6 +4282,7 @@
     },
     {
       "acc": -75,
+      "group": "groupbodycircuitspecial",
       "hda": -75,
       "hdg": -50,
       "hdw": -25,
@@ -3072,6 +4301,7 @@
     },
     {
       "acc": -75,
+      "group": "groupbodysteeldriver",
       "hda": -50,
       "hdg": -50,
       "hdw": 75,
@@ -3090,6 +4320,7 @@
     },
     {
       "acc": -100,
+      "group": "groupbodybadwagon",
       "hda": -75,
       "hdg": -75,
       "hdw": -25,
@@ -3108,6 +4339,7 @@
     },
     {
       "acc": -50,
+      "group": "groupbodyprancer",
       "hda": 0,
       "hdg": 0,
       "hdw": 25,
@@ -3126,6 +4358,7 @@
     },
     {
       "acc": 75,
+      "group": "groupbodybiddybuggy",
       "hda": 25,
       "hdg": 50,
       "hdw": 50,
@@ -3144,6 +4377,7 @@
     },
     {
       "acc": 50,
+      "group": "groupbodylandship",
       "hda": 0,
       "hdg": 25,
       "hdw": 75,
@@ -3162,6 +4396,7 @@
     },
     {
       "acc": -50,
+      "group": "groupbodysneeker",
       "hda": -25,
       "hdg": 0,
       "hdw": 0,
@@ -3180,6 +4415,7 @@
     },
     {
       "acc": -25,
+      "group": "groupbodymach8",
       "hda": -25,
       "hdg": -25,
       "hdw": 0,
@@ -3198,6 +4434,7 @@
     },
     {
       "acc": -50,
+      "group": "groupbodysneeker",
       "hda": -25,
       "hdg": 0,
       "hdw": 0,
@@ -3216,6 +4453,7 @@
     },
     {
       "acc": -100,
+      "group": "groupbodybadwagon",
       "hda": -75,
       "hdg": -75,
       "hdw": -25,
@@ -3234,6 +4472,7 @@
     },
     {
       "acc": 25,
+      "group": "groupbodyw25silverarrow",
       "hda": 0,
       "hdg": 25,
       "hdw": 25,
@@ -3252,6 +4491,7 @@
     },
     {
       "acc": 0,
+      "group": "groupbodystandardkart",
       "hda": 0,
       "hdg": 0,
       "hdw": 0,
@@ -3270,6 +4510,7 @@
     },
     {
       "acc": -25,
+      "group": "groupbodybluefalcon",
       "hda": -50,
       "hdg": -25,
       "hdw": 25,
@@ -3288,6 +4529,7 @@
     },
     {
       "acc": -50,
+      "group": "groupbodytanookikart",
       "hda": 0,
       "hdg": 25,
       "hdw": 50,
@@ -3306,6 +4548,7 @@
     },
     {
       "acc": -75,
+      "group": "groupbodycircuitspecial",
       "hda": -75,
       "hdg": -50,
       "hdw": -25,
@@ -3324,6 +4567,7 @@
     },
     {
       "acc": 50,
+      "group": "groupbodystreetle",
       "hda": 0,
       "hdg": 25,
       "hdw": 75,
@@ -3342,6 +4586,7 @@
     },
     {
       "acc": -75,
+      "group": "groupbodycircuitspecial",
       "hda": -75,
       "hdg": -50,
       "hdw": -25,
@@ -3360,6 +4605,7 @@
     },
     {
       "acc": -50,
+      "group": "groupbodytanookikart",
       "hda": 0,
       "hdg": 25,
       "hdw": 50,
@@ -3378,6 +4624,7 @@
     },
     {
       "acc": 25,
+      "group": "groupbodyw25silverarrow",
       "hda": 0,
       "hdg": 25,
       "hdw": 25,
@@ -3396,6 +4643,7 @@
     },
     {
       "acc": 25,
+      "group": "groupbodycomet",
       "hda": 25,
       "hdg": 25,
       "hdw": 0,
@@ -3414,6 +4662,7 @@
     },
     {
       "acc": -50,
+      "group": "groupbodysportbike",
       "hda": 0,
       "hdg": 0,
       "hdw": 25,
@@ -3432,6 +4681,7 @@
     },
     {
       "acc": 0,
+      "group": "groupbodystandardkart",
       "hda": 0,
       "hdg": 0,
       "hdw": 0,
@@ -3450,6 +4700,7 @@
     },
     {
       "acc": 25,
+      "group": "groupbodyw25silverarrow",
       "hda": 0,
       "hdg": 25,
       "hdw": 25,
@@ -3468,6 +4719,7 @@
     },
     {
       "acc": 50,
+      "group": "groupbodypipeframe",
       "hda": -25,
       "hdg": 50,
       "hdw": 50,
@@ -3486,6 +4738,7 @@
     },
     {
       "acc": 75,
+      "group": "groupbodybiddybuggy",
       "hda": 25,
       "hdg": 50,
       "hdw": 50,
@@ -3504,6 +4757,7 @@
     },
     {
       "acc": -50,
+      "group": "groupbodysportbike",
       "hda": 0,
       "hdg": 0,
       "hdw": 25,
@@ -3522,6 +4776,7 @@
     },
     {
       "acc": 25,
+      "group": "groupbodycomet",
       "hda": 25,
       "hdg": 25,
       "hdw": 0,
@@ -3540,6 +4795,7 @@
     },
     {
       "acc": -50,
+      "group": "groupbodymastercycle",
       "hda": -25,
       "hdg": 0,
       "hdw": 0,
@@ -3558,6 +4814,7 @@
     },
     {
       "acc": 50,
+      "group": "groupbodypipeframe",
       "hda": -25,
       "hdg": 50,
       "hdw": 50,
@@ -3576,6 +4833,7 @@
     },
     {
       "acc": -100,
+      "group": "groupbodybadwagon",
       "hda": -75,
       "hdg": -75,
       "hdw": -25,
@@ -3594,6 +4852,7 @@
     },
     {
       "acc": 25,
+      "group": "groupbodyw25silverarrow",
       "hda": 0,
       "hdg": 25,
       "hdw": 25,
@@ -3612,6 +4871,7 @@
     },
     {
       "acc": 25,
+      "group": "groupbodycatcruiser",
       "hda": 25,
       "hdg": 25,
       "hdw": 0,
@@ -3630,6 +4890,7 @@
     },
     {
       "acc": -75,
+      "group": "groupbodysteeldriver",
       "hda": -50,
       "hdg": -50,
       "hdw": 75,
@@ -3648,6 +4909,7 @@
     },
     {
       "acc": -25,
+      "group": "groupbodymach8",
       "hda": -25,
       "hdg": -25,
       "hdw": 0,
@@ -3666,6 +4928,7 @@
     },
     {
       "acc": -25,
+      "group": "groupbodybluefalcon",
       "hda": -50,
       "hdg": -25,
       "hdw": 25,
@@ -3684,6 +4947,7 @@
     },
     {
       "acc": 0,
+      "group": "grouptirestandard",
       "hda": 0,
       "hdg": 0,
       "hdw": 0,
@@ -3702,6 +4966,7 @@
     },
     {
       "acc": -50,
+      "group": "grouptiremonster",
       "hda": -50,
       "hdg": -75,
       "hdw": -50,
@@ -3720,6 +4985,7 @@
     },
     {
       "acc": 50,
+      "group": "grouptireroller",
       "hda": 25,
       "hdg": 25,
       "hdw": 25,
@@ -3738,6 +5004,7 @@
     },
     {
       "acc": -50,
+      "group": "grouptireslim",
       "hda": 25,
       "hdg": 25,
       "hdw": 25,
@@ -3756,6 +5023,7 @@
     },
     {
       "acc": -75,
+      "group": "grouptireslick",
       "hda": -50,
       "hdg": -25,
       "hdw": -75,
@@ -3774,6 +5042,7 @@
     },
     {
       "acc": -100,
+      "group": "grouptiremetal",
       "hda": -75,
       "hdg": -25,
       "hdw": -25,
@@ -3792,6 +5061,7 @@
     },
     {
       "acc": 25,
+      "group": "grouptirebutton",
       "hda": -25,
       "hdg": 0,
       "hdw": 0,
@@ -3810,6 +5080,7 @@
     },
     {
       "acc": -25,
+      "group": "grouptireoffroad",
       "hda": -50,
       "hdg": -50,
       "hdw": -50,
@@ -3828,6 +5099,7 @@
     },
     {
       "acc": 0,
+      "group": "grouptiresponge",
       "hda": 0,
       "hdg": -25,
       "hdw": -50,
@@ -3846,6 +5118,7 @@
     },
     {
       "acc": -50,
+      "group": "grouptireslim",
       "hda": 25,
       "hdg": 25,
       "hdw": 25,
@@ -3864,6 +5137,7 @@
     },
     {
       "acc": 0,
+      "group": "grouptirecushion",
       "hda": 0,
       "hdg": -25,
       "hdw": -50,
@@ -3882,6 +5156,7 @@
     },
     {
       "acc": 0,
+      "group": "grouptirestandard",
       "hda": 0,
       "hdg": 0,
       "hdw": 0,
@@ -3900,6 +5175,7 @@
     },
     {
       "acc": -50,
+      "group": "grouptiremonster",
       "hda": -50,
       "hdg": -75,
       "hdw": -50,
@@ -3918,6 +5194,7 @@
     },
     {
       "acc": 50,
+      "group": "grouptireroller",
       "hda": 25,
       "hdg": 25,
       "hdw": 25,
@@ -3936,6 +5213,7 @@
     },
     {
       "acc": -50,
+      "group": "grouptireslim",
       "hda": 25,
       "hdg": 25,
       "hdw": 25,
@@ -3954,6 +5232,7 @@
     },
     {
       "acc": -75,
+      "group": "grouptireslick",
       "hda": -50,
       "hdg": -25,
       "hdw": -75,
@@ -3972,6 +5251,7 @@
     },
     {
       "acc": -25,
+      "group": "grouptireretrooffroad",
       "hda": -25,
       "hdg": -50,
       "hdw": -50,
@@ -3990,6 +5270,7 @@
     },
     {
       "acc": -100,
+      "group": "grouptiremetal",
       "hda": -75,
       "hdg": -25,
       "hdw": -25,
@@ -4008,6 +5289,7 @@
     },
     {
       "acc": 0,
+      "group": "grouptirestandard",
       "hda": 0,
       "hdg": 0,
       "hdw": 0,
@@ -4026,6 +5308,7 @@
     },
     {
       "acc": -25,
+      "group": "grouptireretrooffroad",
       "hda": -25,
       "hdg": -50,
       "hdw": -50,
@@ -4044,6 +5327,7 @@
     },
     {
       "acc": 25,
+      "group": "grouptirebutton",
       "hda": -25,
       "hdg": 0,
       "hdw": 0,
@@ -4062,6 +5346,7 @@
     },
     {
       "acc": 0,
+      "group": "groupglidersuperglider",
       "hda": 0,
       "hdg": 0,
       "hdw": 0,
@@ -4080,6 +5365,7 @@
     },
     {
       "acc": 25,
+      "group": "groupglidercloudglider",
       "hda": 25,
       "hdg": 0,
       "hdw": 0,
@@ -4098,6 +5384,7 @@
     },
     {
       "acc": 0,
+      "group": "groupgliderwariowing",
       "hda": 0,
       "hdg": 0,
       "hdw": 25,
@@ -4116,6 +5403,7 @@
     },
     {
       "acc": 0,
+      "group": "groupglidersuperglider",
       "hda": 0,
       "hdg": 0,
       "hdw": 0,
@@ -4134,6 +5422,7 @@
     },
     {
       "acc": 25,
+      "group": "groupgliderpeachparasol",
       "hda": 25,
       "hdg": 0,
       "hdw": 25,
@@ -4152,6 +5441,7 @@
     },
     {
       "acc": 25,
+      "group": "groupglidercloudglider",
       "hda": 25,
       "hdg": 0,
       "hdw": 0,
@@ -4170,6 +5460,7 @@
     },
     {
       "acc": 25,
+      "group": "groupgliderpeachparasol",
       "hda": 25,
       "hdg": 0,
       "hdw": 25,
@@ -4188,6 +5479,7 @@
     },
     {
       "acc": 25,
+      "group": "groupglidercloudglider",
       "hda": 25,
       "hdg": 0,
       "hdw": 0,
@@ -4206,6 +5498,7 @@
     },
     {
       "acc": 25,
+      "group": "groupgliderpeachparasol",
       "hda": 25,
       "hdg": 0,
       "hdw": 25,
@@ -4224,6 +5517,7 @@
     },
     {
       "acc": 0,
+      "group": "groupgliderwariowing",
       "hda": 0,
       "hdg": 0,
       "hdw": 25,
@@ -4242,6 +5536,7 @@
     },
     {
       "acc": 25,
+      "group": "groupgliderpeachparasol",
       "hda": 25,
       "hdg": 0,
       "hdw": 25,
@@ -4260,6 +5555,7 @@
     },
     {
       "acc": 0,
+      "group": "groupgliderwariowing",
       "hda": 0,
       "hdg": 0,
       "hdw": 25,
@@ -4278,6 +5574,7 @@
     },
     {
       "acc": 0,
+      "group": "groupglidersuperglider",
       "hda": 0,
       "hdg": 0,
       "hdw": 0,
@@ -4296,6 +5593,7 @@
     },
     {
       "acc": 25,
+      "group": "groupglidercloudglider",
       "hda": 25,
       "hdg": 0,
       "hdw": 0,
