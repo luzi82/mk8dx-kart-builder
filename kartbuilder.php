@@ -12,6 +12,7 @@ $BOOL_LIST = [
 </head>
 <body>
 <h2>Stat</h2>
+<button onclick='set_all("stat_box",true)'>All</button>
 <table>
 <tr>
 <th></th>
@@ -28,7 +29,7 @@ foreach($DATA["stat_type_list"] as $stat_type){
 		print("<th>".$stat_type["name"]."</th>\n");
 		for($i=$DATA["stat_min"];$i<=$DATA["stat_max"];$i+=25){
 			$key = "stat_".$stat_type["id"]."_".$i;
-			print("<td id='".$key."_bg'><input class='box' onclick='box_click()' type='checkbox' id='".$key."_box'/></td>\n");
+			print("<td id='".$key."_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='".$key."_box'/></td>\n");
 		}
 		print("</tr>\n");
 	}
@@ -72,9 +73,6 @@ foreach($DATA["part_type_list"] as $part_type){
 }
 
 ?>
-
-<button onclick="search_click()">Search</button>
-<button onclick="filter_click()">Update all filter</button>
 
 <h2>Search result</h2>
 <div id="search_count"></div>
