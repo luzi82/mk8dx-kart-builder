@@ -97,7 +97,7 @@ function searchSolution(condition){
 	var condition0 = getDummyCondition();
 	
 	// detect group
-	var part_group_dict_dict = {};
+	var part_group_dict_dict = {}; // part-id, group-id
 	for(var part_type_id in condition['part']){
 		var part_group_dict = {};
 		part_group_dict_dict[part_type_id] = part_group_dict;
@@ -112,11 +112,64 @@ function searchSolution(condition){
 			part_group_dict[group_id]['member_list'].push(PART_STAT_DICT[part_id]);
 		}
 	}
+	
+	// scan layer range
+	var layer_stat_dict_dict_dict = {}; // part-id, stattype-id, min/max
+	for(var part_idx in DATA["part_type_list"]){
+		var part_id = DATA["part_type_list"][part_idx]['id'];
+		layer_stat_dict_dict_dict[part_id] = {};
+		for(var stattype_idx in DATA["stat_type_list"]){
+			var stattype_id = DATA["stat_type_list"][stattype_idx]['id'];
+			var layer_stat_dict = layer_stat_dict_dict_dict[part_id][stattype_id] = {};
+			layer_stat_dict['min'] = DATA['stat_max'] + 100;
+			layer_stat_dict['max'] = DATA['stat_min'] - 100;
+			for(var group_id in part_group_dict_dict[part_id]){
+				var part_group = part_group_dict_dict[part_id][group_id];
+				var value = part_group[stattype_id];
+				layer_stat_dict['min'] = min(layer_stat_dict['min'],value);
+				layer_stat_dict['max'] = max(layer_stat_dict['max'],value);
+			}
+		}
+	}
+	
+	var last_part_id = null;
+	for(var part_idx=DATA["part_type_list"].length-1;part_idx>=0;--part_idx){
+		var part_id = DATA["part_type_list"][part_idx]['id'];
+		for(var stattype_idx in DATA["stat_type_list"]){
+			var stattype_id = DATA["stat_type_list"][stattype_idx]['id'];
+			layer_stat_dict_dict_dict[part_id][stattype_id]['minsum'] = layer_stat_dict_dict_dict[part_id][stattype_id]['min'];
+			layer_stat_dict_dict_dict[part_id][stattype_id]['maxsum'] = layer_stat_dict_dict_dict[part_id][stattype_id]['max'];
+			if(last_part_id!=null){
+				layer_stat_dict_dict_dict[part_id][stattype_id]['minsum'] += layer_stat_dict_dict_dict[last_part_id][stattype_id]['min'];
+				layer_stat_dict_dict_dict[part_id][stattype_id]['maxsum'] += layer_stat_dict_dict_dict[last_part_id][stattype_id]['max'];
+			}
+		}
+		last_part_id = part_id;
+	}
+	
+	//console.log(layer_stat_dict_dict_dict);
+	
+	var kart_stat_dict = {};
+	for(var stattype_idx in DATA["stat_type_list"]){
+		var stattype_id = DATA["stat_type_list"][stattype_idx]['id'];
+		kart_stat_dict[stattype_id] = 0;
+	}
 
-	for(var char_part_group_id   in part_group_dict_dict['char'])  {var char_part_group   = part_group_dict_dict['char'  ][char_part_group_id];
-	for(var body_part_group_id   in part_group_dict_dict['body'])  {var body_part_group   = part_group_dict_dict['body'  ][body_part_group_id];
-	for(var tire_part_group_id   in part_group_dict_dict['tire'])  {var tire_part_group   = part_group_dict_dict['tire'  ][tire_part_group_id];
-	for(var glider_part_group_id in part_group_dict_dict['glider']){var glider_part_group = part_group_dict_dict['glider'][glider_part_group_id];
+	for(var char_part_group_id   in part_group_dict_dict['char'])  {
+		var char_part_group   = part_group_dict_dict['char'  ][char_part_group_id];
+		var kart_stat_dict_0 = add_stat(kart_stat_dict,char_part_group);
+		if(!check_range(kart_stat_dict_0,layer_stat_dict_dict_dict['body'],condition))continue;
+	for(var body_part_group_id   in part_group_dict_dict['body'])  {
+		var body_part_group   = part_group_dict_dict['body'  ][body_part_group_id];
+		var kart_stat_dict_1 = add_stat(kart_stat_dict_0,body_part_group);
+		if(!check_range(kart_stat_dict_1,layer_stat_dict_dict_dict['tire'],condition))continue;
+	for(var tire_part_group_id   in part_group_dict_dict['tire'])  {
+		var tire_part_group   = part_group_dict_dict['tire'  ][tire_part_group_id];
+		var kart_stat_dict_2 = add_stat(kart_stat_dict_1,tire_part_group);
+		if(!check_range(kart_stat_dict_2,layer_stat_dict_dict_dict['glider'],condition))continue;
+	for(var glider_part_group_id in part_group_dict_dict['glider']){
+		var glider_part_group = part_group_dict_dict['glider'][glider_part_group_id];
+
 		var good = true;
 		stat = {};
 		DATA['stat_type_list'].forEach(function(stat_type){
@@ -174,6 +227,30 @@ function searchSolution(condition){
 	};
 }
 
+function add_stat(stat_dict,group){
+	var ret = {};
+	for(var stattype_idx in DATA["stat_type_list"]){
+		var stattype_id = DATA["stat_type_list"][stattype_idx]['id'];
+		ret[stattype_id]=stat_dict[stattype_id]+group[stattype_id];
+	}
+	return ret;
+}
+
+function check_range(stat_dict,layer_stat_dict_dict,condition){
+	for(var stattype_idx in DATA["stat_type_list"]){
+		var stattype_id = DATA["stat_type_list"][stattype_idx]['id'];
+		var min=stat_dict[stattype_id]+layer_stat_dict_dict[stattype_id]['minsum'];
+		var max=stat_dict[stattype_id]+layer_stat_dict_dict[stattype_id]['maxsum'];
+		var good=false;
+		for(var i=max;i>=min;i-=25){
+			good = good || condition['stat'][stattype_id][i];
+			if(good)break;
+		}
+		if(!good)return false;
+	}
+	return true;
+}
+
 function set_all(key,value){
 	$('.'+key).prop('checked',value);
 	updateAll();
@@ -193,7 +270,7 @@ function stat_arrow_click(type,value){
 		var v = $('#'+key+'_box').is(":checked");
 		all_zero = all_zero && (!v);
 	}
-	console.log(all_zero);
+	//console.log(all_zero);
 	var set_value = all_zero;
 	for(var i=stat_min;i<=value;i+=25){
 		var key = "stat_"+type+"_"+i;
@@ -298,6 +375,10 @@ function draw_part_filter(part_filter){
 		}
 	}
 }
+
+function max(a,b){return (a>b)?a:b;}
+function min(a,b){return (a<b)?a:b;}
+function clone(x){return JSON.parse(JSON.stringify(x));}
 
 $.getJSON('data.json',function(output){
 	DATA=output;
