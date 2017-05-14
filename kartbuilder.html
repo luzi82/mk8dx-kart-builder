@@ -3,7 +3,7 @@
 <title>Mario Kart 8 Kart builder</title>
 </head>
 <body>
-<p style="color:red">Warning: The data are came from <a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe">MarioWiki</a>, and the data seems incorrect.  For example, "Off Road" is weaker than "Retro Off Road" by only one stat.  I guess there is some mistake.  I have purchased the Prima guide book for Amazon and waiting for shipping.  Once I get the book I will fix the value.</p>
+<p style="color:red">Warning: The data are came from <a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe">MarioWiki</a>, and the data seems incorrect.  For example, "Off Road" is weaker than "Retro Off Road" by only one stat.  I guess there is some mistake.  I have purchased the Prima guide book for Amazon and it will arrive ETA May26-Jun2.  Once I get the book I will fix the value.</p>
 <h2>Stat</h2>
 <button onclick='set_all("stat_box",true)'>All</button>
 <table>
@@ -34,291 +34,1035 @@
 <tr>
 <tr>
 <th>Speed Ground</th>
-<td id='stat_spg_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_75_box'/></td>
-<td id='stat_spg_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_100_box'/></td>
-<td id='stat_spg_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_125_box'/></td>
-<td id='stat_spg_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_150_box'/></td>
-<td id='stat_spg_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_175_box'/></td>
-<td id='stat_spg_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_200_box'/></td>
-<td id='stat_spg_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_225_box'/></td>
-<td id='stat_spg_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_250_box'/></td>
-<td id='stat_spg_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_275_box'/></td>
-<td id='stat_spg_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_300_box'/></td>
-<td id='stat_spg_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_325_box'/></td>
-<td id='stat_spg_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_350_box'/></td>
-<td id='stat_spg_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_375_box'/></td>
-<td id='stat_spg_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_400_box'/></td>
-<td id='stat_spg_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_425_box'/></td>
-<td id='stat_spg_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_450_box'/></td>
-<td id='stat_spg_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_475_box'/></td>
-<td id='stat_spg_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_500_box'/></td>
-<td id='stat_spg_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_525_box'/></td>
-<td id='stat_spg_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_550_box'/></td>
-<td id='stat_spg_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_575_box'/></td>
+<td id='stat_spg_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",75)'>&#9664;</span>
+</td>
+<td id='stat_spg_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",100)'>&#9664;</span>
+</td>
+<td id='stat_spg_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",125)'>&#9664;</span>
+</td>
+<td id='stat_spg_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",150)'>&#9664;</span>
+</td>
+<td id='stat_spg_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",175)'>&#9664;</span>
+</td>
+<td id='stat_spg_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",200)'>&#9664;</span>
+</td>
+<td id='stat_spg_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",225)'>&#9664;</span>
+</td>
+<td id='stat_spg_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",250)'>&#9664;</span>
+</td>
+<td id='stat_spg_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",275)'>&#9664;</span>
+</td>
+<td id='stat_spg_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",300)'>&#9664;</span>
+</td>
+<td id='stat_spg_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",325)'>&#9664;</span>
+</td>
+<td id='stat_spg_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",350)'>&#9664;</span>
+</td>
+<td id='stat_spg_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",375)'>&#9664;</span>
+</td>
+<td id='stat_spg_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",400)'>&#9664;</span>
+</td>
+<td id='stat_spg_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",425)'>&#9664;</span>
+</td>
+<td id='stat_spg_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",450)'>&#9664;</span>
+</td>
+<td id='stat_spg_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",475)'>&#9664;</span>
+</td>
+<td id='stat_spg_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",500)'>&#9664;</span>
+</td>
+<td id='stat_spg_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",525)'>&#9664;</span>
+</td>
+<td id='stat_spg_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spg",550)'>&#9664;</span>
+</td>
+<td id='stat_spg_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spg_575_box'/>
+</td>
 </tr>
 <tr>
 <th>Speed Water</th>
-<td id='stat_spw_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_75_box'/></td>
-<td id='stat_spw_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_100_box'/></td>
-<td id='stat_spw_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_125_box'/></td>
-<td id='stat_spw_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_150_box'/></td>
-<td id='stat_spw_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_175_box'/></td>
-<td id='stat_spw_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_200_box'/></td>
-<td id='stat_spw_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_225_box'/></td>
-<td id='stat_spw_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_250_box'/></td>
-<td id='stat_spw_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_275_box'/></td>
-<td id='stat_spw_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_300_box'/></td>
-<td id='stat_spw_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_325_box'/></td>
-<td id='stat_spw_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_350_box'/></td>
-<td id='stat_spw_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_375_box'/></td>
-<td id='stat_spw_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_400_box'/></td>
-<td id='stat_spw_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_425_box'/></td>
-<td id='stat_spw_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_450_box'/></td>
-<td id='stat_spw_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_475_box'/></td>
-<td id='stat_spw_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_500_box'/></td>
-<td id='stat_spw_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_525_box'/></td>
-<td id='stat_spw_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_550_box'/></td>
-<td id='stat_spw_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_575_box'/></td>
+<td id='stat_spw_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",75)'>&#9664;</span>
+</td>
+<td id='stat_spw_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",100)'>&#9664;</span>
+</td>
+<td id='stat_spw_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",125)'>&#9664;</span>
+</td>
+<td id='stat_spw_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",150)'>&#9664;</span>
+</td>
+<td id='stat_spw_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",175)'>&#9664;</span>
+</td>
+<td id='stat_spw_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",200)'>&#9664;</span>
+</td>
+<td id='stat_spw_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",225)'>&#9664;</span>
+</td>
+<td id='stat_spw_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",250)'>&#9664;</span>
+</td>
+<td id='stat_spw_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",275)'>&#9664;</span>
+</td>
+<td id='stat_spw_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",300)'>&#9664;</span>
+</td>
+<td id='stat_spw_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",325)'>&#9664;</span>
+</td>
+<td id='stat_spw_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",350)'>&#9664;</span>
+</td>
+<td id='stat_spw_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",375)'>&#9664;</span>
+</td>
+<td id='stat_spw_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",400)'>&#9664;</span>
+</td>
+<td id='stat_spw_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",425)'>&#9664;</span>
+</td>
+<td id='stat_spw_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",450)'>&#9664;</span>
+</td>
+<td id='stat_spw_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",475)'>&#9664;</span>
+</td>
+<td id='stat_spw_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",500)'>&#9664;</span>
+</td>
+<td id='stat_spw_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",525)'>&#9664;</span>
+</td>
+<td id='stat_spw_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spw",550)'>&#9664;</span>
+</td>
+<td id='stat_spw_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spw_575_box'/>
+</td>
 </tr>
 <tr>
 <th>Speed Air</th>
-<td id='stat_spr_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_75_box'/></td>
-<td id='stat_spr_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_100_box'/></td>
-<td id='stat_spr_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_125_box'/></td>
-<td id='stat_spr_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_150_box'/></td>
-<td id='stat_spr_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_175_box'/></td>
-<td id='stat_spr_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_200_box'/></td>
-<td id='stat_spr_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_225_box'/></td>
-<td id='stat_spr_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_250_box'/></td>
-<td id='stat_spr_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_275_box'/></td>
-<td id='stat_spr_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_300_box'/></td>
-<td id='stat_spr_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_325_box'/></td>
-<td id='stat_spr_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_350_box'/></td>
-<td id='stat_spr_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_375_box'/></td>
-<td id='stat_spr_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_400_box'/></td>
-<td id='stat_spr_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_425_box'/></td>
-<td id='stat_spr_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_450_box'/></td>
-<td id='stat_spr_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_475_box'/></td>
-<td id='stat_spr_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_500_box'/></td>
-<td id='stat_spr_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_525_box'/></td>
-<td id='stat_spr_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_550_box'/></td>
-<td id='stat_spr_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_575_box'/></td>
+<td id='stat_spr_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",75)'>&#9664;</span>
+</td>
+<td id='stat_spr_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",100)'>&#9664;</span>
+</td>
+<td id='stat_spr_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",125)'>&#9664;</span>
+</td>
+<td id='stat_spr_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",150)'>&#9664;</span>
+</td>
+<td id='stat_spr_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",175)'>&#9664;</span>
+</td>
+<td id='stat_spr_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",200)'>&#9664;</span>
+</td>
+<td id='stat_spr_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",225)'>&#9664;</span>
+</td>
+<td id='stat_spr_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",250)'>&#9664;</span>
+</td>
+<td id='stat_spr_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",275)'>&#9664;</span>
+</td>
+<td id='stat_spr_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",300)'>&#9664;</span>
+</td>
+<td id='stat_spr_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",325)'>&#9664;</span>
+</td>
+<td id='stat_spr_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",350)'>&#9664;</span>
+</td>
+<td id='stat_spr_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",375)'>&#9664;</span>
+</td>
+<td id='stat_spr_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",400)'>&#9664;</span>
+</td>
+<td id='stat_spr_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",425)'>&#9664;</span>
+</td>
+<td id='stat_spr_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",450)'>&#9664;</span>
+</td>
+<td id='stat_spr_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",475)'>&#9664;</span>
+</td>
+<td id='stat_spr_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",500)'>&#9664;</span>
+</td>
+<td id='stat_spr_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",525)'>&#9664;</span>
+</td>
+<td id='stat_spr_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spr",550)'>&#9664;</span>
+</td>
+<td id='stat_spr_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spr_575_box'/>
+</td>
 </tr>
 <tr>
 <th>Speed Anti-Gravity</th>
-<td id='stat_spy_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_75_box'/></td>
-<td id='stat_spy_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_100_box'/></td>
-<td id='stat_spy_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_125_box'/></td>
-<td id='stat_spy_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_150_box'/></td>
-<td id='stat_spy_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_175_box'/></td>
-<td id='stat_spy_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_200_box'/></td>
-<td id='stat_spy_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_225_box'/></td>
-<td id='stat_spy_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_250_box'/></td>
-<td id='stat_spy_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_275_box'/></td>
-<td id='stat_spy_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_300_box'/></td>
-<td id='stat_spy_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_325_box'/></td>
-<td id='stat_spy_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_350_box'/></td>
-<td id='stat_spy_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_375_box'/></td>
-<td id='stat_spy_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_400_box'/></td>
-<td id='stat_spy_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_425_box'/></td>
-<td id='stat_spy_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_450_box'/></td>
-<td id='stat_spy_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_475_box'/></td>
-<td id='stat_spy_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_500_box'/></td>
-<td id='stat_spy_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_525_box'/></td>
-<td id='stat_spy_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_550_box'/></td>
-<td id='stat_spy_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_575_box'/></td>
+<td id='stat_spy_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",75)'>&#9664;</span>
+</td>
+<td id='stat_spy_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",100)'>&#9664;</span>
+</td>
+<td id='stat_spy_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",125)'>&#9664;</span>
+</td>
+<td id='stat_spy_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",150)'>&#9664;</span>
+</td>
+<td id='stat_spy_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",175)'>&#9664;</span>
+</td>
+<td id='stat_spy_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",200)'>&#9664;</span>
+</td>
+<td id='stat_spy_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",225)'>&#9664;</span>
+</td>
+<td id='stat_spy_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",250)'>&#9664;</span>
+</td>
+<td id='stat_spy_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",275)'>&#9664;</span>
+</td>
+<td id='stat_spy_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",300)'>&#9664;</span>
+</td>
+<td id='stat_spy_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",325)'>&#9664;</span>
+</td>
+<td id='stat_spy_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",350)'>&#9664;</span>
+</td>
+<td id='stat_spy_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",375)'>&#9664;</span>
+</td>
+<td id='stat_spy_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",400)'>&#9664;</span>
+</td>
+<td id='stat_spy_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",425)'>&#9664;</span>
+</td>
+<td id='stat_spy_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",450)'>&#9664;</span>
+</td>
+<td id='stat_spy_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",475)'>&#9664;</span>
+</td>
+<td id='stat_spy_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",500)'>&#9664;</span>
+</td>
+<td id='stat_spy_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",525)'>&#9664;</span>
+</td>
+<td id='stat_spy_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("spy",550)'>&#9664;</span>
+</td>
+<td id='stat_spy_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_spy_575_box'/>
+</td>
 </tr>
 <tr>
 <th>Acceleration</th>
-<td id='stat_acc_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_75_box'/></td>
-<td id='stat_acc_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_100_box'/></td>
-<td id='stat_acc_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_125_box'/></td>
-<td id='stat_acc_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_150_box'/></td>
-<td id='stat_acc_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_175_box'/></td>
-<td id='stat_acc_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_200_box'/></td>
-<td id='stat_acc_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_225_box'/></td>
-<td id='stat_acc_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_250_box'/></td>
-<td id='stat_acc_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_275_box'/></td>
-<td id='stat_acc_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_300_box'/></td>
-<td id='stat_acc_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_325_box'/></td>
-<td id='stat_acc_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_350_box'/></td>
-<td id='stat_acc_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_375_box'/></td>
-<td id='stat_acc_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_400_box'/></td>
-<td id='stat_acc_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_425_box'/></td>
-<td id='stat_acc_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_450_box'/></td>
-<td id='stat_acc_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_475_box'/></td>
-<td id='stat_acc_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_500_box'/></td>
-<td id='stat_acc_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_525_box'/></td>
-<td id='stat_acc_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_550_box'/></td>
-<td id='stat_acc_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_575_box'/></td>
+<td id='stat_acc_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",75)'>&#9664;</span>
+</td>
+<td id='stat_acc_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",100)'>&#9664;</span>
+</td>
+<td id='stat_acc_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",125)'>&#9664;</span>
+</td>
+<td id='stat_acc_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",150)'>&#9664;</span>
+</td>
+<td id='stat_acc_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",175)'>&#9664;</span>
+</td>
+<td id='stat_acc_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",200)'>&#9664;</span>
+</td>
+<td id='stat_acc_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",225)'>&#9664;</span>
+</td>
+<td id='stat_acc_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",250)'>&#9664;</span>
+</td>
+<td id='stat_acc_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",275)'>&#9664;</span>
+</td>
+<td id='stat_acc_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",300)'>&#9664;</span>
+</td>
+<td id='stat_acc_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",325)'>&#9664;</span>
+</td>
+<td id='stat_acc_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",350)'>&#9664;</span>
+</td>
+<td id='stat_acc_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",375)'>&#9664;</span>
+</td>
+<td id='stat_acc_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",400)'>&#9664;</span>
+</td>
+<td id='stat_acc_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",425)'>&#9664;</span>
+</td>
+<td id='stat_acc_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",450)'>&#9664;</span>
+</td>
+<td id='stat_acc_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",475)'>&#9664;</span>
+</td>
+<td id='stat_acc_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",500)'>&#9664;</span>
+</td>
+<td id='stat_acc_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",525)'>&#9664;</span>
+</td>
+<td id='stat_acc_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("acc",550)'>&#9664;</span>
+</td>
+<td id='stat_acc_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_acc_575_box'/>
+</td>
 </tr>
 <tr>
 <th>Weight</th>
-<td id='stat_wgt_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_75_box'/></td>
-<td id='stat_wgt_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_100_box'/></td>
-<td id='stat_wgt_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_125_box'/></td>
-<td id='stat_wgt_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_150_box'/></td>
-<td id='stat_wgt_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_175_box'/></td>
-<td id='stat_wgt_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_200_box'/></td>
-<td id='stat_wgt_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_225_box'/></td>
-<td id='stat_wgt_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_250_box'/></td>
-<td id='stat_wgt_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_275_box'/></td>
-<td id='stat_wgt_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_300_box'/></td>
-<td id='stat_wgt_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_325_box'/></td>
-<td id='stat_wgt_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_350_box'/></td>
-<td id='stat_wgt_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_375_box'/></td>
-<td id='stat_wgt_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_400_box'/></td>
-<td id='stat_wgt_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_425_box'/></td>
-<td id='stat_wgt_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_450_box'/></td>
-<td id='stat_wgt_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_475_box'/></td>
-<td id='stat_wgt_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_500_box'/></td>
-<td id='stat_wgt_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_525_box'/></td>
-<td id='stat_wgt_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_550_box'/></td>
-<td id='stat_wgt_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_575_box'/></td>
+<td id='stat_wgt_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",75)'>&#9664;</span>
+</td>
+<td id='stat_wgt_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",100)'>&#9664;</span>
+</td>
+<td id='stat_wgt_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",125)'>&#9664;</span>
+</td>
+<td id='stat_wgt_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",150)'>&#9664;</span>
+</td>
+<td id='stat_wgt_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",175)'>&#9664;</span>
+</td>
+<td id='stat_wgt_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",200)'>&#9664;</span>
+</td>
+<td id='stat_wgt_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",225)'>&#9664;</span>
+</td>
+<td id='stat_wgt_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",250)'>&#9664;</span>
+</td>
+<td id='stat_wgt_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",275)'>&#9664;</span>
+</td>
+<td id='stat_wgt_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",300)'>&#9664;</span>
+</td>
+<td id='stat_wgt_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",325)'>&#9664;</span>
+</td>
+<td id='stat_wgt_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",350)'>&#9664;</span>
+</td>
+<td id='stat_wgt_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",375)'>&#9664;</span>
+</td>
+<td id='stat_wgt_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",400)'>&#9664;</span>
+</td>
+<td id='stat_wgt_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",425)'>&#9664;</span>
+</td>
+<td id='stat_wgt_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",450)'>&#9664;</span>
+</td>
+<td id='stat_wgt_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",475)'>&#9664;</span>
+</td>
+<td id='stat_wgt_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",500)'>&#9664;</span>
+</td>
+<td id='stat_wgt_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",525)'>&#9664;</span>
+</td>
+<td id='stat_wgt_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("wgt",550)'>&#9664;</span>
+</td>
+<td id='stat_wgt_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_wgt_575_box'/>
+</td>
 </tr>
 <tr>
 <th>Handling Ground</th>
-<td id='stat_hdg_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_75_box'/></td>
-<td id='stat_hdg_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_100_box'/></td>
-<td id='stat_hdg_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_125_box'/></td>
-<td id='stat_hdg_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_150_box'/></td>
-<td id='stat_hdg_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_175_box'/></td>
-<td id='stat_hdg_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_200_box'/></td>
-<td id='stat_hdg_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_225_box'/></td>
-<td id='stat_hdg_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_250_box'/></td>
-<td id='stat_hdg_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_275_box'/></td>
-<td id='stat_hdg_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_300_box'/></td>
-<td id='stat_hdg_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_325_box'/></td>
-<td id='stat_hdg_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_350_box'/></td>
-<td id='stat_hdg_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_375_box'/></td>
-<td id='stat_hdg_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_400_box'/></td>
-<td id='stat_hdg_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_425_box'/></td>
-<td id='stat_hdg_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_450_box'/></td>
-<td id='stat_hdg_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_475_box'/></td>
-<td id='stat_hdg_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_500_box'/></td>
-<td id='stat_hdg_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_525_box'/></td>
-<td id='stat_hdg_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_550_box'/></td>
-<td id='stat_hdg_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_575_box'/></td>
+<td id='stat_hdg_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",75)'>&#9664;</span>
+</td>
+<td id='stat_hdg_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",100)'>&#9664;</span>
+</td>
+<td id='stat_hdg_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",125)'>&#9664;</span>
+</td>
+<td id='stat_hdg_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",150)'>&#9664;</span>
+</td>
+<td id='stat_hdg_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",175)'>&#9664;</span>
+</td>
+<td id='stat_hdg_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",200)'>&#9664;</span>
+</td>
+<td id='stat_hdg_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",225)'>&#9664;</span>
+</td>
+<td id='stat_hdg_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",250)'>&#9664;</span>
+</td>
+<td id='stat_hdg_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",275)'>&#9664;</span>
+</td>
+<td id='stat_hdg_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",300)'>&#9664;</span>
+</td>
+<td id='stat_hdg_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",325)'>&#9664;</span>
+</td>
+<td id='stat_hdg_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",350)'>&#9664;</span>
+</td>
+<td id='stat_hdg_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",375)'>&#9664;</span>
+</td>
+<td id='stat_hdg_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",400)'>&#9664;</span>
+</td>
+<td id='stat_hdg_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",425)'>&#9664;</span>
+</td>
+<td id='stat_hdg_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",450)'>&#9664;</span>
+</td>
+<td id='stat_hdg_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",475)'>&#9664;</span>
+</td>
+<td id='stat_hdg_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",500)'>&#9664;</span>
+</td>
+<td id='stat_hdg_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",525)'>&#9664;</span>
+</td>
+<td id='stat_hdg_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdg",550)'>&#9664;</span>
+</td>
+<td id='stat_hdg_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdg_575_box'/>
+</td>
 </tr>
 <tr>
 <th>Handling Water</th>
-<td id='stat_hdw_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_75_box'/></td>
-<td id='stat_hdw_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_100_box'/></td>
-<td id='stat_hdw_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_125_box'/></td>
-<td id='stat_hdw_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_150_box'/></td>
-<td id='stat_hdw_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_175_box'/></td>
-<td id='stat_hdw_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_200_box'/></td>
-<td id='stat_hdw_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_225_box'/></td>
-<td id='stat_hdw_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_250_box'/></td>
-<td id='stat_hdw_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_275_box'/></td>
-<td id='stat_hdw_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_300_box'/></td>
-<td id='stat_hdw_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_325_box'/></td>
-<td id='stat_hdw_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_350_box'/></td>
-<td id='stat_hdw_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_375_box'/></td>
-<td id='stat_hdw_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_400_box'/></td>
-<td id='stat_hdw_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_425_box'/></td>
-<td id='stat_hdw_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_450_box'/></td>
-<td id='stat_hdw_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_475_box'/></td>
-<td id='stat_hdw_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_500_box'/></td>
-<td id='stat_hdw_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_525_box'/></td>
-<td id='stat_hdw_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_550_box'/></td>
-<td id='stat_hdw_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_575_box'/></td>
+<td id='stat_hdw_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",75)'>&#9664;</span>
+</td>
+<td id='stat_hdw_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",100)'>&#9664;</span>
+</td>
+<td id='stat_hdw_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",125)'>&#9664;</span>
+</td>
+<td id='stat_hdw_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",150)'>&#9664;</span>
+</td>
+<td id='stat_hdw_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",175)'>&#9664;</span>
+</td>
+<td id='stat_hdw_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",200)'>&#9664;</span>
+</td>
+<td id='stat_hdw_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",225)'>&#9664;</span>
+</td>
+<td id='stat_hdw_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",250)'>&#9664;</span>
+</td>
+<td id='stat_hdw_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",275)'>&#9664;</span>
+</td>
+<td id='stat_hdw_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",300)'>&#9664;</span>
+</td>
+<td id='stat_hdw_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",325)'>&#9664;</span>
+</td>
+<td id='stat_hdw_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",350)'>&#9664;</span>
+</td>
+<td id='stat_hdw_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",375)'>&#9664;</span>
+</td>
+<td id='stat_hdw_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",400)'>&#9664;</span>
+</td>
+<td id='stat_hdw_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",425)'>&#9664;</span>
+</td>
+<td id='stat_hdw_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",450)'>&#9664;</span>
+</td>
+<td id='stat_hdw_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",475)'>&#9664;</span>
+</td>
+<td id='stat_hdw_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",500)'>&#9664;</span>
+</td>
+<td id='stat_hdw_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",525)'>&#9664;</span>
+</td>
+<td id='stat_hdw_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdw",550)'>&#9664;</span>
+</td>
+<td id='stat_hdw_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdw_575_box'/>
+</td>
 </tr>
 <tr>
 <th>Handling Air</th>
-<td id='stat_hda_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_75_box'/></td>
-<td id='stat_hda_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_100_box'/></td>
-<td id='stat_hda_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_125_box'/></td>
-<td id='stat_hda_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_150_box'/></td>
-<td id='stat_hda_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_175_box'/></td>
-<td id='stat_hda_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_200_box'/></td>
-<td id='stat_hda_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_225_box'/></td>
-<td id='stat_hda_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_250_box'/></td>
-<td id='stat_hda_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_275_box'/></td>
-<td id='stat_hda_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_300_box'/></td>
-<td id='stat_hda_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_325_box'/></td>
-<td id='stat_hda_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_350_box'/></td>
-<td id='stat_hda_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_375_box'/></td>
-<td id='stat_hda_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_400_box'/></td>
-<td id='stat_hda_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_425_box'/></td>
-<td id='stat_hda_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_450_box'/></td>
-<td id='stat_hda_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_475_box'/></td>
-<td id='stat_hda_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_500_box'/></td>
-<td id='stat_hda_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_525_box'/></td>
-<td id='stat_hda_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_550_box'/></td>
-<td id='stat_hda_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_575_box'/></td>
+<td id='stat_hda_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",75)'>&#9664;</span>
+</td>
+<td id='stat_hda_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",100)'>&#9664;</span>
+</td>
+<td id='stat_hda_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",125)'>&#9664;</span>
+</td>
+<td id='stat_hda_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",150)'>&#9664;</span>
+</td>
+<td id='stat_hda_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",175)'>&#9664;</span>
+</td>
+<td id='stat_hda_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",200)'>&#9664;</span>
+</td>
+<td id='stat_hda_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",225)'>&#9664;</span>
+</td>
+<td id='stat_hda_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",250)'>&#9664;</span>
+</td>
+<td id='stat_hda_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",275)'>&#9664;</span>
+</td>
+<td id='stat_hda_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",300)'>&#9664;</span>
+</td>
+<td id='stat_hda_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",325)'>&#9664;</span>
+</td>
+<td id='stat_hda_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",350)'>&#9664;</span>
+</td>
+<td id='stat_hda_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",375)'>&#9664;</span>
+</td>
+<td id='stat_hda_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",400)'>&#9664;</span>
+</td>
+<td id='stat_hda_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",425)'>&#9664;</span>
+</td>
+<td id='stat_hda_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",450)'>&#9664;</span>
+</td>
+<td id='stat_hda_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",475)'>&#9664;</span>
+</td>
+<td id='stat_hda_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",500)'>&#9664;</span>
+</td>
+<td id='stat_hda_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",525)'>&#9664;</span>
+</td>
+<td id='stat_hda_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hda",550)'>&#9664;</span>
+</td>
+<td id='stat_hda_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hda_575_box'/>
+</td>
 </tr>
 <tr>
 <th>Handling Anti-Gravity</th>
-<td id='stat_hdy_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_75_box'/></td>
-<td id='stat_hdy_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_100_box'/></td>
-<td id='stat_hdy_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_125_box'/></td>
-<td id='stat_hdy_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_150_box'/></td>
-<td id='stat_hdy_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_175_box'/></td>
-<td id='stat_hdy_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_200_box'/></td>
-<td id='stat_hdy_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_225_box'/></td>
-<td id='stat_hdy_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_250_box'/></td>
-<td id='stat_hdy_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_275_box'/></td>
-<td id='stat_hdy_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_300_box'/></td>
-<td id='stat_hdy_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_325_box'/></td>
-<td id='stat_hdy_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_350_box'/></td>
-<td id='stat_hdy_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_375_box'/></td>
-<td id='stat_hdy_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_400_box'/></td>
-<td id='stat_hdy_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_425_box'/></td>
-<td id='stat_hdy_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_450_box'/></td>
-<td id='stat_hdy_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_475_box'/></td>
-<td id='stat_hdy_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_500_box'/></td>
-<td id='stat_hdy_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_525_box'/></td>
-<td id='stat_hdy_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_550_box'/></td>
-<td id='stat_hdy_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_575_box'/></td>
+<td id='stat_hdy_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",75)'>&#9664;</span>
+</td>
+<td id='stat_hdy_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",100)'>&#9664;</span>
+</td>
+<td id='stat_hdy_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",125)'>&#9664;</span>
+</td>
+<td id='stat_hdy_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",150)'>&#9664;</span>
+</td>
+<td id='stat_hdy_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",175)'>&#9664;</span>
+</td>
+<td id='stat_hdy_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",200)'>&#9664;</span>
+</td>
+<td id='stat_hdy_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",225)'>&#9664;</span>
+</td>
+<td id='stat_hdy_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",250)'>&#9664;</span>
+</td>
+<td id='stat_hdy_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",275)'>&#9664;</span>
+</td>
+<td id='stat_hdy_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",300)'>&#9664;</span>
+</td>
+<td id='stat_hdy_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",325)'>&#9664;</span>
+</td>
+<td id='stat_hdy_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",350)'>&#9664;</span>
+</td>
+<td id='stat_hdy_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",375)'>&#9664;</span>
+</td>
+<td id='stat_hdy_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",400)'>&#9664;</span>
+</td>
+<td id='stat_hdy_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",425)'>&#9664;</span>
+</td>
+<td id='stat_hdy_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",450)'>&#9664;</span>
+</td>
+<td id='stat_hdy_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",475)'>&#9664;</span>
+</td>
+<td id='stat_hdy_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",500)'>&#9664;</span>
+</td>
+<td id='stat_hdy_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",525)'>&#9664;</span>
+</td>
+<td id='stat_hdy_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("hdy",550)'>&#9664;</span>
+</td>
+<td id='stat_hdy_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_hdy_575_box'/>
+</td>
 </tr>
 <tr>
 <th>Traction</th>
-<td id='stat_ttn_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_75_box'/></td>
-<td id='stat_ttn_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_100_box'/></td>
-<td id='stat_ttn_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_125_box'/></td>
-<td id='stat_ttn_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_150_box'/></td>
-<td id='stat_ttn_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_175_box'/></td>
-<td id='stat_ttn_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_200_box'/></td>
-<td id='stat_ttn_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_225_box'/></td>
-<td id='stat_ttn_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_250_box'/></td>
-<td id='stat_ttn_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_275_box'/></td>
-<td id='stat_ttn_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_300_box'/></td>
-<td id='stat_ttn_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_325_box'/></td>
-<td id='stat_ttn_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_350_box'/></td>
-<td id='stat_ttn_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_375_box'/></td>
-<td id='stat_ttn_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_400_box'/></td>
-<td id='stat_ttn_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_425_box'/></td>
-<td id='stat_ttn_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_450_box'/></td>
-<td id='stat_ttn_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_475_box'/></td>
-<td id='stat_ttn_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_500_box'/></td>
-<td id='stat_ttn_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_525_box'/></td>
-<td id='stat_ttn_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_550_box'/></td>
-<td id='stat_ttn_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_575_box'/></td>
+<td id='stat_ttn_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",75)'>&#9664;</span>
+</td>
+<td id='stat_ttn_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",100)'>&#9664;</span>
+</td>
+<td id='stat_ttn_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",125)'>&#9664;</span>
+</td>
+<td id='stat_ttn_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",150)'>&#9664;</span>
+</td>
+<td id='stat_ttn_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",175)'>&#9664;</span>
+</td>
+<td id='stat_ttn_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",200)'>&#9664;</span>
+</td>
+<td id='stat_ttn_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",225)'>&#9664;</span>
+</td>
+<td id='stat_ttn_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",250)'>&#9664;</span>
+</td>
+<td id='stat_ttn_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",275)'>&#9664;</span>
+</td>
+<td id='stat_ttn_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",300)'>&#9664;</span>
+</td>
+<td id='stat_ttn_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",325)'>&#9664;</span>
+</td>
+<td id='stat_ttn_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",350)'>&#9664;</span>
+</td>
+<td id='stat_ttn_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",375)'>&#9664;</span>
+</td>
+<td id='stat_ttn_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",400)'>&#9664;</span>
+</td>
+<td id='stat_ttn_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",425)'>&#9664;</span>
+</td>
+<td id='stat_ttn_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",450)'>&#9664;</span>
+</td>
+<td id='stat_ttn_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",475)'>&#9664;</span>
+</td>
+<td id='stat_ttn_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",500)'>&#9664;</span>
+</td>
+<td id='stat_ttn_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",525)'>&#9664;</span>
+</td>
+<td id='stat_ttn_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("ttn",550)'>&#9664;</span>
+</td>
+<td id='stat_ttn_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_ttn_575_box'/>
+</td>
 </tr>
 <tr>
 <th>Mini-Turbo</th>
-<td id='stat_mtb_75_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_75_box'/></td>
-<td id='stat_mtb_100_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_100_box'/></td>
-<td id='stat_mtb_125_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_125_box'/></td>
-<td id='stat_mtb_150_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_150_box'/></td>
-<td id='stat_mtb_175_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_175_box'/></td>
-<td id='stat_mtb_200_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_200_box'/></td>
-<td id='stat_mtb_225_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_225_box'/></td>
-<td id='stat_mtb_250_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_250_box'/></td>
-<td id='stat_mtb_275_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_275_box'/></td>
-<td id='stat_mtb_300_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_300_box'/></td>
-<td id='stat_mtb_325_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_325_box'/></td>
-<td id='stat_mtb_350_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_350_box'/></td>
-<td id='stat_mtb_375_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_375_box'/></td>
-<td id='stat_mtb_400_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_400_box'/></td>
-<td id='stat_mtb_425_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_425_box'/></td>
-<td id='stat_mtb_450_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_450_box'/></td>
-<td id='stat_mtb_475_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_475_box'/></td>
-<td id='stat_mtb_500_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_500_box'/></td>
-<td id='stat_mtb_525_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_525_box'/></td>
-<td id='stat_mtb_550_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_550_box'/></td>
-<td id='stat_mtb_575_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_575_box'/></td>
+<td id='stat_mtb_75_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_75_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",75)'>&#9664;</span>
+</td>
+<td id='stat_mtb_100_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_100_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",100)'>&#9664;</span>
+</td>
+<td id='stat_mtb_125_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_125_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",125)'>&#9664;</span>
+</td>
+<td id='stat_mtb_150_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_150_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",150)'>&#9664;</span>
+</td>
+<td id='stat_mtb_175_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_175_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",175)'>&#9664;</span>
+</td>
+<td id='stat_mtb_200_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_200_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",200)'>&#9664;</span>
+</td>
+<td id='stat_mtb_225_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_225_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",225)'>&#9664;</span>
+</td>
+<td id='stat_mtb_250_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_250_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",250)'>&#9664;</span>
+</td>
+<td id='stat_mtb_275_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_275_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",275)'>&#9664;</span>
+</td>
+<td id='stat_mtb_300_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_300_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",300)'>&#9664;</span>
+</td>
+<td id='stat_mtb_325_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_325_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",325)'>&#9664;</span>
+</td>
+<td id='stat_mtb_350_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_350_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",350)'>&#9664;</span>
+</td>
+<td id='stat_mtb_375_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_375_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",375)'>&#9664;</span>
+</td>
+<td id='stat_mtb_400_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_400_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",400)'>&#9664;</span>
+</td>
+<td id='stat_mtb_425_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_425_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",425)'>&#9664;</span>
+</td>
+<td id='stat_mtb_450_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_450_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",450)'>&#9664;</span>
+</td>
+<td id='stat_mtb_475_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_475_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",475)'>&#9664;</span>
+</td>
+<td id='stat_mtb_500_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_500_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",500)'>&#9664;</span>
+</td>
+<td id='stat_mtb_525_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_525_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",525)'>&#9664;</span>
+</td>
+<td id='stat_mtb_550_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_550_box'/>
+<span style='cursor:pointer' onclick='stat_arrow_click("mtb",550)'>&#9664;</span>
+</td>
+<td id='stat_mtb_575_bg'>
+<input class='box stat_box' onclick='box_click()' type='checkbox' id='stat_mtb_575_box'/>
+</td>
 </tr>
 <tr>
 <th></th>

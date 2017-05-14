@@ -183,6 +183,26 @@ function box_click(){
 	updateAll();
 }
 
+function stat_arrow_click(type,value){
+	//console.log(type);
+	//console.log(value);
+	var stat_min = DATA['stat_min'];
+	var all_zero = true;
+	for(var i=stat_min;i<=value;i+=25){
+		var key = "stat_"+type+"_"+i;
+		var v = $('#'+key+'_box').is(":checked");
+		all_zero = all_zero && (!v);
+	}
+	console.log(all_zero);
+	var set_value = all_zero;
+	for(var i=stat_min;i<=value;i+=25){
+		var key = "stat_"+type+"_"+i;
+		//console.log($('#'+key+'_box').is(":checked"));
+		$('#'+key+'_box').prop('checked',set_value);
+	}
+	updateAll();
+}
+
 function updateAll(){
 	var condition = getCondition();
 	var stat_filter = calc_stat_filter(condition);
@@ -195,9 +215,9 @@ function updateAll(){
 function update_search(){
 	$("#search_result").empty();
 	var condition = getCondition();
-	console.log(condition);
+	//console.log(condition);
 	solution = searchSolution(condition);
-	console.log(solution);
+	//console.log(solution);
 	kart_list_length = solution['kart_count'];
 	if(kart_list_length < 100){
 		$("#search_count").text("Count: "+kart_list_length);
@@ -231,7 +251,7 @@ function calc_stat_filter(condition){
 		var solution = searchSolution(condition0);
 		ret[stat_id] = solution['condition']['stat'][stat_id];
 	});
-	console.log(ret);
+	//console.log(ret);
 	return ret;
 }
 
@@ -268,7 +288,7 @@ function calc_part_filter(condition){
 }
 
 function draw_part_filter(part_filter){
-	console.log(part_filter);
+	//console.log(part_filter);
 	for(var part_type_id in part_filter){
 		var part_dict = part_filter[part_type_id];
 		for(var part_id in part_dict){

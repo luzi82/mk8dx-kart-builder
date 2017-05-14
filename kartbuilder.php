@@ -12,7 +12,7 @@ $BOOL_LIST = [
 <title>Mario Kart 8 Kart builder</title>
 </head>
 <body>
-<p style="color:red">Warning: The data are came from <a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe">MarioWiki</a>, and the data seems incorrect.  For example, "Off Road" is weaker than "Retro Off Road" by only one stat.  I guess there is some mistake.  I have purchased the Prima guide book for Amazon and waiting for shipping.  Once I get the book I will fix the value.</p>
+<p style="color:red">Warning: The data are came from <a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe">MarioWiki</a>, and the data seems incorrect.  For example, "Off Road" is weaker than "Retro Off Road" by only one stat.  I guess there is some mistake.  I have purchased the Prima guide book for Amazon and it will arrive ETA May26-Jun2.  Once I get the book I will fix the value.</p>
 <h2>Stat</h2>
 <button onclick='set_all("stat_box",true)'>All</button>
 <table>
@@ -31,7 +31,13 @@ foreach($DATA["stat_type_list"] as $stat_type){
 		print("<th>".$stat_type["name"]."</th>\n");
 		for($i=$DATA["stat_min"];$i<=$DATA["stat_max"];$i+=25){
 			$key = "stat_".$stat_type["id"]."_".$i;
-			print("<td id='".$key."_bg'><input class='box stat_box' onclick='box_click()' type='checkbox' id='".$key."_box'/></td>\n");
+			
+			print("<td id='".$key."_bg'>\n");
+			print("<input class='box stat_box' onclick='box_click()' type='checkbox' id='".$key."_box'/>\n");
+			if($i<$DATA["stat_max"]){
+				print("<span style='cursor:pointer' onclick='stat_arrow_click(\"".$stat_type["id"]."\",".$i.")'>&#9664;</span>\n");
+			}
+			print("</td>\n");
 		}
 		print("</tr>\n");
 	}
