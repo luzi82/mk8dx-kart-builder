@@ -12,6 +12,7 @@ $BOOL_LIST = [
 <title>Mario Kart 8 Kart builder</title>
 </head>
 <body>
+<p style="color:red">Warning: The data are came from <a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe">MarioWiki</a>, and the data seems incorrect.  For example, "Off Road" is weaker than "Retro Off Road" by only one stat.  I guess there is some mistake.  I have purchased the Prima guide book for Amazon and waiting for shipping.  Once I get the book I will fix the value.</p>
 <h2>Stat</h2>
 <button onclick='set_all("stat_box",true)'>All</button>
 <table>
