@@ -140,14 +140,12 @@ function searchSolution(condition){
 			layer_stat_dict_dict_dict[part_id][stattype_id]['minsum'] = layer_stat_dict_dict_dict[part_id][stattype_id]['min'];
 			layer_stat_dict_dict_dict[part_id][stattype_id]['maxsum'] = layer_stat_dict_dict_dict[part_id][stattype_id]['max'];
 			if(last_part_id!=null){
-				layer_stat_dict_dict_dict[part_id][stattype_id]['minsum'] += layer_stat_dict_dict_dict[last_part_id][stattype_id]['min'];
-				layer_stat_dict_dict_dict[part_id][stattype_id]['maxsum'] += layer_stat_dict_dict_dict[last_part_id][stattype_id]['max'];
+				layer_stat_dict_dict_dict[part_id][stattype_id]['minsum'] += layer_stat_dict_dict_dict[last_part_id][stattype_id]['minsum'];
+				layer_stat_dict_dict_dict[part_id][stattype_id]['maxsum'] += layer_stat_dict_dict_dict[last_part_id][stattype_id]['maxsum'];
 			}
 		}
 		last_part_id = part_id;
 	}
-	
-	//console.log(layer_stat_dict_dict_dict);
 	
 	var kart_stat_dict = {};
 	for(var stattype_idx in DATA["stat_type_list"]){
@@ -237,6 +235,7 @@ function add_stat(stat_dict,group){
 }
 
 function check_range(stat_dict,layer_stat_dict_dict,condition){
+//	console.log(stat_dict,layer_stat_dict_dict);
 	for(var stattype_idx in DATA["stat_type_list"]){
 		var stattype_id = DATA["stat_type_list"][stattype_idx]['id'];
 		var step = (DATA["stat_type_list"][stattype_idx]['type']=='v100')?25:1;
@@ -252,9 +251,13 @@ function check_range(stat_dict,layer_stat_dict_dict,condition){
 	return true;
 }
 
+function click_set_all(key,value){
+	set_all(key,value)
+	updateAll();
+}
+
 function set_all(key,value){
 	$('.'+key).prop('checked',value);
-	updateAll();
 }
 
 function box_click(){
@@ -386,4 +389,7 @@ $.getJSON('data.json',function(output){
 	init_PART_STAT_DICT();
 	init_PART_GROUP_DICT_DICT();
 	set_all("box",true);
+//	set_all("char_box",false);
+//	$('#char_charinklinggirl_box').prop('checked',true);
+	updateAll();
 });

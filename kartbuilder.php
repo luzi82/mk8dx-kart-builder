@@ -14,7 +14,7 @@ $BOOL_LIST = [
 <body>
 <p style="color:red">Warning: The data are came from <a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe">MarioWiki</a>, and the data seems incorrect.  For example, "Off Road" is weaker than "Retro Off Road" by only one stat.  I guess there is some mistake.  I have purchased the Prima guide book for Amazon and it will arrive ETA May26-Jun2.  Once I get the book I will fix the value.</p>
 <h2>Stat</h2>
-<button onclick='set_all("stat_box",true)'>All</button>
+<button onclick='click_set_all("stat_box",true)'>All</button>
 <table>
 <tr>
 <th></th>
@@ -70,8 +70,8 @@ foreach($DATA["stat_type_list"] as $stat_type){
 <?php
 foreach($DATA["part_type_list"] as $part_type){
 	print("<h2>".$part_type["name"]."</h2>\n");
-	print("<button onclick='set_all(\"".$part_type["id"]."_box\",true)'>All</button>\n");
-	print("<button onclick='set_all(\"".$part_type["id"]."_box\",false)'>None</button>\n");
+	print("<button onclick='click_set_all(\"".$part_type["id"]."_box\",true)'>All</button>\n");
+	print("<button onclick='click_set_all(\"".$part_type["id"]."_box\",false)'>None</button>\n");
 	print("<table>\n");
 	foreach($DATA["part_dict"][$part_type["id"]] as $part){
 		$key = $part_type["id"]."_".$part["id"];
