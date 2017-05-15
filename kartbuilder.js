@@ -239,10 +239,11 @@ function add_stat(stat_dict,group){
 function check_range(stat_dict,layer_stat_dict_dict,condition){
 	for(var stattype_idx in DATA["stat_type_list"]){
 		var stattype_id = DATA["stat_type_list"][stattype_idx]['id'];
+		var step = (DATA["stat_type_list"][stattype_idx]['type']=='v100')?25:1;
 		var min=stat_dict[stattype_id]+layer_stat_dict_dict[stattype_id]['minsum'];
 		var max=stat_dict[stattype_id]+layer_stat_dict_dict[stattype_id]['maxsum'];
 		var good=false;
-		for(var i=max;i>=min;i-=25){
+		for(var i=max;i>=min;i-=step){
 			good = good || condition['stat'][stattype_id][i];
 			if(good)break;
 		}
