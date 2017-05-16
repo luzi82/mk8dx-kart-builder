@@ -177,7 +177,7 @@ function searchSolution(condition){
 			stat_accumuate_dict[i]=v;
 		}
 	}
-	console.log(stat_accumuate_dict_dict);
+	//console.log(stat_accumuate_dict_dict);
 
 	for(var char_part_group_id   in part_group_dict_dict['char'])  {
 		var char_part_group   = part_group_dict_dict['char'  ][char_part_group_id];
@@ -308,19 +308,16 @@ function stat_arrow_click(type,value){
 
 function updateAll(){
 	var condition = getCondition();
-	var stat_filter = calc_stat_filter(condition);
+	solution = searchSolution(condition);
+	var stat_filter = calc_stat_filter(condition,solution);
 	draw_stat_filter(stat_filter);
 	var part_filter = calc_part_filter(condition);
 	draw_part_filter(part_filter);
-	update_search();
+	update_solution(solution);
 }
 
-function update_search(){
+function update_solution(solution){
 	$("#search_result").empty();
-	var condition = getCondition();
-	//console.log(condition);
-	solution = searchSolution(condition);
-	//console.log(solution);
 	kart_list_length = solution['kart_count'];
 	if(kart_list_length < 100){
 		$("#search_count").text("Count: "+kart_list_length);
@@ -343,16 +340,20 @@ function update_search(){
 	}
 }
 
-function calc_stat_filter(condition){
+function calc_stat_filter(condition,solution0){
 	ret = {};
 	DATA["stat_type_list"].forEach(function(stat_type){
 		var stat_id = stat_type["id"];
 		var condition0 = JSON.parse(JSON.stringify(condition));
 		for(var value in condition0['stat'][stat_id]){
-			condition0['stat'][stat_id][value] = true;
+			condition0['stat'][stat_id][value] = (!condition['stat'][stat_id][value]);
 		}
 		var solution = searchSolution(condition0);
-		ret[stat_id] = solution['condition']['stat'][stat_id];
+		var ret_stat_id = ret[stat_id] = solution['condition']['stat'][stat_id];
+		var solution0_condition_stat_stat_id = solution0['condition']['stat'][stat_id];
+		for(var value in ret[stat_id]){
+			ret_stat_id[value] = ret_stat_id[value] || solution0_condition_stat_stat_id[value];
+		}
 	});
 	//console.log(ret);
 	return ret;
