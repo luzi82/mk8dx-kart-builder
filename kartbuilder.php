@@ -2,10 +2,10 @@
 $DATA = file_get_contents("data.json");
 $DATA = json_decode($DATA, true);
 
-$BOOL_LIST = [
-	['id'=>"b0",'name'=>'OFF','value'=>0],
-	['id'=>"b1",'name'=>'ON', 'value'=>1],
-];
+$BOOL_LIST = array(
+	array('id'=>"b0",'name'=>'OFF','value'=>0),
+	array('id'=>"b1",'name'=>'ON', 'value'=>1),
+);
 ?>
 <html>
 <head>
@@ -86,6 +86,8 @@ foreach($DATA["part_type_list"] as $part_type){
 <div id="search_count"></div>
 <table id="search_result">
 </table>
+
+<p>Version: <span id="ver_version"></span>, Build: <span id="ver_build"></span></p>
 
 <script src="jquery-3.2.1.min.js"></script>
 <script src="kartbuilder.js"></script>

@@ -384,12 +384,17 @@ function max(a,b){return (a>b)?a:b;}
 function min(a,b){return (a<b)?a:b;}
 function clone(x){return JSON.parse(JSON.stringify(x));}
 
+$.getJSON('version.json',function(version){
+	$("#ver_version").text(version['version']);
+	$("#ver_build").text(version['build']);
+});
+
 $.getJSON('data.json',function(output){
 	DATA=output;
 	init_PART_STAT_DICT();
 	init_PART_GROUP_DICT_DICT();
 	set_all("box",true);
-//	set_all("char_box",false);
-//	$('#char_charinklinggirl_box').prop('checked',true);
+	//set_all("char_box",false);
+	//$('#char_charinklinggirl_box').prop('checked',true);
 	updateAll();
 });
