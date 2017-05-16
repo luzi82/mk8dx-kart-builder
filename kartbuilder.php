@@ -34,9 +34,7 @@ foreach($DATA["stat_type_list"] as $stat_type){
 			
 			print("<td id='".$key."_bg'>\n");
 			print("<input class='box stat_box' onclick='box_click()' type='checkbox' id='".$key."_box'/>\n");
-			if($i<$DATA["stat_max"]){
-				print("<span style='cursor:pointer' onclick='stat_arrow_click(\"".$stat_type["id"]."\",".$i.")'>&#9664;</span>\n");
-			}
+			print("<span style='cursor:pointer' onclick='stat_arrow_click(\"".$stat_type["id"]."\",".$i.")'>&#9664;</span>\n");
 			print("</td>\n");
 		}
 		print("</tr>\n");
