@@ -1,8 +1,9 @@
-DATA = null;
-PART_STAT_DICT = null;
-PART_GROUP_DICT_DICT = null;
+var DATA = null;
+var PART_STAT_DICT = null;
+var PART_GROUP_DICT_DICT = null;
+var STATTYPE_OBJ_DICT = null;
 
-BOOL_LIST = [
+var BOOL_LIST = [
 	{'id':'b0','value':0},
 	{'id':'b1','value':1},
 ];
@@ -22,6 +23,13 @@ function init_PART_GROUP_DICT_DICT(){
 			var part_group = part_group_list[part_group_idx];
 			PART_GROUP_DICT_DICT[type_id][part_group['id']] = part_group;
 		}
+	}
+}
+function init_STATTYPE_OBJ_DICT(){
+	STATTYPE_OBJ_DICT={};
+	for(var stattype_idx in DATA['stat_type_list']){
+		var stattype_obj = DATA['stat_type_list'][stattype_idx];
+		STATTYPE_OBJ_DICT[stattype_obj['id']] = stattype_obj;
 	}
 }
 
@@ -91,17 +99,18 @@ function getDummyCondition(){
 	};
 }
 
-function searchSolution(condition){
+function searchSolution(condition,filter_stat_id=null){
 	var kart_group_list = [];
 	var kart_count = 0;
 	var condition0 = getDummyCondition();
+	var condition1 = clone(condition);
 	
 	// detect group
 	var part_group_dict_dict = {}; // part-id, group-id
-	for(var part_type_id in condition['part']){
+	for(var part_type_id in condition1['part']){
 		var part_group_dict = {};
 		part_group_dict_dict[part_type_id] = part_group_dict;
-		var part_dict = condition['part'][part_type_id];
+		var part_dict = condition1['part'][part_type_id];
 		for(var part_id in part_dict){
 			if(!part_dict[part_id])continue;
 			var group_id = PART_STAT_DICT[part_id]['group'];
@@ -161,19 +170,15 @@ function searchSolution(condition){
 		
 		var min=0;var max=0;var step=0;
 		if(DATA["stat_type_list"][stattype_idx]['type']=='v100'){
-			min=DATA['stat_min'];
-			max=DATA['stat_max'];
-			step=25;
+			min=DATA['stat_min'];max=DATA['stat_max'];step=25;
 		}else{
-			var min=0;
-			var max=1;
-			var step=1;
+			min=0;max=1;step=1;
 		}
 		
 		var v = 0;
 		stat_accumuate_dict[min-step]=v;
 		for(var i=min;i<=max;i+=step){
-			v+=condition['stat'][stattype_id][i]?1:0;
+			v+=condition1['stat'][stattype_id][i]?1:0;
 			stat_accumuate_dict[i]=v;
 		}
 	}
@@ -204,7 +209,7 @@ function searchSolution(condition){
 			value += tire_part_group[stat_id];
 			value += glider_part_group[stat_id];
 			stat[stat_id] = value;
-			good = good && condition['stat'][stat_id][value];
+			good = good && condition1['stat'][stat_id][value];
 		});
 		if(!good)continue;
 		
@@ -241,6 +246,26 @@ function searchSolution(condition){
 		for(var part_id_idx in glider_part_group['member_list']){
 			var part_id = glider_part_group['member_list'][part_id_idx]['id'];
 			condition0['part']['glider'][part_id] = true;
+		}
+		
+		if(filter_stat_id!=null){
+			condition1['stat'][filter_stat_id][stat[filter_stat_id]] = false;
+			
+			var stattype_id = filter_stat_id;
+			var stat_accumuate_dict = stat_accumuate_dict_dict[stattype_id];
+			var min=0;var max=0;var step=0;
+			if(STATTYPE_OBJ_DICT[stattype_id]['type']=='v100'){
+				min=DATA['stat_min'];max=DATA['stat_max'];step=25;
+			}else{
+				min=0;max=1;step=1;
+			}
+			
+			var v = 0;
+			stat_accumuate_dict[min-step]=v;
+			for(var i=min;i<=max;i+=step){
+				v+=condition1['stat'][stattype_id][i]?1:0;
+				stat_accumuate_dict[i]=v;
+			}
 		}
 	}}}}
 	
@@ -348,7 +373,7 @@ function calc_stat_filter(condition,solution0){
 		for(var value in condition0['stat'][stat_id]){
 			condition0['stat'][stat_id][value] = (!condition['stat'][stat_id][value]);
 		}
-		var solution = searchSolution(condition0);
+		var solution = searchSolution(condition0,stat_id);
 		var ret_stat_id = ret[stat_id] = solution['condition']['stat'][stat_id];
 		var solution0_condition_stat_stat_id = solution0['condition']['stat'][stat_id];
 		for(var value in ret[stat_id]){
@@ -416,6 +441,7 @@ $.getJSON('data.json',function(output){
 	DATA=output;
 	init_PART_STAT_DICT();
 	init_PART_GROUP_DICT_DICT();
+	init_STATTYPE_OBJ_DICT();
 	set_all("box",true);
 	//set_all("char_box",false);
 	//$('#char_charinklinggirl_box').prop('checked',true);
