@@ -99,7 +99,7 @@ function getDummyCondition(){
 	};
 }
 
-function searchSolution(condition,filter_stat_id=null){
+function searchSolution(condition,filter_stat_id=null,filter_part_id=null){
 	var kart_group_list = [];
 	var kart_count = 0;
 	var condition0 = getDummyCondition();
@@ -117,6 +117,7 @@ function searchSolution(condition,filter_stat_id=null){
 			if(!(group_id in part_group_dict)){
 				part_group_dict[group_id] = clone(PART_GROUP_DICT_DICT[part_type_id][group_id]);
 				part_group_dict[group_id]['member_list'] = [];
+				part_group_dict[group_id]['ignore'] = false;
 			}
 			part_group_dict[group_id]['member_list'].push(PART_STAT_DICT[part_id]);
 		}
@@ -186,18 +187,22 @@ function searchSolution(condition,filter_stat_id=null){
 
 	for(var char_part_group_id   in part_group_dict_dict['char'])  {
 		var char_part_group   = part_group_dict_dict['char'  ][char_part_group_id];
+		if(char_part_group['ignore'])continue;
 		var kart_stat_dict_0 = add_stat(kart_stat_dict,char_part_group);
 		if(!check_range(kart_stat_dict_0,layer_stat_dict_dict_dict['body'],stat_accumuate_dict_dict))continue;
 	for(var body_part_group_id   in part_group_dict_dict['body'])  {
 		var body_part_group   = part_group_dict_dict['body'  ][body_part_group_id];
+		if(char_part_group['ignore']||body_part_group['ignore'])continue;
 		var kart_stat_dict_1 = add_stat(kart_stat_dict_0,body_part_group);
 		if(!check_range(kart_stat_dict_1,layer_stat_dict_dict_dict['tire'],stat_accumuate_dict_dict))continue;
 	for(var tire_part_group_id   in part_group_dict_dict['tire'])  {
 		var tire_part_group   = part_group_dict_dict['tire'  ][tire_part_group_id];
+		if(char_part_group['ignore']||body_part_group['ignore']||tire_part_group['ignore'])continue;
 		var kart_stat_dict_2 = add_stat(kart_stat_dict_1,tire_part_group);
 		if(!check_range(kart_stat_dict_2,layer_stat_dict_dict_dict['glider'],stat_accumuate_dict_dict))continue;
 	for(var glider_part_group_id in part_group_dict_dict['glider']){
 		var glider_part_group = part_group_dict_dict['glider'][glider_part_group_id];
+		if(char_part_group['ignore']||body_part_group['ignore']||tire_part_group['ignore']||glider_part_group['ignore'])continue;
 
 		var good = true;
 		stat = {};
@@ -267,6 +272,10 @@ function searchSolution(condition,filter_stat_id=null){
 				stat_accumuate_dict[i]=v;
 			}
 		}
+		if(filter_part_id=='char')char_part_group['ignore']=true;
+		if(filter_part_id=='body')body_part_group['ignore']=true;
+		if(filter_part_id=='tire')tire_part_group['ignore']=true;
+		if(filter_part_id=='glider')glider_part_group['ignore']=true;
 	}}}}
 	
 	return {
@@ -410,7 +419,7 @@ function calc_part_filter(condition){
 		for(var part_id in part_dict){
 			part_dict[part_id] = true;
 		}
-		var solution = searchSolution(condition0);
+		var solution = searchSolution(condition0,null,part_type_id);
 		ret[part_type_id] = solution['condition']['part'][part_type_id];
 	};
 	return ret;
