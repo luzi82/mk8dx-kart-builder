@@ -106,7 +106,7 @@ function searchSolution(condition){
 			if(!part_dict[part_id])continue;
 			var group_id = PART_STAT_DICT[part_id]['group'];
 			if(!(group_id in part_group_dict)){
-				part_group_dict[group_id] = JSON.parse(JSON.stringify(PART_GROUP_DICT_DICT[part_type_id][group_id]));
+				part_group_dict[group_id] = clone(PART_GROUP_DICT_DICT[part_type_id][group_id]);
 				part_group_dict[group_id]['member_list'] = [];
 			}
 			part_group_dict[group_id]['member_list'].push(PART_STAT_DICT[part_id]);
@@ -344,7 +344,7 @@ function calc_stat_filter(condition,solution0){
 	ret = {};
 	DATA["stat_type_list"].forEach(function(stat_type){
 		var stat_id = stat_type["id"];
-		var condition0 = JSON.parse(JSON.stringify(condition));
+		var condition0 = clone(condition);
 		for(var value in condition0['stat'][stat_id]){
 			condition0['stat'][stat_id][value] = (!condition['stat'][stat_id][value]);
 		}
@@ -380,7 +380,7 @@ function draw_stat_filter(stat_filter){
 function calc_part_filter(condition){
 	ret = {};
 	for(var part_type_id in condition['part']){
-		var condition0 = JSON.parse(JSON.stringify(condition));
+		var condition0 = clone(condition);
 		var part_dict = condition0['part'][part_type_id];
 		for(var part_id in part_dict){
 			part_dict[part_id] = true;
