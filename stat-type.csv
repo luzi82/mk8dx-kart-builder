@@ -1,14 +1,15 @@
 id,name,type
 isd,Inside Drift,bool
-spg,Speed Ground,v100
-spw,Speed Water,v100
-spr,Speed Air,v100
-spy,Speed Anti-Gravity,v100
-acc,Acceleration,v100
-wgt,Weight,v100
-hdg,Handling Ground,v100
-hdw,Handling Water,v100
-hda,Handling Air,v100
-hdy,Handling Anti-Gravity,v100
-ttn,Traction,v100
-mtb,Mini-Turbo,v100
+spg,Speed Ground,int
+spw,Speed Water,int
+spr,Speed Air,int
+spy,Speed Anti-Gravity,int
+acc,Acceleration,int
+wgt,Weight,int
+hdg,Handling Ground,int
+hdw,Handling Water,int
+hda,Handling Air,int
+hdy,Handling Anti-Gravity,int
+ttr,Traction Road,int
+ttm,Traction Mug,int
+mtb,Mini-Turbo,int
