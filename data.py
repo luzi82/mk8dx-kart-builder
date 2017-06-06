@@ -19,14 +19,6 @@ for stat_type in stat_type_list:
     for stat in stat_list:
         stat[stid] = float(stat[stid])
 
-# Multiply all value by 100 to avoid float calculation
-for stat_type in stat_type_list:
-    if stat_type['type'] != 'v100':
-        continue
-    stid = stat_type['id']
-    for stat in stat_list:
-        stat[stid] = stat[stid]*100
-
 # make all stat become int
 for stat_type in stat_type_list:
     stid = stat_type['id']
@@ -62,7 +54,7 @@ for stat in stat_list:
 
 # Get the min max of each stat in each parts
 for stat_type in stat_type_list:
-    if stat_type['type'] != 'v100':
+    if stat_type['type'] != 'int':
         continue
     stid = stat_type['id']
     for part_type in part_type_list:
@@ -76,14 +68,14 @@ for stat_type in stat_type_list:
 
 # Get the min max of each stat
 for stat_type in stat_type_list:
-    if stat_type['type'] != 'v100':
+    if stat_type['type'] != 'int':
         continue
     stat_type['min'] = sum([stat_type[part_type['id']+'min'] for part_type in part_type_list])
     stat_type['max'] = sum([stat_type[part_type['id']+'max'] for part_type in part_type_list])
 
 # Get the min max of all stat
-stat_min = min([stat_type['min'] for stat_type in stat_type_list if stat_type['type'] == 'v100'])
-stat_max = max([stat_type['max'] for stat_type in stat_type_list if stat_type['type'] == 'v100'])
+stat_min = min([stat_type['min'] for stat_type in stat_type_list if stat_type['type'] == 'int'])
+stat_max = max([stat_type['max'] for stat_type in stat_type_list if stat_type['type'] == 'int'])
 
 # Group parts into different list by type
 part_dict = {part_type['id']:[] for part_type in part_type_list}

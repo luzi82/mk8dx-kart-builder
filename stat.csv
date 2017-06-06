@@ -41,7 +41,6 @@ charvillagerm,Villager M,char,0,5,5,5,5,5,5,5,5,3,5,3,7,1
 charvillagerf,Villager F,char,0,4,4,4,4,6,6,6,6,4,3,3,2,3
 charisabelle,Isabelle,char,0,2,2,2,2,7,7,7,7,5,2,4,4,2
 charmii,Mii,char,0,6,6,6,6,4,4,4,4,2,6,2,4,2
-,,,,,,,,,,,,,,,,
 bodystandardkart,Standard Kart,body,0,3,3,3,3,3,2,3,3,4,2,4,3,3
 bodypipeframe,Pipe Frame,body,0,1,3,1,1,5,4,2,4,6,1,6,3,4
 bodymach8,Mach 8,body,0,3,3,4,5,2,2,2,4,3,3,4,2,4
@@ -82,40 +81,38 @@ bodyteddybuggy,Teddy Buggy,body,0,2,2,4,3,4,2,4,3,5,2,5,4,3
 bodybonerattler,Bone Rattler,body,0,4,5,0,2,1,5,1,1,1,4,2,1,3
 bodyinkstriker,Inkstriker,body,0,4,2,3,4,2,3,1,5,3,0,3,1,3
 bodysplatbuggy,Splat Buggy,body,0,3,3,4,5,2,2,2,4,3,3,4,2,4
-,,,,,,,,,,,,,,,,
 tirestandard,Standard,tire,0,2,3,3,2,3,3,3,3,4,2,3,2,5
 tiremonster,Monster,tire,0,2,2,1,2,0,1,1,0,2,4,2,3,7
 tireroller,Roller,tire,0,0,3,3,0,4,4,4,4,6,0,6,0,4
 tireslim,Slim,tire,0,3,2,2,4,4,4,4,3,2,2,2,4,1
-tireslick,Slick,tire,0,,,,,,,,,,,,,
-tiremetal,Metal,tire,0,,,,,,,,,,,,,
-tirebutton,Button,tire,0,,,,,,,,,,,,,
-tireoffroad,Off Road,tire,0,,,,,,,,,,,,,
-tiresponge,Sponge,tire,0,,,,,,,,,,,,,
+tireslick,Slick,tire,0,4,0,0,4,2,0,1,2,1,3,0,4,0
+tiremetal,Metal,tire,0,4,3,2,1,2,2,0,1,0,4,0,1,2
+tirebutton,Button,tire,0,1,2,2,2,3,3,2,4,5,0,5,1,3
+tireoffroad,Off Road,tire,0,3,4,1,2,1,1,2,2,3,3,1,3,6
+tiresponge,Sponge,tire,0,1,1,4,1,2,1,3,2,4,1,4,2,6
 tirewood,Wood,tire,0,3,2,2,4,4,4,4,3,2,2,2,4,1
-tirecushion,Cushion,tire,0,,,,,,,,,,,,,
+tirecushion,Cushion,tire,0,1,1,4,1,2,1,3,2,4,1,4,2,6
 tirebluestandard,Blue Standard,tire,0,2,3,3,2,3,3,3,3,4,2,3,2,5
 tirehotmonster,Hot Monster,tire,0,2,2,1,2,0,1,1,0,2,4,2,3,7
 tireazureroller,Azure Roller,tire,0,0,3,3,0,4,4,4,4,6,0,6,0,4
 tirecrimsonslim,Crimson Slim,tire,0,3,2,2,4,4,4,4,3,2,2,2,4,1
-tirecyberslick,Cyber Slick,tire,0,,,,,,,,,,,,,
-tireretrooffroad,Retro Off Road,tire,0,,,,,,,,,,,,,
-tiregoldtires,Gold Tires,tire,0,,,,,,,,,,,,,
+tirecyberslick,Cyber Slick,tire,0,4,0,0,4,2,0,1,2,1,3,0,4,0
+tireretrooffroad,Retro Off Road,tire,0,3,4,1,2,1,1,2,2,3,3,1,3,6
+tiregoldtires,Gold Tires,tire,0,4,3,2,1,2,2,0,1,0,4,0,1,2
 tireglatires,GLA Tires,tire,0,2,3,3,2,3,3,3,3,4,2,3,2,5
-tiretriforcetires,Triforce Tires,tire,0,,,,,,,,,,,,,
-tireleaftires,Leaf Tires,tire,0,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-glidersuperglider,Super Glider,glider,0,,,,,,,,,,,,,
-glidercloudglider,Cloud Glider,glider,0,,,,,,,,,,,,,
-gliderwariowing,Wario Wing,glider,0,,,,,,,,,,,,,
-gliderwaddlewing,Waddle Wing,glider,0,,,,,,,,,,,,,
-gliderpeachparasol,Peach Parasol,glider,0,,,,,,,,,,,,,
-gliderparachute,Parachute,glider,0,,,,,,,,,,,,,
-gliderparafoil,Parafoil,glider,0,,,,,,,,,,,,,
-gliderflowerglider,Flower Glider,glider,0,,,,,,,,,,,,,
-gliderbowserkite,Bowser Kite,glider,0,,,,,,,,,,,,,
-gliderplaneglider,Plane Glider,glider,0,,,,,,,,,,,,,
-glidermktvparafoil,MKTV Parafoil,glider,0,,,,,,,,,,,,,
-glidergoldglider,Gold Glider,glider,0,,,,,,,,,,,,,
-gliderhyliankite,Hylian Kite,glider,0,,,,,,,,,,,,,
-gliderpaperglider,Paper Glider,glider,0,,,,,,,,,,,,,
+tiretriforcetires,Triforce Tires,tire,0,3,4,1,2,1,1,2,2,3,3,1,3,6
+tireleaftires,Leaf Tires,tire,0,1,2,2,2,3,3,2,4,5,0,5,1,3
+glidersuperglider,Super Glider,glider,0,1,1,2,0,1,0,1,1,1,1,1,1,1
+glidercloudglider,Cloud Glider,glider,0,0,1,1,1,1,0,2,1,2,0,2,1,1
+gliderwariowing,Wario Wing,glider,0,1,0,2,1,1,1,1,0,1,2,1,2,0
+gliderwaddlewing,Waddle Wing,glider,0,1,1,2,0,1,0,1,1,1,1,1,1,1
+gliderpeachparasol,Peach Parasol,glider,0,0,0,1,1,1,1,2,0,2,1,2,2,0
+gliderparachute,Parachute,glider,0,0,1,1,1,1,0,2,1,2,0,2,1,1
+gliderparafoil,Parafoil,glider,0,0,0,1,1,1,1,2,0,2,1,2,2,0
+gliderflowerglider,Flower Glider,glider,0,0,1,1,1,1,0,2,1,2,0,2,1,1
+gliderbowserkite,Bowser Kite,glider,0,0,0,1,1,1,1,2,0,2,1,2,2,0
+gliderplaneglider,Plane Glider,glider,0,1,0,2,1,1,1,1,0,1,2,1,2,0
+glidermktvparafoil,MKTV Parafoil,glider,0,0,0,1,1,1,1,2,0,2,1,2,2,0
+glidergoldglider,Gold Glider,glider,0,1,0,2,1,1,1,1,0,1,2,1,2,0
+gliderhyliankite,Hylian Kite,glider,0,1,1,2,0,1,0,1,1,1,1,1,1,1
+gliderpaperglider,Paper Glider,glider,0,0,1,1,1,1,0,2,1,2,0,2,1,1

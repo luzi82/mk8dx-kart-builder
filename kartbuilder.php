@@ -19,7 +19,7 @@ $BOOL_LIST = array(
 <tr>
 <th></th>
 <?php
-for($i=$DATA["stat_min"];$i<=$DATA["stat_max"];$i+=25){
+for($i=$DATA["stat_min"];$i<=$DATA["stat_max"];$i+=1){
 	print("<th>".$i."</th>\n");
 }
 ?>
@@ -27,9 +27,9 @@ for($i=$DATA["stat_min"];$i<=$DATA["stat_max"];$i+=25){
 <?php
 foreach($DATA["stat_type_list"] as $stat_type){
 	print("<tr>\n");
-	if($stat_type["type"]=="v100"){
+	if($stat_type["type"]=="int"){
 		print("<th>".$stat_type["name"]."</th>\n");
-		for($i=$DATA["stat_min"];$i<=$DATA["stat_max"];$i+=25){
+		for($i=$DATA["stat_min"];$i<=$DATA["stat_max"];$i+=1){
 			$key = "stat_".$stat_type["id"]."_".$i;
 			
 			print("<td id='".$key."_bg'>\n");

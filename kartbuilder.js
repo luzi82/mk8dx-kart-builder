@@ -37,8 +37,8 @@ function getCondition(){
 	var stat = {};
 	DATA["stat_type_list"].forEach(function(stat_type){
 		stat[stat_type["id"]] = {};
-		if(stat_type['type']=='v100'){
-			for(i=DATA['stat_min'];i<=DATA['stat_max'];i+=25){
+		if(stat_type['type']=='int'){
+			for(i=DATA['stat_min'];i<=DATA['stat_max'];i+=1){
 				var key = "stat_"+stat_type["id"]+"_"+i;
 				var value = $('#'+key+'_box').is(":checked");
 				stat[stat_type["id"]][i] = value;
@@ -73,8 +73,8 @@ function getDummyCondition(){
 	stat = {};
 	DATA["stat_type_list"].forEach(function(stat_type){
 		stat[stat_type["id"]] = {};
-		if(stat_type['type']=='v100'){
-			for(i=DATA['stat_min'];i<=DATA['stat_max'];i+=25){
+		if(stat_type['type']=='int'){
+			for(i=DATA['stat_min'];i<=DATA['stat_max'];i+=1){
 				stat[stat_type["id"]][i] = false;
 			}
 		}
@@ -170,8 +170,8 @@ function searchSolution(condition,filter_stat_id=null,filter_part_id=null){
 		var stat_accumuate_dict = stat_accumuate_dict_dict[stattype_id] = {};
 		
 		var min=0;var max=0;var step=0;
-		if(DATA["stat_type_list"][stattype_idx]['type']=='v100'){
-			min=DATA['stat_min'];max=DATA['stat_max'];step=25;
+		if(DATA["stat_type_list"][stattype_idx]['type']=='int'){
+			min=DATA['stat_min'];max=DATA['stat_max'];step=1;
 		}else{
 			min=0;max=1;step=1;
 		}
@@ -259,8 +259,8 @@ function searchSolution(condition,filter_stat_id=null,filter_part_id=null){
 			var stattype_id = filter_stat_id;
 			var stat_accumuate_dict = stat_accumuate_dict_dict[stattype_id];
 			var min=0;var max=0;var step=0;
-			if(STATTYPE_OBJ_DICT[stattype_id]['type']=='v100'){
-				min=DATA['stat_min'];max=DATA['stat_max'];step=25;
+			if(STATTYPE_OBJ_DICT[stattype_id]['type']=='int'){
+				min=DATA['stat_min'];max=DATA['stat_max'];step=1;
 			}else{
 				min=0;max=1;step=1;
 			}
@@ -298,7 +298,7 @@ function check_range(stat_dict,layer_stat_dict_dict,stat_accumuate_dict_dict){
 //	console.log(stat_dict,layer_stat_dict_dict);
 	for(var stattype_idx in DATA["stat_type_list"]){
 		var stattype_id = DATA["stat_type_list"][stattype_idx]['id'];
-		var step = (DATA["stat_type_list"][stattype_idx]['type']=='v100')?25:1;
+		var step = 1;
 		var min=stat_dict[stattype_id]+layer_stat_dict_dict[stattype_id]['minsum'];
 		var max=stat_dict[stattype_id]+layer_stat_dict_dict[stattype_id]['maxsum'];
 		var good = (stat_accumuate_dict_dict[stattype_id][max]-stat_accumuate_dict_dict[stattype_id][min-step])>0;
@@ -325,14 +325,14 @@ function stat_arrow_click(type,value){
 	//console.log(value);
 	var stat_min = DATA['stat_min'];
 	var all_zero = true;
-	for(var i=stat_min;i<=value;i+=25){
+	for(var i=stat_min;i<=value;i+=1){
 		var key = "stat_"+type+"_"+i;
 		var v = $('#'+key+'_box').is(":checked");
 		all_zero = all_zero && (!v);
 	}
 	//console.log(all_zero);
 	var set_value = all_zero;
-	for(var i=stat_min;i<=value;i+=25){
+	for(var i=stat_min;i<=value;i+=1){
 		var key = "stat_"+type+"_"+i;
 		//console.log($('#'+key+'_box').is(":checked"));
 		$('#'+key+'_box').prop('checked',set_value);
@@ -396,8 +396,8 @@ function calc_stat_filter(condition,solution0){
 function draw_stat_filter(stat_filter){
 	DATA["stat_type_list"].forEach(function(stat_type){
 		var stat_id = stat_type["id"];
-		if(stat_type['type']=='v100'){
-			for(i=DATA['stat_min'];i<=DATA['stat_max'];i+=25){
+		if(stat_type['type']=='int'){
+			for(i=DATA['stat_min'];i<=DATA['stat_max'];i+=1){
 				key = "stat_"+stat_type["id"]+"_"+i;
 				$("#"+key+"_bg").css("background-color",stat_filter[stat_id][i]?"green":"red");
 			}
